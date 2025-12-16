@@ -4,6 +4,8 @@
 
 This chapter explains the Hypertext Transfer Protocol (HTTP) at a level suitable for undergraduate web programming students who are using PHP. It mixes conceptual material with hands-on PHP examples and practical debugging tips.
 
+[Coursera HTTP](https://www.coursera.org/learn/web-applications-php/lecture/CQrbf/hypertext-transfer-protocol-http): A video lecture on HTTP from the associated Coursera course.
+
 ---
 
 ## 1. What is HTTP?
