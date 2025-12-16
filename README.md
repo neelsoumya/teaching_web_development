@@ -11,6 +11,12 @@ This 12-week undergraduate course introduces students to full-stack web developm
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
 **Credits:** 3
 
+### Resources
+
+- [resources](resources.md)
+- [setup instructions](setup.md)
+- [css fundamentals](css_fundamentals.md)
+
 ### Learning Objectives
 By the end of this course, students will be able to:
 - Create semantic, accessible HTML5 documents
