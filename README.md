@@ -16,6 +16,8 @@ This 12-week undergraduate course introduces students to full-stack web developm
 - [resources](resources.md)
 - [setup instructions](setup.md)
 - [css fundamentals](css_fundamentals.md)
+- [HTTP basics](http.md)
+
 
 ### Learning Objectives
 By the end of this course, students will be able to:
