@@ -11,7 +11,9 @@ This undergraduate course introduces students to full-stack web development usin
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
 
 
-### Resources
+### Course Materials
+
+Course outline and materials can be found in the following files:
 
 - [Resources](materials/resources.md)
 - [Setup instructions](materials/setup.md)
@@ -24,6 +26,7 @@ This undergraduate course introduces students to full-stack web development usin
 
 
 ### Learning Objectives
+
 By the end of this course, students will be able to:
 - Create semantic, accessible HTML5 documents
 - Design responsive layouts using modern CSS3 techniques
@@ -99,4 +102,4 @@ By the end of this course, students will be able to:
 ### Support
 - Office Hours: [TBD]
 - Discussion Forum: [TBD]
-- Email: [instructor@university.edu]
+- Email: [neel.soumya@gmail.com]
