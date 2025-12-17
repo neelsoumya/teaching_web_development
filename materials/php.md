@@ -1,6 +1,8 @@
 # Introduction to PHP
 
-PHP (Hypertext Preprocessor) is a popular server-side scripting language designed for web development but also used as a general-purpose programming language. It is especially suited for creating dynamic web pages and applications.
+PHP (Hypertext Preprocessor) is a popular server-side scripting language designed for web development but also used as a general-purpose programming language. 
+
+It is especially suited for creating dynamic web pages and applications.
 
 ## Key Features of PHP
 
@@ -15,6 +17,9 @@ PHP (Hypertext Preprocessor) is a popular server-side scripting language designe
 - [Installation Instructions](installation.md)
 
 - [Run on server](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_version)
+
+
+## Configuring PHP 
 
 - Edit the file `php.ini` to configure PHP settings.
 
@@ -67,3 +72,6 @@ PHP (Hypertext Preprocessor) is a popular server-side scripting language designe
 
   5. You should see "Hello, World!" displayed in your browser.
 
+## Syntax Basics
+
+- [PHP Syntax](https://www.w3schools.com/php/php_syntax.asp)
