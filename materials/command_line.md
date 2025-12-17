@@ -22,6 +22,7 @@ Learning the command line gives you superpowers: navigation, automation, debuggi
  - Use the terminal to automate repetitive tasks
 
 guest@neo:~$ 
+```
 
 
 ## Command Line Starter Worksheet
