@@ -1,5 +1,29 @@
 # Matrix-style Terminal 
 
+## Plain Markdown fallback (works everywhere)
+
+If the animated version won't run on your platform, paste this static code block into your Markdown to show a "terminal-looking" snippet:
+
+```bash
+guest@neo:~$ whoami
+guest
+guest@neo:~$ echo "Welcome to command-line 101"
+Welcome to command-line 101
+guest@neo:~$ ls -la
+total 32
+-rw-r--r-- 1 guest staff  142 Dec 17  2025 README.md
+drwxr-xr-x 6 guest staff  192 Dec 17  2025 lab1
+guest@neo:~$ cat README.md
+Learning the command line gives you superpowers: navigation, automation, debugging.
+
+# Tips:
+ - Start simple: cd, ls, cat, mkdir, rm (careful!)
+ - Combine commands with pipes: grep, awk, sed
+ - Use the terminal to automate repetitive tasks
+
+guest@neo:~$ 
+
+
 > **Note:** The animated version below uses raw HTML, CSS and JavaScript embedded in Markdown. It runs in Markdown viewers that allow inline `<script>`/`<style>` (e.g. VS Code's Markdown preview, many static-site generators). If your Markdown host strips scripts (e.g. GitHub README), use the **Plain Markdown fallback** at the end of this file.
 
 <!-- =========================
@@ -216,25 +240,3 @@
      Plain Markdown fallback
      ========================= -->
 
-## Plain Markdown fallback (works everywhere)
-
-If the animated version won't run on your platform, paste this static code block into your Markdown to show a "terminal-looking" snippet:
-
-```bash
-guest@neo:~$ whoami
-guest
-guest@neo:~$ echo "Welcome to command-line 101"
-Welcome to command-line 101
-guest@neo:~$ ls -la
-total 32
--rw-r--r-- 1 guest staff  142 Dec 17  2025 README.md
-drwxr-xr-x 6 guest staff  192 Dec 17  2025 lab1
-guest@neo:~$ cat README.md
-Learning the command line gives you superpowers: navigation, automation, debugging.
-
-# Tips:
- - Start simple: cd, ls, cat, mkdir, rm (careful!)
- - Combine commands with pipes: grep, awk, sed
- - Use the terminal to automate repetitive tasks
-
-guest@neo:~$ 
