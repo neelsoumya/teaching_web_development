@@ -1,6 +1,19 @@
 Nice — I’ll give you a practical, copy-pasteable guide you can use to set up a student-friendly PHP + HTML dev environment, plus teaching-ready resources, sample files, and short lab ideas for first-year undergrads.
 
-# Quick overview (why these choices)
+
+# Installing PHP on macOS
+
+### Best Option
+
+- [MAMP](https://www.mamp.info/en/downloads/) is a popular choice for macOS, bundling Apache, MySQL, and PHP. However, for simplicity and ease of use, we recommend using **Homebrew** to install PHP directly.
+
+- Start MAMP and navigate to `http://localhost:8888` to verify the installation.
+
+- [MAMP localhost](http://localhost:8888/MAMP/?language=English) shows the MAMP welcome page.
+
+
+# Other options and recommendations
+
 
 * If you want the **fastest, lowest-friction** route for beginners, use an all-in-one local AMP stack (XAMPP on Windows/Linux, MAMP on macOS/Windows, or Laragon on Windows). These install Apache, PHP and MariaDB/MySQL in a few clicks and are easy for labs. ([apachefriends.org][1])
 
