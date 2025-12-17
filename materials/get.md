@@ -264,6 +264,16 @@ fetch(`https://api.example.com/products?${params}`)
 - Browser DevTools
     - Network tab to inspect GET requests and responses
 
+- Browser developer mode
+    - Chrome DevTools, Firefox Developer Tools
+    - Chrome: View -> Developer -> Developer Tools (network tab)
+    - Firefox: Tools -> Web Developer -> Toggle Tools
+
+## Error codes
+- 4xx: Client errors (e.g., 404 Not Found, 403 Forbidden)
+- 5xx: Server errors (e.g., 500 Internal Server Error, 503 Service Unavailable)
+
+
 ## Summary
 
 GET requests are the backbone of web browsing and APIs. They allow clients to retrieve resources from servers in a standardized, cacheable, and bookmarkable way. Understanding the client-server architecture and how GET requests flow through the system is fundamental to web development.
