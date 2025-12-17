@@ -4,7 +4,9 @@
 
 ## Client-Server Architecture
 
-The web operates on a client-server model where clients (typically web browsers) request resources from servers, which then respond with the requested data.
+- [Coursera Video: Client-Server Model](https://www.coursera.org/learn/web-applications-php/lecture/6fbNG/request-response-cycle)
+
+- The web operates on a client-server model where clients (typically web browsers) request resources from servers, which then respond with the requested data.
 
 ```mermaid
 graph LR
@@ -252,6 +254,15 @@ fetch(`https://api.example.com/products?${params}`)
 3. **Parameter tampering**: Users can easily modify URL parameters, so always validate on the server side
 
 4. **Caching**: Be aware that GET responses may be cached by browsers, proxies, and CDNs
+
+## Other things to teach
+
+- Command line
+    - [Command line](materials/command_line.md)
+    - `curl` for making GET requests
+    - `wget` for downloading files via GET
+- Browser DevTools
+    - Network tab to inspect GET requests and responses
 
 ## Summary
 
