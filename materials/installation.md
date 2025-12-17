@@ -38,7 +38,7 @@ If not, follow the instructions below.
 
 
 
-### Option A (recommended): Homebrew
+### Option B: Homebrew
 
 Most students on macOS should use **Homebrew**.
 
@@ -108,7 +108,7 @@ If not recognised:
 
 ---
 
-### Option B (advanced): PHP only
+### Option C (advanced): PHP only
 
 Download PHP from:
 [https://windows.php.net/download/](https://windows.php.net/download/)
