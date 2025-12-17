@@ -4,12 +4,12 @@
 ## Undergraduate Course
 
 ### Course Overview
-This 12-week undergraduate course introduces students to full-stack web development using fundamental technologies: HTML5, CSS3, and PHP. Students will learn to build dynamic, database-driven websites from scratch.
+This undergraduate course introduces students to full-stack web development using fundamental technologies: HTML5, CSS3, and PHP. Students will learn to build dynamic, database-driven websites from scratch.
 
-**Level:** Undergraduate (2nd/3rd year)  
+**Level:** Undergraduate
 **Prerequisites:** Basic programming knowledge (any language)  
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
-**Credits:** 3
+
 
 ### Resources
 
