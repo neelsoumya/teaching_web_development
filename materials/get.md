@@ -8,6 +8,8 @@
 
 - The web operates on a client-server model where clients (typically web browsers) request resources from servers, which then respond with the requested data.
 
+![Client-Server Model](../images/architecture.png)
+
 ```mermaid
 graph LR
     A[Client<br/>Web Browser] -->|HTTP Request| B[Server<br/>Web Server]
@@ -255,7 +257,15 @@ fetch(`https://api.example.com/products?${params}`)
 
 4. **Caching**: Be aware that GET responses may be cached by browsers, proxies, and CDNs
 
-## Other things to teach
+## Things to teach
+
+- Client server architecture
+    - Clients (browsers) make requests to servers
+    - Servers respond with resources (HTML, JSON, images, etc.)
+    - Database interaction on the server side
+- This is shown in the diagram below
+![Client-Server Diagram](../images/architecture.png)
+
 
 - Command line
     - [Command line](materials/command_line.md)
