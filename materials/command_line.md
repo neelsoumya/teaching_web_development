@@ -1,5 +1,9 @@
 # Matrix-style Terminal 
 
+Who does not like the movie *The Matrix*? The iconic green-on-black "digital rain" terminal has inspired generations of programmers.
+
+![Matrix Digital Rain](../images/matrix.png)
+
 ## Plain Markdown fallback (works everywhere)
 
 If the animated version won't run on your platform, paste this static code block into your Markdown to show a "terminal-looking" snippet:

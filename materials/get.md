@@ -275,6 +275,37 @@ fetch(`https://api.example.com/products?${params}`)
 
 ![Error in browser](../images/error_404.png)
 
+
+## Assignment 1: Exploring GET Requests (15 minutes)
+
+- Use `curl` to make a GET request to a public API and analyze the response.
+
+```bash
+curl -i "https://api.github.com/repos/octocat/Hello-World"
+```
+
+- Examine the response headers and body. Identify the status code, content type, and any relevant data returned.
+
+
+## Assignment 2: Inspecting GET Requests in the Browser (15 minutes)
+
+_Acknowledgment_: This assignment is adapted from the "Using Python to Access Web Data" course on Coursera by the University of Michigan.
+
+Open the following file in a browser tab with **Developer Mode** (Developer Tools) enabled so you can inspect the HTTP **Response headers**. You may need to open the URL in a new tab, enable Developer Mode, then reload the page to capture the headers.
+
+[http://data.pr4e.org/intro-short.txt](http://data.pr4e.org/intro-short.txt)
+
+**Notes on caching and response codes:**
+If some headers are missing, your browser may be serving a cached copy. Check the **HTTP Response Code** shown in the developer console. A **200** status means the document was retrieved normally. A **304** status indicates your browser used a cached copy instead of fetching the file fresh.
+
+**How to force a fresh retrieval:**
+
+* Clear your browser cache and reload the page, or
+* Append a dummy query parameter to the URL, for example:
+  `http://data.pr4e.org/intro-short.txt?x=12345`
+  Change the value of `x=` and reload until the developer console shows a **200** response.
+
+
 ## Summary
 
 GET requests are the backbone of web browsing and APIs. They allow clients to retrieve resources from servers in a standardized, cacheable, and bookmarkable way. Understanding the client-server architecture and how GET requests flow through the system is fundamental to web development.
