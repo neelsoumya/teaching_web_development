@@ -152,6 +152,16 @@ Try this:
 ls -la | grep README
 ```
 
+```bash
+curl https://www.example.com | grep "<title>"
+```
+
+```bash
+wget -q -O - https://www.example.com | grep "<h1>"
+```
+
+
+
 **Questions:**
 
 1. What does the pipe symbol `|` do?
