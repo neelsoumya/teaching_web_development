@@ -20,6 +20,7 @@ This undergraduate course introduces students to full-stack web development usin
 - [HTTP basics](materials/http.md)
 - [GET and POST methods](materials/get.md)
 - [PHP basics](materials/php.md)
+- [Command line](materials/command_line.md)
 
 
 ### Learning Objectives
