@@ -273,7 +273,7 @@ fetch(`https://api.example.com/products?${params}`)
 - 4xx: Client errors (e.g., 404 Not Found, 403 Forbidden)
 - 5xx: Server errors (e.g., 500 Internal Server Error, 503 Service Unavailable)
 
-![Error in browser](./images/error_404.png)
+![Error in browser](images/error_404.png)
 
 ## Summary
 
