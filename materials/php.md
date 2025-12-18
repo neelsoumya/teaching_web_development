@@ -75,3 +75,66 @@ It is especially suited for creating dynamic web pages and applications.
 ## Syntax Basics
 
 - [PHP Syntax](https://www.w3schools.com/php/php_syntax.asp)
+
+- [PHP Variables](https://www.w3schools.com/php/php_variables.asp)
+
+- [PHP Data Types](https://www.w3schools.com/php/php_datatypes.asp)
+
+- [PHP Operators](https://www.w3schools.com/php/php_operators.asp)
+
+## Examples
+
+- [PHP Examples](https://www.w3schools.com/php/php_examples.asp)
+
+- Example code snippets:
+
+```php
+<?php
+// Example 1: Variables and Output
+$name = "John";
+echo "Hello, " . $name . "!"; // Outputs: Hello, John!
+?>
+```
+
+```php
+<?php
+// Example 2: Conditional Statements
+$age = 20;
+if ($age >= 18) {
+    echo "You are an adult.";
+} else {
+    echo "You are a minor.";
+}
+?>
+```
+
+
+```php<?php
+// Example 3: Looping
+for ($i = 1; $i <= 5; $i++) {
+    echo "Number: " . $i . "<br>";
+}
+?>
+```
+
+```php<?php
+// Example 4: Functions
+function greet($name) {
+    return "Hello, " . $name . "!";
+} 
+
+echo greet("Alice"); // Outputs: Hello, Alice!
+?>
+```
+
+
+```php
+<?php
+// Example 5: Arrays
+$fruits = array("Apple", "Banana", "Cherry");
+foreach ($fruits as $fruit) {
+    echo $fruit . "<br>";
+}
+?>
+```
+
