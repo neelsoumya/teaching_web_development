@@ -13,7 +13,7 @@ This undergraduate course introduces students to full-stack web development usin
 
 ### Course Materials
 
-Course outline and materials can be found in the following files:
+Course content and materials can be found in the following files:
 
 - [Resources](materials/resources.md)
 - [Setup instructions](materials/setup.md)
@@ -23,6 +23,7 @@ Course outline and materials can be found in the following files:
 - [GET and POST methods](materials/get.md)
 - [PHP basics](materials/php.md)
 - [Command line](materials/command_line.md)
+- [Exams and quizzes](materials/exams_and_quizzes.md)
 
 
 ### Learning Objectives
