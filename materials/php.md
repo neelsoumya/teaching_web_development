@@ -78,6 +78,22 @@ It is especially suited for creating dynamic web pages and applications.
 
 - [PHP Variables](https://www.w3schools.com/php/php_variables.asp)
 
+- PHP is loosely typed, meaning you do not need to declare variable types explicitly.
+
+- Static typing can be found in C++ or Java, where you must declare the type of a variable before using it.
+
+- Dynamic typing means that the type is determined at runtime based on the value assigned to the variable.
+
+- For example:
+
+```php
+<?php
+$age = 25; // $age is an integer
+$name = "Alice"; // $name is a string
+$price = 19.99; // $price is a float
+?>
+```
+
 - [PHP Data Types](https://www.w3schools.com/php/php_datatypes.asp)
 
 - [PHP Operators](https://www.w3schools.com/php/php_operators.asp)
