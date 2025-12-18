@@ -2,8 +2,6 @@
 
 This section outlines the structure and content of exams and quizzes that will be administered throughout the course to assess students' understanding and mastery of the material covered.
 
-Here is the quiz and answer key formatted in clean Markdown. You can copy and paste the text below directly into any Markdown editor or README file.
-
 ---
 
 # Quiz: PHP & Web Development Fundamentals
