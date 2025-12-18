@@ -109,7 +109,8 @@ if ($age >= 18) {
 ```
 
 
-```php<?php
+```php
+<?php
 // Example 3: Looping
 for ($i = 1; $i <= 5; $i++) {
     echo "Number: " . $i . "<br>";
@@ -117,7 +118,8 @@ for ($i = 1; $i <= 5; $i++) {
 ?>
 ```
 
-```php<?php
+```php
+<?php
 // Example 4: Functions
 function greet($name) {
     return "Hello, " . $name . "!";
