@@ -119,6 +119,106 @@ Use the correct code to make APIs predictable for clients.
 - **Host:** The domain name or IP address of the server (e.g., `www.example.com`).
 - **Port:** Optional; specifies the port number on the server (e.g., `:80` for HTTP, `:443` for HTTPS).
 
+Here is a diagram illustrating the components of a URL:
+
+```
+   +--------+    +------------------+    +------+    +------------------+
+   | Scheme | -> |      Host        | -> | Port | -> |      Path        |
+   +--------+    +------------------+    +------+    +------------------+
+       |               |                    |                |
+     http://       www.example.com         :80          /index.php?q=test
+```
+
+
+```mermaid
+flowchart LR
+  %% central example
+  EX[Example URL<br/>`https://alice:pw123@www.example.com:8080/path/to/page.html?search=mermaid&lang=en#section-2`]
+
+  %% components (use \n for new lines inside labels)
+  SC[Scheme\n`https`]
+  UI[User info\n`alice:pw123@`]
+  HO[Host\n`www.example.com`]
+  PO[Port\n`:8080`]
+  PA[Path\n`/path/to/page.html`]
+  QU[Query string\n`?search=mermaid&lang=en`]
+  FR[Fragment (anchor)\n`#section-2`]
+
+  %% connections (pointing from example to parts)
+  EX --> SC
+  EX --> UI
+  EX --> HO
+  EX --> PO
+  EX --> PA
+  EX --> QU
+  EX --> FR
+
+  classDef part fill:#f8f9fa,stroke:#333,stroke-width:1px;
+  class SC,UI,HO,PO,PA,QU,FR part
+
+```
+
+
+### Port
+
+In web programming, a **port** is a **number that identifies which service or application on a computer should receive network traffic**.
+
+
+Think of a computer as a **large building** with **many doors**:
+
+* The **IP address** is the building’s street address
+* The **port number** is the **specific door**
+* Each door leads to a **different service**
+
+So when data arrives over the internet, the port tells the computer *which program should handle it*.
+
+
+> A **port** is a logical endpoint used by the operating system to route incoming and outgoing network data to the correct application.
+
+- Why ports are needed
+
+A single machine can run many network services at the same time:
+
+* A web server
+* An email server
+* A database server
+
+Ports allow all of these to coexist on **one IP address** without confusion.
+
+- Common examples in web programming
+
+|     Port | Purpose                                  |
+| -------: | ---------------------------------------- |
+|   **80** | HTTP (standard web pages)                |
+|  **443** | HTTPS (secure web pages)                 |
+| **3000** | Common for development servers (Node.js) |
+| **3306** | MySQL database                           |
+| **5432** | PostgreSQL database                      |
+
+- In a URL
+
+Ports appear **after the hostname**, separated by a colon:
+
+```
+http://localhost:3000
+https://example.com:443
+```
+
+* `localhost` → the computer
+* `3000` → which service on that computer
+
+If no port is specified, the browser **assumes the default**:
+
+* HTTP → port 80
+* HTTPS → port 443
+
+- _One-sentence takeaway_
+
+> A **port** tells your computer *which program* should receive the network request, just like a door number tells you which room to enter.
+
+
+
+
 
 
 ## 7. Testing & debugging tools
