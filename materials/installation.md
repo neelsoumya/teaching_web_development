@@ -31,6 +31,8 @@ If not, follow the instructions below.
 
 - [MAMP](https://www.mamp.info/en/downloads/) is a popular choice for macOS, bundling Apache, MySQL, and PHP. However, for simplicity and ease of use, we recommend using **Homebrew** to install PHP directly.
 
+- [MAMP for Windows installation video by Chuch Severance](https://youtu.be/0P6DEUJaVTc?si=euyRV0Upajvj1-g4)
+
 - Start MAMP and navigate to `http://localhost:8888` to verify the installation.
 
 - [MAMP localhost](http://localhost:8888/MAMP/?language=English) shows the MAMP welcome page.
