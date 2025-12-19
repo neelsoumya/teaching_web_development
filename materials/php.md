@@ -18,6 +18,11 @@ It is especially suited for creating dynamic web pages and applications.
 
 - [Run on server](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_version)
 
+- Start MAMP on your machine.
+
+_ Click on "Start" to start the Apache server.
+
+- Navigate to `http://localhost:8888` or `http://localhost:8888/MAMP/?language=English` in your web browser to verify that the server is running.
 
 ## Configuring PHP 
 
@@ -43,6 +48,13 @@ It is especially suited for creating dynamic web pages and applications.
   ; documentation at https://www.php.net/manual/en/configuration.file.php
   ```
 
+- Start writing PHP code in your web server's document root directory (e.g., `htdocs` for MAMP).
+
+- On my Mac OS X, the document root directory is located at:
+
+  ```
+  /Applications/MAMP/htdocs
+  ```
 
 
 ## Your First PHP Script
