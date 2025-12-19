@@ -4,7 +4,7 @@ This document provides a list of useful resources for further reading and explor
 
 - [Dr. Chuck's PHP Course](https://www.wa4e.com/lessons): A comprehensive course on PHP programming available on YouTube.
 
-- [Dr. Chuck's PHP Course on YouTube](https://www.youtube.com/watch?v=tuXySrvw8TE&list=PLlRFEj9H3Oj7FHbnXWviqQt0sKEK_hdKX): A playlist of free video lectures covering PHP programming concepts.
+- [Dr. Chuck's PHP Course on YouTube](https://www.youtube.com/watch?v=tuXySrvw8TE&list=PLlRFEj9H3Oj7FHbnXWviqQt0sKEK_hdKX): A playlist of free video lectures covering web programming concepts.
 
 - [Dr. Chuck's Web Development Course](https://www.coursera.org/learn/web-applications-php/home/welcome): A comprehensive course on web development using PHP, HTML, and CSS.
 
