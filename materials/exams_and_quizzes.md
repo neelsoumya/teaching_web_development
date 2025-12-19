@@ -105,3 +105,833 @@ You receive a JSON string from an API and need to convert it into a PHP array or
 | **9** | **C** | 404 is the standard HTTP response code for "Not Found". |
 | **10** | **C** | `json_decode()` converts a JSON string into a PHP variable. `json_encode()` does the reverse. |
 
+
+
+
+## More assignments 
+
+
+### **Assignment 1: HTML Basics - Personal Profile Page**
+
+**Objective:** Create a personal profile page using semantic HTML elements.
+
+**Requirements:**
+- Use proper HTML5 structure (DOCTYPE, html, head, body)
+- Include a header with your name and a navigation menu
+- Create sections for: About Me, Education, Hobbies, and Contact
+- Use various HTML elements: headings, paragraphs, lists (ordered and unordered), images, and links
+- Include at least one table showing your weekly schedule
+- Add a footer with copyright information
+
+**Answer:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Profile</title>
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile picture" width="200">
+            <p>Hello! I'm a first-year computer science student passionate about web development.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>University:</strong> ABC University</li>
+                <li><strong>Degree:</strong> Bachelor of Computer Science</li>
+                <li><strong>Year:</strong> First Year</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ol>
+                <li>Coding</li>
+                <li>Reading tech blogs</li>
+                <li>Playing video games</li>
+            </ol>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <table border="1">
+                <tr>
+                    <th>Method</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+1234567890</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+---
+
+### **Assignment 2: CSS Styling - Enhanced Profile Page**
+
+**Objective:** Style the profile page created in Assignment 1 using CSS.
+
+**Requirements:**
+- Create an external CSS file and link it to your HTML
+- Style the header with a background color and centered text
+- Create a horizontal navigation menu with hover effects
+- Use different fonts and colors for headings and paragraphs
+- Add padding and margins to sections
+- Style the table with alternating row colors
+- Make the page responsive with a max-width container
+
+**Answer:**
+
+HTML (add to head section):
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+CSS (style.css):
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+```
+
+---
+
+### **Assignment 3: HTML Forms and CSS - Student Registration Form**
+
+**Objective:** Create a student registration form with proper validation attributes and styling.
+
+**Requirements:**
+- Create a form with fields: name, email, password, date of birth, gender (radio buttons), courses (checkboxes), country (dropdown), and comments (textarea)
+- Use appropriate input types and validation attributes
+- Style the form to be user-friendly
+- Add a submit and reset button
+
+**Answer:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            margin-top: 8px;
+        }
+
+        .radio-group label,
+        .checkbox-group label {
+            display: inline;
+            font-weight: normal;
+            margin-right: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        button {
+            padding: 12px 30px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: #3498db;
+            color: white;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        button[type="reset"] {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        button[type="reset"]:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form action="submit.php" method="POST">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="6" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Select Courses:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="html" name="courses[]" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="courses[]" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="php" name="courses[]" value="PHP">
+                    <label for="php">PHP</label><br>
+                    <input type="checkbox" id="aspnet" name="courses[]" value="ASP.NET">
+                    <label for="aspnet">ASP.NET</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="canada">Canada</option>
+                    <option value="india">India</option>
+                    <option value="australia">Australia</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+```
+
+---
+
+### **Assignment 4: PHP Basics - Form Processing**
+
+**Objective:** Process the registration form data using PHP and display it.
+
+**Requirements:**
+- Create a PHP file to receive form data
+- Validate that required fields are filled
+- Sanitize user input
+- Display the submitted data in a formatted manner
+- Show appropriate error messages for invalid data
+
+**Answer:**
+
+**submit.php:**
+```php
+<?php
+// Check if form was submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    // Initialize error array
+    $errors = array();
+    
+    // Sanitize and validate input
+    $fullname = isset($_POST['fullname']) ? htmlspecialchars(trim($_POST['fullname'])) : '';
+    $email = isset($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL) : '';
+    $password = isset($_POST['password']) ? $_POST['password'] : '';
+    $dob = isset($_POST['dob']) ? htmlspecialchars($_POST['dob']) : '';
+    $gender = isset($_POST['gender']) ? htmlspecialchars($_POST['gender']) : '';
+    $courses = isset($_POST['courses']) ? $_POST['courses'] : array();
+    $country = isset($_POST['country']) ? htmlspecialchars($_POST['country']) : '';
+    $comments = isset($_POST['comments']) ? htmlspecialchars(trim($_POST['comments'])) : '';
+    
+    // Validation
+    if (empty($fullname)) {
+        $errors[] = "Full name is required";
+    }
+    
+    if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "Valid email is required";
+    }
+    
+    if (empty($password) || strlen($password) < 6) {
+        $errors[] = "Password must be at least 6 characters";
+    }
+    
+    if (empty($dob)) {
+        $errors[] = "Date of birth is required";
+    }
+    
+    if (empty($gender)) {
+        $errors[] = "Gender is required";
+    }
+    
+    if (empty($country)) {
+        $errors[] = "Country is required";
+    }
+    
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Result</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                padding: 20px;
+            }
+            .container {
+                max-width: 700px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #2c3e50;
+                text-align: center;
+            }
+            .success {
+                background-color: #d4edda;
+                border: 1px solid #c3e6cb;
+                color: #155724;
+                padding: 15px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .error {
+                background-color: #f8d7da;
+                border: 1px solid #f5c6cb;
+                color: #721c24;
+                padding: 15px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .info-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            .info-table th {
+                background-color: #3498db;
+                color: white;
+                padding: 12px;
+                text-align: left;
+            }
+            .info-table td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+            }
+            .info-table tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .back-link {
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+                color: #3498db;
+                text-decoration: none;
+            }
+            .back-link:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <?php if (!empty($errors)): ?>
+                <div class="error">
+                    <h2>Errors:</h2>
+                    <ul>
+                        <?php foreach ($errors as $error): ?>
+                            <li><?php echo $error; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+                <a href="javascript:history.back()" class="back-link">Go Back</a>
+            <?php else: ?>
+                <div class="success">
+                    <h2>Registration Successful!</h2>
+                    <p>Thank you for registering. Here are your details:</p>
+                </div>
+                
+                <table class="info-table">
+                    <tr>
+                        <th>Field</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Full Name:</strong></td>
+                        <td><?php echo $fullname; ?></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong></td>
+                        <td><?php echo $email; ?></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Date of Birth:</strong></td>
+                        <td><?php echo $dob; ?></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gender:</strong></td>
+                        <td><?php echo ucfirst($gender); ?></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Courses:</strong></td>
+                        <td>
+                            <?php 
+                            if (!empty($courses)) {
+                                echo implode(", ", array_map('htmlspecialchars', $courses));
+                            } else {
+                                echo "None selected";
+                            }
+                            ?>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Country:</strong></td>
+                        <td><?php echo ucfirst($country); ?></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Comments:</strong></td>
+                        <td><?php echo !empty($comments) ? $comments : "No comments"; ?></td>
+                    </tr>
+                </table>
+                
+                <a href="registration.html" class="back-link">Register Another Student</a>
+            <?php endif; ?>
+        </div>
+    </body>
+    </html>
+    <?php
+} else {
+    header("Location: registration.html");
+    exit();
+}
+?>
+```
+
+---
+
+### **Assignment 5: ASP.NET - Simple Calculator Web Application**
+
+**Objective:** Create a basic calculator using ASP.NET Web Forms.
+
+**Requirements:**
+- Create a web form with two textboxes for numbers
+- Add radio buttons or dropdown for operation selection (Add, Subtract, Multiply, Divide)
+- Include a Calculate button
+- Display the result on the same page
+- Handle division by zero error
+
+**Answer:**
+
+**Calculator.aspx:**
+```aspx
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Calculator.aspx.cs" Inherits="WebApp.Calculator" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .calculator-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .textbox {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .radio-group {
+            margin: 10px 0;
+        }
+        .radio-group label {
+            display: inline;
+            font-weight: normal;
+            margin-right: 15px;
+        }
+        .button {
+            width: 100%;
+            padding: 12px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="calculator-container">
+            <h1>Simple Calculator</h1>
+            
+            <div class="form-group">
+                <label for="txtNumber1">First Number:</label>
+                <asp:TextBox ID="txtNumber1" runat="server" CssClass="textbox" TextMode="Number"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfvNumber1" runat="server" 
+                    ControlToValidate="txtNumber1" 
+                    ErrorMessage="First number is required" 
+                    ForeColor="Red">
+                </asp:RequiredFieldValidator>
+            </div>
+            
+            <div class="form-group">
+                <label for="txtNumber2">Second Number:</label>
+                <asp:TextBox ID="txtNumber2" runat="server" CssClass="textbox" TextMode="Number"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfvNumber2" runat="server" 
+                    ControlToValidate="txtNumber2" 
+                    ErrorMessage="Second number is required" 
+                    ForeColor="Red">
+                </asp:RequiredFieldValidator>
+            </div>
+            
+            <div class="form-group">
+                <label>Select Operation:</label>
+                <div class="radio-group">
+                    <asp:RadioButtonList ID="rblOperation" runat="server" RepeatDirection="Horizontal">
+                        <asp:ListItem Text="Add" Value="add" Selected="True"></asp:ListItem>
+                        <asp:ListItem Text="Subtract" Value="subtract"></asp:ListItem>
+                        <asp:ListItem Text="Multiply" Value="multiply"></asp:ListItem>
+                        <asp:ListItem Text="Divide" Value="divide"></asp:ListItem>
+                    </asp:RadioButtonList>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <asp:Button ID="btnCalculate" runat="server" Text="Calculate" 
+                    CssClass="button" OnClick="btnCalculate_Click" />
+            </div>
+            
+            <asp:Panel ID="pnlResult" runat="server" Visible="false" CssClass="result">
+                <asp:Label ID="lblResult" runat="server"></asp:Label>
+            </asp:Panel>
+        </div>
+    </form>
+</body>
+</html>
+```
+
+**Calculator.aspx.cs:**
+```csharp
+using System;
+using System.Web.UI;
+
+namespace WebApp
+{
+    public partial class Calculator : Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            // Page load logic if needed
+        }
+
+        protected void btnCalculate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Parse the input numbers
+                double num1 = Convert.ToDouble(txtNumber1.Text);
+                double num2 = Convert.ToDouble(txtNumber2.Text);
+                double result = 0;
+                string operation = rblOperation.SelectedValue;
+                string operationSymbol = "";
+
+                // Perform calculation based on selected operation
+                switch (operation)
+                {
+                    case "add":
+                        result = num1 + num2;
+                        operationSymbol = "+";
+                        break;
+                    case "subtract":
+                        result = num1 - num2;
+                        operationSymbol = "-";
+                        break;
+                    case "multiply":
+                        result = num1 * num2;
+                        operationSymbol = "×";
+                        break;
+                    case "divide":
+                        if (num2 == 0)
+                        {
+                            lblResult.Text = "Error: Cannot divide by zero!";
+                            pnlResult.CssClass = "result error";
+                            pnlResult.Visible = true;
+                            return;
+                        }
+                        result = num1 / num2;
+                        operationSymbol = "÷";
+                        break;
+                }
+
+                // Display the result
+                lblResult.Text = $"Result: {num1} {operationSymbol} {num2} = {result:F2}";
+                pnlResult.CssClass = "result";
+                pnlResult.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                lblResult.Text = "Error: Please enter valid numbers";
+                pnlResult.CssClass = "result error";
+                pnlResult.Visible = true;
+            }
+        }
+    }
+}
+```
+
+---
