@@ -132,10 +132,6 @@ Here is a diagram illustrating the components of a URL:
 
 ```mermaid
 flowchart LR
-  %% central example
-  EX[Example URL<br/>`https://alice:pw123@www.example.com:8080/path/to/page.html?search=mermaid&lang=en#section-2`]
-
-  %% components (use \n for new lines inside labels)
   SC[Scheme\n`https`]
   UI[User info\n`alice:pw123@`]
   HO[Host\n`www.example.com`]
