@@ -112,6 +112,15 @@ Use the correct code to make APIs predictable for clients.
 
 ---
 
+
+### URL (Uniform Resource Locator) components
+
+- **Scheme:** Indicates the protocol to be used (e.g., `http`, `https`).
+- **Host:** The domain name or IP address of the server (e.g., `www.example.com`).
+- **Port:** Optional; specifies the port number on the server (e.g., `:80` for HTTP, `:443` for HTTPS).
+
+
+
 ## 7. Testing & debugging tools
 
 * Browser DevTools (Network tab)
@@ -133,6 +142,7 @@ curl -i -X POST http://localhost:8000/api.php \
 ```
 
 ---
+
 
 ## 8. PHP server basics & handling requests
 
