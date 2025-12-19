@@ -12,6 +12,11 @@ It is especially suited for creating dynamic web pages and applications.
 - **Cross-Platform:** PHP runs on various platforms, including Windows, Linux, and macOS, making it versatile for different server environments.
 - **Open Source:** PHP is free to use and has a large community that contributes to its development and provides support.
 
+## Video Tutorial
+
+[Video Tutorial on PHP by Dr. Chuck Severance](https://youtu.be/CwwF801i5_4?si=xg2zXI4IzsRBIrqG)
+
+
 ## Getting Started with PHP
 
 - [Installation Instructions](installation.md)
@@ -56,8 +61,26 @@ _ Click on "Start" to start the Apache server.
   /Applications/MAMP/htdocs
   ```
 
+- In this directory, create a new folder named `my_php_site`.
 
-## Your First PHP Script
+- In this folder, create a file with a `.php` extension (e.g., `index.php`) to start writing your PHP code.
+
+- Open your favorite code editor (e.g., VS Code, vi, Sublime Text, or any text editor) to write PHP code.
+
+- Write the PHP code in the `.php` file you created.
+
+```php
+<?php
+// Your PHP code goes here
+echo "Hello World!";
+?>
+```
+
+- Navigate to `http://localhost:8888/my_php_site/index.php` in your web browser to see the output of your PHP code.
+
+
+
+## PHP Script
 
 - A PHP script is typically enclosed within `<?php` and `?>` tags.
 
@@ -65,24 +88,6 @@ _ Click on "Start" to start the Apache server.
 
 - A PHP script can generate HTML content dynamically.
 
-
-- To create your first PHP script, follow these steps:
-
-  1. Ensure you have a web server with PHP installed (e.g., MAMP, XAMPP, or a local server setup).
-  
-  2. Create a new file named `index.php` in your web server's document root directory (e.g., `htdocs` for MAMP).
-
-  3. Add the following code to `index.php`:
-
-  ```php
-  <?php
-  echo "Hello, World!";
-  ?>
-  ```
-
-  4. Open your web browser and navigate to `http://localhost/index.php` (or the appropriate URL based on your server setup).
-
-  5. You should see "Hello, World!" displayed in your browser.
 
 ## Syntax Basics
 
