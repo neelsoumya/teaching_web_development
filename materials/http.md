@@ -130,30 +130,6 @@ Here is a diagram illustrating the components of a URL:
 ```
 
 
-```mermaid
-flowchart LR
-  SC[Scheme\n`https`]
-  UI[User info\n`alice:pw123@`]
-  HO[Host\n`www.example.com`]
-  PO[Port\n`:8080`]
-  PA[Path\n`/path/to/page.html`]
-  QU[Query string\n`?search=mermaid&lang=en`]
-  FR[Fragment (anchor)\n`#section-2`]
-
-  %% connections (pointing from example to parts)
-  EX --> SC
-  EX --> UI
-  EX --> HO
-  EX --> PO
-  EX --> PA
-  EX --> QU
-  EX --> FR
-
-  classDef part fill:#f8f9fa,stroke:#333,stroke-width:1px;
-  class SC,UI,HO,PO,PA,QU,FR part
-
-```
-
 
 ### Port
 
