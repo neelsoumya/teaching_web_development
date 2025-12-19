@@ -24,6 +24,7 @@ Course content and materials can be found in the following files:
 - [PHP basics](materials/php.md)
 - [Command line](materials/command_line.md)
 - [Exams and quizzes](materials/exams_and_quizzes.md)
+- [Bonus materials](materials/history.md)
 
 
 ### Learning Objectives
