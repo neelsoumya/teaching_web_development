@@ -23,6 +23,8 @@ Course content and materials can be found in the following files:
 - [GET and POST methods](materials/get.md)
 - [PHP basics](materials/php.md)
 - [Command line](materials/command_line.md)
+- [SQL basics](materials/SQL.md)
+- [Database integration](materials/database_integration.md)
 - [Exams and quizzes](materials/exams_and_quizzes.md)
 - [Bonus materials](materials/history.md)
 
