@@ -1,7 +1,13 @@
+# Bonus Material
 
 
 
-> **Note:** The animated version below uses raw HTML, CSS and JavaScript embedded in Markdown. It runs in Markdown viewers that allow inline `<script>`/`<style>` (e.g. VS Code's Markdown preview, many static-site generators). If your Markdown host strips scripts (e.g. GitHub README), use the **Plain Markdown fallback** at the end of this file.
+## Animated Matrix Terminal Demo
+
+
+> **Note:** The animated version below uses raw HTML, CSS and JavaScript embedded in Markdown. It runs in Markdown viewers that allow inline `<script>`/`<style>` (e.g. VS Code's Markdown preview, many static-site generators). 
+
+```javascript
 
 <!-- =========================
      Animated Matrix Terminal
@@ -213,9 +219,8 @@
 })();
 </script>
 
-<!-- =========================
-     Plain Markdown fallback
-     ========================= -->
+```
+
 
 
 
