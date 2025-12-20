@@ -30,6 +30,11 @@ Course content and materials can be found in the following files:
 - [Exams and quizzes](materials/exams_and_quizzes.md)
 - [Bonus materials](materials/history.md)
 
+<!--
+### Instructor Information
+ - [Extra information](materials/extra.md)
+-->
+
 
 ### Learning Objectives
 
@@ -111,4 +116,9 @@ By the end of this course, students will be able to:
 ### Support
 - Office Hours: [TBD]
 - Discussion Forum: [TBD]
+- Teaching Assistants: [TBD]
+
+### Instructor Information
+- Name: Soumya Banerjee
 - Email: [neel.soumya@gmail.com]
+- Website: [Webpage](https://neelsoumya.github.io/)
