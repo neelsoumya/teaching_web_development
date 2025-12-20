@@ -65,6 +65,13 @@ $conn->close();
   $stmt->execute();
   $result = $stmt->get_result();
   ```
+  - Example of preventing SQL injection using prepared statements:
+  ```php
+  $stmt = $conn->prepare("INSERT INTO Users (name, email) VALUES (?, ?)");
+  $stmt->bind_param("ss", $name, $email);
+  $stmt->execute();
+  ```
+  
 - Use error handling to manage database connection issues and query failures.
 - Handle database errors gracefully and log them for debugging.
 
