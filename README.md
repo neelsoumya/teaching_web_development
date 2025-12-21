@@ -28,6 +28,7 @@ Course content and materials can be found in the following files:
 - [SQL basics](materials/SQL.md)
 - [Database MySQL integration](materials/MySQL_integration.md)
 - [ASP.NET introduction](materials/ASP.NET.md)
+- [Security](materials/security.md)
 - [Exams and quizzes](materials/exams_and_quizzes.md)
 - [Bonus materials](materials/history.md)
 
