@@ -4,6 +4,13 @@ This section outlines the structure and content of exams and quizzes that will b
 
 ---
 
+# Assessment
+
+Portfolio: Create and test a cross platform website with interactive elements using a scripting language. 
+
+
+
+
 # Quiz: PHP & Web Development Fundamentals
 
 ### Questions
