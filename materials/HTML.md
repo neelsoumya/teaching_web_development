@@ -108,6 +108,27 @@ The World Wide Web Consortium (W3C) is an international community that develops 
 - Proper nesting: HTML elements must be properly nested within each other.
 
 
+## HTML special characters
+
+In HTML, certain characters have special meanings and cannot be used directly in the content. To include these characters in your HTML document, you need to use character entities or escape sequences.
+
+Here are some common HTML special characters and their corresponding entities:
+| Character | Entity Code | Description          |
+|-----------|-------------|----------------------|
+| `<`       | `&lt;`      | Less than            |
+| `>`       | `&gt;`      | Greater than         |
+| `&`       | `&amp;`     | Ampersand            |
+| `"`       | `&quot;`    | Double quotation mark|
+| `'`       | `&apos;`    | Single quotation mark|
+| ` `       | `&nbsp;`    | Non-breaking space   |
+
+To use these special characters in your HTML content, simply replace them with their corresponding entity codes. For example, to display the text "5 < 10", you would write:
+
+```html<p>5 &lt; 10</p>
+```
+
+
+
 ## Resources
 
 - [Video by Dr. Chuck on HTML Basics](https://youtu.be/ZV9SG8unDYc?si=HnqrgfUNofJDb_Dg): A beginner-friendly video explaining the fundamentals of HTML.
