@@ -19,6 +19,8 @@ It provides the basic structure of a webpage, which is then enhanced and modifie
 
 ## Basic Structure of an HTML Document
 
+[Video explaining HTML Document Structure by Dr. Chuck Severance](https://youtu.be/tibwt3mVINM?si=-273SC_CIxdpfjNO)
+
 ![Basic HTML Structure](../images/structure_html_document.png)
 
 
@@ -40,12 +42,15 @@ Here is the structure of a basic HTML document:
 ```
 
 
-## Best Practices
-- Always use semantic HTML to enhance accessibility.
-- Validate your HTML code to ensure it adheres to web standards.
-- Use meaningful names for IDs and classes.
-- Keep the structure of your HTML clean and organized for better readability.
-- Optimize images and multimedia for faster loading times.
+## File names
+
+- HTML files typically have the `.html` or `.htm` file extension. For example, `index.html` or `about.htm`. The choice between `.html` and `.htm` is largely historical, with `.htm` being used in older operating systems that had limitations on file name lengths.
+
+- A file named `index.html` is often used as the default file that web servers look for when accessing a directory. For example, when you visit `www.example.com/`, the server will automatically serve the `index.html` file located in the root directory of the website.
+
+- Can also be `index.php`, `index.asp`, etc., depending on the server-side technology used, but the concept remains the same.
+
+
 
 ## Historical Context
 

@@ -28,6 +28,28 @@ The 2010s witnessed the emergence of various web development frameworks such as 
 
 These frameworks provided developers with tools and structures to build complex web applications more efficiently.
 
+HTML was created by Tim Berners-Lee in 1991 as a way to share documents over the internet. Since then, it has evolved through various versions, with HTML5 being the latest standard, introducing new elements and APIs for modern web development.
+
+- Next browser from CERN: [CERN Next Browser](https://next.cern.ch/)
+
+The Next browser was one of the earliest web browsers developed at CERN, where Tim Berners-Lee worked. It played a crucial role in the initial adoption of the World Wide Web.
+
+- NCSA Mosaic: [NCSA Mosaic](https://en.wikipedia.org/wiki/NCSA_Mosaic)
+
+NCSA Mosaic was one of the first web browsers to gain widespread popularity, significantly contributing to the growth of the World Wide Web in the early 1990s.
+
+Here is an image of the NCSA Mosaic browser (created using an AI image generator):
+
+![Image of NCSA Mosaic browser](../images/ncsa_mosaic.png)
+
+- Wayback Machine: [Wayback Machine](https://archive.org/web/)
+
+The Wayback Machine is a digital archive of the World Wide Web, allowing users to access and view historical versions of web pages. It serves as a valuable resource for understanding the evolution of web design and content over time.
+
+For example, here is what the Yahoo homepage looked like in 1996: [Yahoo 1996](https://web.archive.org/web/19961220154510/https://www.yahoo.com/)
+
+
+
 ## References
 
 - [The Apache Software Foundation](https://www.apache.org/): A history of the Apache HTTP Server and its impact on web development.
