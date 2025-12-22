@@ -1,8 +1,7 @@
 # Cascading Style Sheets (CSS) Fundamentals
 
-[Video by Dr. Chuck on CSS Basics](https://youtu.be/b99aHsUi7Zk?si=O4qkBOn6LzZgFGwz): A beginner-friendly video explaining the fundamentals of CSS.
+[Video by Dr. Chuck on CSS Basics](https://youtu.be/b99aHsUi7Zk?si=cuq9ayGqB-4pBvSX): A beginner-friendly video explaining the fundamentals of CSS.
 
-## Lecture Outline
 
 ### Part 1: Introduction to CSS (30 minutes)
 
