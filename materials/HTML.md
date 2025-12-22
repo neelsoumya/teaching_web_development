@@ -38,7 +38,7 @@ NCSA Mosaic was one of the first web browsers to gain widespread popularity, sig
 
 Here is an image of the NCSA Mosaic browser (created using an AI image generator):
 
-![Image of NCSA Mosaic browser](images/ncsa_mosaic.png)
+![Image of NCSA Mosaic browser](../images/ncsa_mosaic.png)
 
 - Wayback Machine: [Wayback Machine](https://archive.org/web/)
 
