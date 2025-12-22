@@ -17,6 +17,29 @@ It provides the basic structure of a webpage, which is then enhanced and modifie
 6. **Links and Navigation**: Hyperlinks are created using the `<a>` tag, allowing navigation between different pages or sections.
 7. **Multimedia**: HTML supports embedding images, audio, and video using tags like `<img>`, `<audio>`, and `<video>`.
 
+## Basic Structure of an HTML Document
+
+![Basic HTML Structure](../images/structure_html_document.png)
+
+
+Here is the structure of a basic HTML document:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a simple HTML document.</p>
+</body>
+</html>
+```
+
+
 ## Best Practices
 - Always use semantic HTML to enhance accessibility.
 - Validate your HTML code to ensure it adheres to web standards.
