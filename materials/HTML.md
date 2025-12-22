@@ -108,6 +108,20 @@ The World Wide Web Consortium (W3C) is an international community that develops 
 - Proper nesting: HTML elements must be properly nested within each other.
 
 
+## HTML validation
+
+- HTML validation is the process of checking an HTML document against a set of rules defined by the W3C to ensure that the code is syntactically correct and adheres to web standards. 
+
+- Validating HTML helps improve the quality, accessibility, and compatibility of web pages across different browsers and devices.
+
+- To validate an HTML document, you can use the W3C Markup Validation Service, which is an online tool provided by the W3C. You can access it at: [W3C Markup Validation Service](https://validator.w3.org/)
+
+- CSS validation can also be performed using the W3C CSS Validation Service: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+- You can validate your HTML by either entering the URL of a live webpage, uploading an HTML file from your computer, or directly pasting your HTML code into the provided text area on the validation service page.
+
+
+
 ## HTML special characters
 
 In HTML, certain characters have special meanings and cannot be used directly in the content. To include these characters in your HTML document, you need to use character entities or escape sequences.
