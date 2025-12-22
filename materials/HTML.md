@@ -44,14 +44,22 @@ Here is an image of the NCSA Mosaic browser (created using an AI image generator
 
 The Wayback Machine is a digital archive of the World Wide Web, allowing users to access and view historical versions of web pages. It serves as a valuable resource for understanding the evolution of web design and content over time.
 
+For example, here is what the Yahoo homepage looked like in 1996: [Yahoo 1996](https://web.archive.org/web/19961220154510/https://www.yahoo.com/)
+
 
 ## HTML is interpreted, not compiled
 
 _Concept_: HTML is a markup language that is interpreted by web browsers. Unlike programming languages that require compilation, HTML code is read and rendered directly by the browser to display web pages.
 
-Early web browsers, such as the WorldWideWeb (later renamed Nexus) developed by Tim Berners-Lee, interpreted HTML code to present content to users. This interpretation process allows for immediate rendering of web pages without the need for a separate compilation step.
+Early web browsers, such as the WorldWideWeb developed by Tim Berners-Lee, interpreted HTML code to present content to users. This interpretation process allows for immediate rendering of web pages without the need for a separate compilation step.
 
 When a user requests a web page, the browser retrieves the HTML file from the server and interprets the markup to construct the Document Object Model (DOM). The DOM represents the structure of the web page, which the browser then uses to render the visual layout and content.
+
+- _Concept_: Interpretation vs. Compilation. 
+    - Interpretation: HTML is read and rendered directly by the browser.
+    - Compilation: Programming languages like C or Java require a separate compilation step to convert code into machine-readable format.
+
+- Syntax leniency in early HTML
 
 Early HTML could also tolerate minor syntax errors, allowing browsers to display content even if the HTML code was not perfectly formatted. This leniency helped in the rapid adoption of HTML as a standard for web content.
 
