@@ -126,10 +126,67 @@ To use these special characters in your HTML content, simply replace them with t
 
 ```html
 <p> 5 &lt; 10 
-    
+
 </p>
 ```
 
+## HTML Comments
+
+In HTML, comments are used to add notes or explanations within the code that are not displayed in the web browser. Comments can be helpful for documenting the code, explaining complex sections, or temporarily disabling parts of the code during development.
+
+HTML comments are created using the following syntax:
+
+```html
+<!-- This is a comment in HTML -->
+```
+Comments start with `<!--` and end with `-->`. Any text placed between these markers will be treated as a comment and ignored by the browser.
+
+
+## Absolute vs. Relative URLs
+
+When linking to resources in HTML, you can use either absolute or relative URLs.
+
+- **Absolute URL**: An absolute URL specifies the complete path to a resource, including the protocol (e.g., `http://` or `https://`), domain name, and the full path to the file. For example:
+  
+  ```html
+  <a href="https://www.example.com/page.html">Visit Example</a>
+  ```
+
+- **Relative URL**: A relative URL specifies the path to a resource relative to the current document's location. It does not include the protocol or domain name. For example, if your HTML file is located at `https://www.example.com/folder/index.html`, a relative link to `page.html` in the same folder would be written as:
+  
+  ```html
+  <a href="page.html">Visit Page</a>
+  ```
+
+
+## Tables in HTML
+
+Tables in HTML are created using the `<table>` element, which contains rows defined by `<tr>` (table row) elements. Each row can contain header cells (`<th>`) and data cells (`<td>`).
+
+Here is a simple example of an HTML table:
+
+```html
+<table border="1">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+    <td>Data 4</td>
+  </tr>
+</table>
+```
+
+- Tables were commonly used for layout in early web design but are now primarily used for displaying tabular data.
+
+- Modern web design uses CSS for layout and styling, while tables are reserved for data representation.
+
+- Next lecture: CSS (Cascading Style Sheets) for styling HTML documents.
 
 
 ## Resources
