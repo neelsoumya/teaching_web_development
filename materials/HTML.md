@@ -125,7 +125,9 @@ Here are some common HTML special characters and their corresponding entities:
 To use these special characters in your HTML content, simply replace them with their corresponding entity codes. For example, to display the text "5 < 10", you would write:
 
 ```html
-<p>5 &lt; 10</p>
+<p> 5 &lt; 10 
+    
+</p>
 ```
 
 
