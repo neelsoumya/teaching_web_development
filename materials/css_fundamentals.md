@@ -1,4 +1,6 @@
-# Week 2: CSS Fundamentals
+# Cascading Style Sheets (CSS) Fundamentals
+
+[Video by Dr. Chuck on CSS Basics](https://youtu.be/b99aHsUi7Zk?si=O4qkBOn6LzZgFGwz): A beginner-friendly video explaining the fundamentals of CSS.
 
 ## Lecture Outline
 
