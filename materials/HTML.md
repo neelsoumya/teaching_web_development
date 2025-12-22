@@ -36,6 +36,8 @@ The Next browser was one of the earliest web browsers developed at CERN, where T
 
 NCSA Mosaic was one of the first web browsers to gain widespread popularity, significantly contributing to the growth of the World Wide Web in the early 1990s.
 
+Here is an image of the NCSA Mosaic browser (created using an AI image generator):
+
 ![Image of NCSA Mosaic browser](images/ncsa_mosaic.png)
 
 - Wayback Machine: [Wayback Machine](https://archive.org/web/)
@@ -63,7 +65,7 @@ The World Wide Web Consortium (W3C) is an international community that develops 
 
 - No proprietary control: W3C standards are open and free to use, promoting innovation and collaboration.
 
-* New rules
+* _New rules for writing HTML established by W3C:_
 
 - Tags must be closed: For example, `<br>` should be written as `<br />` in XHTML.
 - Lowercase tags: All HTML tags should be written in lowercase (e.g., `<div>`, not `<DIV>`).
