@@ -51,6 +51,63 @@ Here is the structure of a basic HTML document:
 - Can also be `index.php`, `index.asp`, etc., depending on the server-side technology used, but the concept remains the same.
 
 
+## href attribute
+
+The `href` attribute in HTML is used within the `<a>` (anchor) tag to specify the URL of the page or resource that the link points to. It stands for "hypertext reference."
+
+Here is an example of how to use the `href` attribute:
+
+```html
+<a href="https://www.example.com">Visit Example.com</a>
+```
+
+In this example, the text "Visit Example.com" will be displayed as a clickable link. When a user clicks on this link, they will be directed to `https://www.example.com`.
+
+- target attribute: You can use the `target` attribute to specify where to open the linked document. For example, `target="_blank"` opens the link in a new tab or window.
+
+```html
+
+<a href="https://www.example.com" target="_blank">Visit Example.com</a>
+
+```
+
+
+
+
+## Pretag in HTML
+
+The `<pre>` tag in HTML is used to define preformatted text. Text within a `<pre>` element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks. This is useful for displaying code snippets, ASCII art, or any text where the formatting (such as indentation) is important.
+
+Here is an example of how to use the `<pre>` tag:
+
+```html
+<pre>
+function helloWorld() {
+    console.log("Hello, World!");
+}
+</pre>
+```
+
+This will render the text exactly as it appears within the `<pre>` tags, maintaining the indentation and line breaks.
+
+## Document Object Model (DOM)
+
+- The Document Object Model (DOM) is a programming interface for web documents. 
+
+- It represents the structure of an HTML or XML document as a tree of objects, allowing programming languages like JavaScript to interact with and manipulate web pages dynamically.
+
+- Each element in the HTML document is represented as a node in the DOM tree, and developers can use various methods to traverse, add, remove, or change these nodes.
+
+- If you make mistakes in your HTML code, browsers will often try to correct them and still render the page, which can lead to unexpected behaviour. 
+
+- The browser fixes the document structure to create a valid DOM, but this may not always align with the developer's intentions.
+
+- Validating your HTML helps ensure that your code adheres to web standards and behaves consistently across different browsers.
+
+- _Concept_: You can change the document structure using JavaScript by manipulating the DOM, allowing for interactive features.
+
+
+
 
 ## Historical Context
 
@@ -206,4 +263,6 @@ Here is a simple example of an HTML table:
 ## Resources
 
 - [Video by Dr. Chuck on HTML Basics](https://youtu.be/ZV9SG8unDYc?si=HnqrgfUNofJDb_Dg): A beginner-friendly video explaining the fundamentals of HTML.
+
+## Extras
 
