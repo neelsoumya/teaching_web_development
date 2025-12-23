@@ -276,5 +276,5 @@ Here is a simple example of an HTML table:
 
 - [Video by Dr. Chuck on HTML Basics](https://youtu.be/ZV9SG8unDYc?si=HnqrgfUNofJDb_Dg): A beginner-friendly video explaining the fundamentals of HTML.
 
-## Extras
+
 
