@@ -10,6 +10,12 @@
 - [MAMP localhost](http://localhost:8888/MAMP/?language=English) shows the MAMP welcome page.
 
 
+# Installing web development tools
+
+- [Chris Pederick's Web Developer Extension](https://chrispederick.com/work/web-developer/): A browser extension that adds various web development tools.
+
+
+
 
 
 # Other options

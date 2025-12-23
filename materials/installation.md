@@ -1,8 +1,6 @@
 # Installation Guide
 
-This guide will help you set up a local development environment for PHP using XAMPP, MAMP, or Docker. Follow the steps below to get started.
-
-Below is a **clear, step-by-step guide to installing PHP** for undergraduate web programming. It covers the three most common platforms and ends with a quick sanity check and common pitfalls.
+This guide will help you set up a local development environment.Below is a **clear, step-by-step guide to installing PHP** for undergraduate web programming. It covers the three most common platforms and ends with a quick sanity check and common pitfalls.
 
 ---
 
@@ -38,6 +36,16 @@ If not, follow the instructions below.
 - [MAMP localhost](http://localhost:8888/MAMP/?language=English) shows the MAMP welcome page.
 
 
+# Installing web development tools
+
+To enhance your web development experience, consider installing the following browser extensions:
+- [Chris Pederick's Web Developer Extension](https://chrispederick.com/work/web-developer/): A browser extension that adds various web development tools.
+
+
+
+
+
+# Miscellaneous
 
 
 ### Option B: Homebrew

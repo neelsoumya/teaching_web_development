@@ -1,15 +1,15 @@
 # Cascading Style Sheets (CSS) Fundamentals
 
-[Video by Dr. Chuck on CSS Basics](https://youtu.be/b99aHsUi7Zk?si=cuq9ayGqB-4pBvSX): A beginner-friendly video explaining the fundamentals of CSS.
+[Video by Dr. Chuck on CSS Basics](https://youtu.be/v6lfSzF8MuI?si=ZD6JdbHaU_lEGPHF): A beginner-friendly video explaining the fundamentals of CSS.
 
 
-### Part 1: Introduction to CSS (30 minutes)
+### Introduction to CSS
 
 #### 1.1 What is CSS?
 - **CSS**: Cascading Style Sheets
 - Controls presentation and layout
-- Separates content from design
-- Current version: CSS3
+- _Concept_: Separates content from design
+- _Concept_: User experience enhancement for the user as the Web evolved
 
 #### 1.2 How CSS Works
 - Cascading: Multiple style sources (browser, author, user)
@@ -50,9 +50,15 @@ p {
 }
 ```
 
-### Part 2: CSS Selectors (45 minutes)
+### Web developer tools
 
-#### 2.1 Basic Selectors
+- [Chris Pederick's Web Developer Extension](https://chrispederick.com/work/web-developer/): A browser extension that adds various web development tools.
+- Browser DevTools (Inspect Element, Console, Network, etc.)
+
+
+### CSS Selectors
+
+#### Basic Selectors
 
 **Element Selector:**
 ```css
