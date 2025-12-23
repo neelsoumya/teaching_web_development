@@ -1,6 +1,16 @@
 # HTML 
 
-- [Video by Dr. Chuck on HTML Basics](https://youtu.be/ZV9SG8unDYc?si=HnqrgfUNofJDb_Dg): A beginner-friendly video explaining the fundamentals of HTML.
+- [Video by Dr. Chuck on HTML Basics Part 1](https://youtu.be/ZV9SG8unDYc?si=HnqrgfUNofJDb_Dg): A beginner-friendly video explaining the fundamentals of HTML.
+
+[Video by Dr. Chuck on HTML Basics Part 2](https://youtu.be/b99aHsUi7Zk?si=cuq9ayGqB-4pBvSX): A beginner-friendly video explaining the fundamentals of HTML.
+
+
+[![HTML Basics Part 1 — Dr. Chuck](https://img.youtube.com/vi/ZV9SG8unDYc/hqdefault.jpg)](https://youtu.be/ZV9SG8unDYc)
+**Video by Dr. Chuck on HTML Basics Part 1** — A beginner-friendly video explaining the fundamentals of HTML.
+
+[![HTML Basics Part 2 — Dr. Chuck](https://img.youtube.com/vi/b99aHsUi7Zk/hqdefault.jpg)](https://youtu.be/b99aHsUi7Zk)
+**Video by Dr. Chuck on HTML Basics Part 2** — A beginner-friendly video explaining the fundamentals of HTML.
+
 
 ## Overview
 HTML (HyperText Markup Language) is the standard markup language used to create web pages.
