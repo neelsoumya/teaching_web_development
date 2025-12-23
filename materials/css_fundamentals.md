@@ -56,6 +56,21 @@ p {
 - Browser DevTools (Inspect Element, Console, Network, etc.)
 
 
+### Activity
+
+- Disable CSS in your browser using Chris Pederick's Web Developer Extension and observe how the page layout changes.
+- Try the following (admittedly badly designed) page with and without CSS: [CSS Zen Garden](http://www.csszengarden.com/)
+
+- Without CSS, the content is still accessible, but the visual presentation is poor.
+
+- Maybe important for visual impairments?
+
+- Separation of concerns: content vs presentation _OR_ developer vs. designer
+
+![Separation of Concerns](../images/separation_concerns_css.png)
+
+
+
 ### CSS Selectors
 
 #### Basic Selectors
