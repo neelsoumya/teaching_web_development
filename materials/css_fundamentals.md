@@ -73,6 +73,21 @@ p {
 
 ### CSS Selectors
 
+- _Concept_: Anatomy of a CSS Rule:
+
+```css
+selector {
+    property: value;
+}
+```
+- For all `selectors`, CSS rules apply
+
+- The `property` is what you want to change
+
+- Think of it as a _paintbrush_ for HTML elements
+
+
+
 #### Basic Selectors
 
 **Element Selector:**
@@ -127,6 +142,10 @@ h1 {
     box-sizing: border-box;
 }
 ```
+
+### CSS cheat sheet
+
+- [Leslie Franklin's CSS Cheat Sheet](https://www.lesliefranke.com/files/reference/csscheatsheet.html): A comprehensive cheat sheet covering CSS properties, selectors, and more.
 
 #### 2.2 Combinators
 
