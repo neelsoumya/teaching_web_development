@@ -93,12 +93,14 @@ By the end of this course, students will be able to:
 - Web hosting and deployment
 - Performance optimization
 
+<!--
 ### Assessment Structure
 - **Weekly Labs:** 20%
 - **Mid-term Project:** 25%
 - **Final Project:** 35%
 - **Quizzes:** 10%
 - **Participation:** 10%
+-->
 
 ### Required Materials
 - [Setup instructions](materials/setup.md)
