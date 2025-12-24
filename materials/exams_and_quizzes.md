@@ -1175,4 +1175,131 @@ Your site **must include**:
 * Accessibility (contrast, readable fonts)
 
 
+
+
+## Responsible AI visualization assignment
+
+- Assignment brief — Visualization tools for responsible AI decision-making
+
+**Short title:** Responsible-AI Visualization Prototype
+
+---
+
+## Overview & motivation
+
+AI systems increasingly provide recommendations that affect people’s lives (medical triage, loan decisions, hiring suggestions, content moderation, etc.). A good visualization can help stakeholders (end users, domain experts, auditors, policy makers) understand AI outputs, assess uncertainty, identify risks, and make responsible decisions. In this assignment you will design, build, and evaluate a small web-based visualization tool that supports responsible decision-making when interacting with an AI model.
+
+---
+
+## Learning objectives
+
+By the end of this project you should be able to:
+
+* Apply HCI and information-visualization principles to represent model outputs, uncertainty, and provenance.
+* Build an interactive web prototype that connects a simple AI or simulated model to visual components.
+* Conduct lightweight user-centred research (persona mapping, simple user testing) and iterate on design.
+* Critically reflect on ethical issues (bias, transparency, privacy, misuse) and accessibility in visualization design.
+* Communicate design decisions, technical approach, and evaluation results in a concise report and demo.
+
+---
+
+## Project brief / task
+
+Design and implement a browser-based interactive visualization that helps a chosen stakeholder group make responsible choices based on AI output.
+
+You must:
+
+1. **Define a use case & stakeholder.** (E.g., clinicians reviewing risk predictions, loan officers assessing credit recommendations, moderators reviewing content-safety scores, or a public user interpreting news summarisation confidence.)
+2. **Select or simulate an AI model.** You may either (a) use a simple pre-trained model or API (e.g., sentiment classifier, risk score generator), (b) load a small dataset and implement a basic classifier/regression in JavaScript/Python and expose outputs, or (c) simulate model outputs (label + confidence + provenance + counterfactuals). The model complexity is less important than how you present and interrogate its outputs.
+3. **Design visualization(s).** Show model output, uncertainty, explanation (feature importance, example cases, counterfactuals), provenance or data lineage where possible, and decision options for the stakeholder. Prioritize clarity, critiqueability, and support for responsible actions.
+4. **Prototype interactions.** Allow users to: inspect an individual case, compare alternative model outputs/parameters, explore uncertainty, and record/justify a decision.
+5. **Perform a short user evaluation.** Run formative testing with at least 3–5 participants (classmates are fine), collect qualitative feedback, and iterate once. Report key findings and changes made.
+6. **Write a short report and README.** Explain design goals, technologies used, evaluation summary, ethical considerations, how to run the prototype, and next steps.
+
+---
+
+## Deliverables
+
+1. **GitHub repository** (public or private link + invitation) containing:
+
+   * All source code and assets.
+   * `README.md` with clear run/setup instructions and a short project description.
+   * Short deployment (GitHub Pages, Vercel, Netlify, or instructions for local run).
+2. **Interactive prototype** accessible via link or runnable locally.
+3. **Design report** (maximum 1500 words) including:
+
+   * Use case & stakeholder description.
+   * Design rationale and visualization choices.
+   * Model description or explanation of simulated data.
+   * User testing method, participant summary, findings, and iterations.
+   * Ethical, privacy, and accessibility considerations.
+4. **Demo video** (3–5 minutes) or live demo in class: walk through the tool and highlight how it supports responsible decision-making.
+5. **Optional:** UI mockups, personas, low-fidelity sketches, or source of datasets.
+
+
+---
+
+## Technical & design guidance
+
+* **Visualization principles:** show raw evidence where helpful, use small-multiple comparisons, make uncertainty salient (intervals, ensembles, calibration plots), and provide explainability aids (feature importance, counterfactuals, example cases).
+* **Accessibility:** ensure readable text, keyboard navigation, and consider colorblind-friendly encodings.
+* **Data & model:** If you use real datasets, strip or anonymize any personal/sensitive data. If using external APIs, ensure rate limits and privacy are handled.
+* **Ethics:** identify potential misuse (e.g., over-reliance on the model), and document limitations and safeguards in the report.
+
+---
+
+## User testing suggestions (quick)
+
+* Give a short scenario + task (e.g., “Decide whether to accept or escalate this case using the tool”).
+* Use think-aloud or brief structured questions.
+* Capture 10–15 minutes of feedback per user.
+* Synthesize into 3–5 actionable changes and implement at least one.
+
+---
+
+## Report structure (recommended)
+
+1. Title & team members
+2. One-paragraph problem statement & stakeholder.
+3. Design goals & key requirements.
+4. Technical approach / model summary.
+5. Screenshots / flow diagrams.
+6. User testing: tasks, participants, findings, iterations.
+7. Ethics & accessibility reflection.
+8. How to run / demo link.
+9. Future work.
+
+---
+
+## Submission instructions
+
+* Push code to GitHub and share the repository link.
+* Upload the design report (PDF or Markdown) to the repo root and/or submit via the course submission portal.
+* Include the demo video link (YouTube unlisted or repo `video/` file).
+* Tag your release or create a PR labelled `assignment-resp-ai-viz`.
+* Deadline: please follow the course deadline (if unspecified, aim for four weeks after assignment). Late submissions may incur penalties as per course policy.
+
+---
+
+## Extensions & stretch goals (optional)
+
+* Add role-based views (different visuals for auditors vs. end users).
+* Implement interactive counterfactual generation (let users tweak inputs to see outcome changes).
+* Integrate provenance metadata showing training data examples or model versioning.
+* Implement lightweight fairness metrics and visualizations (e.g., group comparisons).
+
+---
+
+
+---
+
+## Hints & quick checklist
+
+* Start with a clear scenario and a paper prototype before coding.
+* Keep scope small: a single, well-polished interaction beats many half-built features.
+* Prioritize explainability and uncertainty over fancy visuals.
+* Test early with real people and iterate.
+
+---
+
 ---
