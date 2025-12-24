@@ -1181,7 +1181,7 @@ Your site **must include**:
 
 - Assignment brief — Visualization tools for responsible AI decision-making
 
-**Short title:** Responsible-AI Visualization Prototype
+- Responsible-AI Visualization Prototype
 
 ---
 
