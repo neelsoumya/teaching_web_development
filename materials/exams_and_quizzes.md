@@ -1094,7 +1094,7 @@ section {
 
 ---
 
-# 🌌 Part 2: Larger Assignment (Take-Home, 1–2 weeks)
+# 🌌 Part 2: Larger Assignment
 
 ### *“Theme Website: Style as Storytelling”*
 
