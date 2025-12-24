@@ -941,4 +941,238 @@ namespace WebApp
 }
 ```
 
+## CSS and github.io assignments
+
+
+
+# 🚀 Part 1: In-Class Activity (30–45 minutes)
+
+### *“Deploy Your First Stylised Website”*
+
+### Learning goals
+
+By the end of the activity, students will:
+
+* Publish a webpage using **GitHub Pages**
+* Link an external **CSS stylesheet**
+* Use basic CSS to control **layout, colour, fonts, and spacing**
+* Experience the joy of seeing something “live” on the internet
+
+---
+
+## Activity Brief (Student-Facing)
+
+> You will create and publish a **single-page website** on `github.io`, styled using CSS.
+> Choose a theme:
+>
+> * **XKCD-style comic page**
+> * **Star Wars opening crawl**
+> * **Retro terminal / hacker page**
+> * **Your own fun theme**
+
+Your page must be **online** by the end of the session.
+
+---
+
+## Step-by-Step Instructions
+
+### 1️⃣ Setup (10 minutes)
+
+1. Create a GitHub account (if needed).
+
+2. Create a new repository called:
+
+   ```
+   username.github.io
+   ```
+
+3. Add two files:
+
+   * `index.html`
+   * `style.css`
+
+4. Enable **GitHub Pages**
+   → Settings → Pages → Deploy from main branch
+
+---
+
+### 2️⃣ Starter HTML (provided)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Fun Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Page</h1>
+    <p>A long time ago, in a browser far, far away…</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>This page is styled entirely with CSS.</p>
+    </section>
+  </main>
+
+</body>
+</html>
+```
+
+---
+
+### 3️⃣ CSS Challenge (20 minutes)
+
+Students must:
+
+* Change background colour or gradient
+* Choose a font (system font or Google Fonts)
+* Style headings differently from body text
+* Center or animate at least one element
+
+#### Example: Star Wars-Style Crawl
+
+```css
+body {
+  background: black;
+  color: yellow;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: justify;
+  animation: crawl 20s linear infinite;
+}
+
+@keyframes crawl {
+  from { transform: translateY(100%); }
+  to { transform: translateY(-200%); }
+}
+```
+
+#### Example: XKCD-Style
+
+```css
+body {
+  font-family: "Comic Sans MS", cursive;
+  background: white;
+  color: black;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+}
+
+section {
+  max-width: 600px;
+  margin: auto;
+}
+```
+
+---
+
+### 4️⃣ Show & Tell (5–10 minutes)
+
+* Students paste their live URLs in chat
+* Quick gallery walk
+* Vote for:
+
+  * *Funniest*
+  * *Most Stylish*
+  * *Most Ridiculous*
+
+🏆 Small prizes or bragging rights recommended.
+
+---
+
+# 🌌 Part 2: Larger Assignment (Take-Home, 1–2 weeks)
+
+### *“Theme Website: Style as Storytelling”*
+
+---
+
+## Assignment Brief
+
+Create a **themed website** hosted on GitHub Pages that uses **CSS to express a narrative or aesthetic**.
+
+You may work **individually or in pairs**.
+
+### Suggested Themes
+
+* XKCD-inspired explainer page
+* Star Wars opening crawl (with multiple sections)
+* “Old Internet” (GeoCities vibes)
+* Sci-fi terminal interface
+* Minimalist academic homepage
+* Fake startup landing page
+
+---
+
+## Technical Requirements (Graded)
+
+Your site **must include**:
+
+### HTML
+
+* At least **3 sections** (`header`, `main`, `footer` or similar)
+* Semantic HTML (`section`, `nav`, `article`)
+* Clean indentation
+
+### CSS
+
+* External stylesheet
+* At least:
+
+  * 3 selectors
+  * 1 class selector
+  * 1 ID selector
+* Use of:
+
+  * Fonts
+  * Colours
+  * Spacing (margin/padding)
+* One of:
+
+  * Animation
+  * Hover effect
+  * Responsive layout (media query)
+
+### Deployment
+
+* Hosted on `username.github.io`
+* Public repository
+* Working URL submitted
+
+---
+
+## Marking Rubric (Example)
+
+| Criterion                 | Marks   |
+| ------------------------- | ------- |
+| CSS correctness & clarity | 30      |
+| Visual creativity & theme | 25      |
+| HTML structure            | 20      |
+| GitHub Pages deployment   | 15      |
+| Code readability          | 10      |
+| **Total**                 | **100** |
+
+---
+
+## Optional Stretch Goals 🌟
+
+* Use Flexbox or Grid
+* Dark/light mode toggle
+* Embedded image or SVG
+* Accessibility (contrast, readable fonts)
+
+
 ---
