@@ -3,7 +3,7 @@
 # Web Development with PHP, HTML & CSS
 ## Undergraduate Course
 
-![Course Flyer](../images/course_flyer.png)
+![Course Flyer](images/course_flyer.png)
 
 ### Course Overview
 This undergraduate course introduces students to full-stack web development using fundamental technologies: HTML5, CSS3, and PHP. Students will learn to build dynamic, database-driven websites from scratch.
@@ -13,6 +13,7 @@ This undergraduate course introduces students to full-stack web development usin
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
 
 **Course Instructor:** Soumya Banerjee
+
 **Course Website:** [https://neelsoumya.github.io/teaching_web_development/](https://neelsoumya.github.io/teaching_web_development/)
 
 
