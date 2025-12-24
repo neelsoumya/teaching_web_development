@@ -101,6 +101,8 @@ By the end of this course, students will be able to:
 - **Participation:** 10%
 
 ### Required Materials
+- [Setup instructions](materials/setup.md)
+- [Installation guide](materials/installation.md)
 - Text Editor (VS Code recommended)
 - XAMPP or MAMP (local development environment)
 - Modern web browser (Chrome/Firefox with DevTools)
@@ -114,13 +116,14 @@ By the end of this course, students will be able to:
 
 - W3Schools (https://www.w3schools.com): A comprehensive resource for learning web technologies including HTML, CSS, and PHP.
 
-
+<!--
 ### Course Files
 - `/lectures` - Slide decks and lecture notes
 - `/labs` - Weekly lab exercises
 - `/projects` - Project specifications
 - `/examples` - Code examples and demos
 - `/assessments` - Quizzes and exam materials
+-->
 
 ### Support
 - Office Hours: [TBD]
