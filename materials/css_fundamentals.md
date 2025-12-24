@@ -158,15 +158,7 @@ h1 {
 - _Concept_: Later rules override earlier ones if they have the same specificity
 
 
-## Syntax
 
-- `#` means ID selector. Find element with that ID.
-
-- `.` means class selector. Find all elements with that class.
-
-- No prefix means element selector. Find all elements of that type.
-
-- [Explanation of CSS Specificity](https://youtu.be/hEY4V_OWZAU?si=UG7FNBY2Y_SaZQnH): A video explaining how CSS specificity works.
 
 ## Span and Div
 
@@ -181,9 +173,23 @@ h1 {
 </div>
 ```
 
+- spand and div are often used together with CSS to style specific parts of a webpage.
+
+- _Concept_: span and div have no inherent visual effect; they are designed to be styled with CSS.
+
+- _Concept_: this is so because other older elements had specific meanings and visual effects (like `<b>`, `<i>`, `<u>`, etc.)
 
 
 
+## Syntax
+
+- `#` means ID selector. Find element with that ID.
+
+- `.` means class selector. Find all elements with that class.
+
+- No prefix means element selector. Find all elements of that type.
+
+- [Explanation of CSS Specificity](https://youtu.be/hEY4V_OWZAU?si=UG7FNBY2Y_SaZQnH): A video explaining how CSS specificity works.
 
 
 
