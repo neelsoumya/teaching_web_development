@@ -3,6 +3,8 @@
 # Web Development with PHP, HTML & CSS
 ## Undergraduate Course
 
+![Course Flyer](../images/course_flyer.png)
+
 ### Course Overview
 This undergraduate course introduces students to full-stack web development using fundamental technologies: HTML5, CSS3, and PHP. Students will learn to build dynamic, database-driven websites from scratch.
 
