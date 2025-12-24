@@ -158,6 +158,35 @@ h1 {
 - _Concept_: Later rules override earlier ones if they have the same specificity
 
 
+## Syntax
+
+- `#` means ID selector. Find element with that ID.
+
+- `.` means class selector. Find all elements with that class.
+
+- No prefix means element selector. Find all elements of that type.
+
+- [Explanation of CSS Specificity](https://youtu.be/hEY4V_OWZAU?si=UG7FNBY2Y_SaZQnH): A video explaining how CSS specificity works.
+
+## Span and Div
+
+- `<div>`: Block-level container for grouping elements
+- `<span>`: Inline container for grouping text or elements
+- Use for applying styles or scripts to specific sections of content
+
+```html
+<div class="container">
+    <h1>Title</h1>
+    <p>This is a <span class="highlight">highlighted</span> word.</p>
+</div>
+```
+
+
+
+
+
+
+
 #### 2.2 Combinators
 
 **Descendant Selector (space):**
@@ -457,7 +486,7 @@ height: 100vh; /* 100% of viewport height */
 font-size: 5vmin; /* 5% of smaller dimension */
 ```
 
-### Part 4: The Box Model (45 minutes)
+### Part 4: The Box Model
 
 #### 4.1 Understanding the Box Model
 
