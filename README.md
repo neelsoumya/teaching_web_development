@@ -9,8 +9,9 @@ This undergraduate course introduces students to full-stack web development usin
 **Level:** Undergraduate
 **Prerequisites:** Basic programming knowledge (any language)  
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
-** Course Instructor:** Soumya Banerjee
-** Course Website:** [https://neelsoumya.github.io/teaching_web_development/](https://neelsoumya.github.io/teaching_web_development/)
+
+**Course Instructor:** Soumya Banerjee
+**Course Website:** [https://neelsoumya.github.io/teaching_web_development/](https://neelsoumya.github.io/teaching_web_development/)
 
 
 ### Course Materials
