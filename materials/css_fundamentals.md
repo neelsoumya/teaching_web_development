@@ -1,7 +1,8 @@
 # Cascading Style Sheets (CSS) Fundamentals
 
-[Video by Dr. Chuck on CSS Basics](https://youtu.be/v6lfSzF8MuI?si=ZD6JdbHaU_lEGPHF): A beginner-friendly video explaining the fundamentals of CSS.
+- [Video by Dr. Chuck on CSS Basics Part 1](https://youtu.be/v6lfSzF8MuI?si=ZD6JdbHaU_lEGPHF): A beginner-friendly video explaining the fundamentals of CSS.
 
+- [Video by Dr. Chuck on CSS Basics Part 2](https://youtu.be/aA587wqx0B0?si=4WRY_3YKvZgMsKVd): A continuation of the CSS basics, covering more advanced topics.
 
 ### Introduction to CSS
 
@@ -190,6 +191,48 @@ h1 {
 - No prefix means element selector. Find all elements of that type.
 
 - [Explanation of CSS Specificity](https://youtu.be/hEY4V_OWZAU?si=UG7FNBY2Y_SaZQnH): A video explaining how CSS specificity works.
+
+- Example of specificity:
+
+```css
+/* Element selector */
+p {
+    color: black; /* specificity: 1 */
+}
+/* Class selector */
+.highlight {
+    color: blue; /* specificity: 10 */
+}
+/* ID selector */
+#main {
+    color: red; /* specificity: 100 */
+}
+```
+
+## Colours
+
+- [W3schools CSS Colors](https://www.w3schools.com/cssref/css_colors.asp): A reference for CSS color names and values.
+- Named colors: `red`, `blue`, `green`, etc.
+- Hexadecimal: `#RRGGBB` or `#RGB`
+- RGB: `rgb(255, 0, 0)`
+- RGBA: `rgba(255, 0, 0, 0.5)` (with alpha for transparency)
+- HSL: `hsl(0, 100%, 50%)`
+- HSLA: `hsla(0, 100%, 50%, 0.5)` (with alpha for transparency)
+
+```css
+/* Named color */
+color: red; 
+/* Hexadecimal */
+color: #FF0000;
+/* RGB */
+color: rgb(255, 0, 0);
+/* RGBA */
+color: rgba(255, 0, 0, 0.5);
+/* HSL */
+color: hsl(0, 100%, 50%);
+/* HSLA */
+color: hsla(0, 100%, 50%, 0.5);
+```
 
 
 
