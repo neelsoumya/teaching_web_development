@@ -234,6 +234,69 @@ color: hsl(0, 100%, 50%);
 color: hsla(0, 100%, 50%, 0.5);
 ```
 
+## Fonts
+
+- [Google Fonts](https://fonts.google.com/): A library of free web fonts.
+- `font-family`: Specifies the font type.
+- `font-size`: Specifies the size of the font.
+- `font-weight`: Specifies the weight (boldness) of the font.
+- `font-style`: Specifies the style (normal, italic, oblique) of the font.
+
+
+```css 
+/* Font family */
+font-family: Arial, Helvetica, sans-serif;
+font-family: 'Times New Roman', serif;
+font-family: 'Courier New', monospace;
+/* Font size */
+font-size: 16px;
+font-size: 1.2em;  /* relative to parent */
+font-size: 1.2rem; /* relative to root */
+/* Font weight */
+font-weight: normal;
+font-weight: bold;
+font-weight: 700;
+/* Font style */
+font-style: italic;
+font-style: oblique;
+/* Shorthand */
+font: italic bold 16px/1.5 Arial, sans-serif;
+```
+
+- Example
+ 
+```css
+body {
+    font-family: 'Roboto', sans-serif;
+}
+```
+
+## Links
+
+```css
+/* Link states */
+a:link { color: blue; }
+a:visited { color: purple; }
+a:hover { color: red; }
+a:active { color: orange; }
+```
+
+## nav tag
+
+- function of the `<nav>` tag is to define a section of navigation links in an HTML document.
+
+```css
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #333;
+}   
+nav a:hover {
+    background-color: #555;
+}
+```
+
 
 
 #### 2.2 Combinators
