@@ -475,14 +475,6 @@ A: Return `204 No Content` (or `200`) with `Access-Control-Allow-Origin`, `Acces
 * Browser DevTools network tab — practice inspecting headers and bodies.
 * `curl` manual — useful for scripting tests.
 
----
 
-## 18. Summary — practical tips for the class
 
-* Teach students to inspect requests and responses with browser DevTools and `curl`.
-* Emphasize correct use of methods and status codes — they make APIs reliable.
-* Show live examples with the PHP built-in server and small endpoints.
-* Include security (HTTPS, cookies, CORS, CSRF) early—it's not optional.
-* Make students implement a tiny REST service and test it with `curl` and Postman.
-
-* Encourage reading official docs and MDN for deeper understanding.
+[GET and POST methods](materials/get.md)
