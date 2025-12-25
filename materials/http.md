@@ -477,4 +477,4 @@ A: Return `204 No Content` (or `200`) with `Access-Control-Allow-Origin`, `Acces
 
 
 
-[Next: GET and POST methods](materials/get.md)
+[Next: GET and POST methods](get.md)
