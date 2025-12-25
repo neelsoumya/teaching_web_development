@@ -135,4 +135,5 @@ By the end of this course, students will be able to:
 ### Instructor Information
 - Name: Soumya Banerjee
 - Email: [neel.soumya@gmail.com]
+- [DeepWiki](https://deepwiki.com/neelsoumya/teaching_web_development)
 - Website: [Webpage](https://neelsoumya.github.io/)
