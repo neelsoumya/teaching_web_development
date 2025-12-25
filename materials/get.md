@@ -319,3 +319,5 @@ If some headers are missing, your browser may be serving a cached copy. Check th
 ## Summary
 
 GET requests are the backbone of web browsing and APIs. They allow clients to retrieve resources from servers in a standardized, cacheable, and bookmarkable way. Understanding the client-server architecture and how GET requests flow through the system is fundamental to web development.
+
+- [Next: HTML](materials/HTML.md)
