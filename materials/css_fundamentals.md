@@ -4,6 +4,8 @@
 
 - [Video by Dr. Chuck on CSS Basics Part 2](https://youtu.be/aA587wqx0B0?si=4WRY_3YKvZgMsKVd): A continuation of the CSS basics, covering more advanced topics.
 
+- [Video by Dr. Chuck on CSS Basics Part 3](https://youtu.be/SLiS4oQahuk?si=MIid0eo2CLZld67Z): The third part of the CSS basics series, focusing on practical applications.
+
 ### Introduction to CSS
 
 #### 1.1 What is CSS?
@@ -269,6 +271,12 @@ font: italic bold 16px/1.5 Arial, sans-serif;
 body {
     font-family: 'Roboto', sans-serif;
 }
+```
+
+- Fallback fonts (in case the primary font is unavailable on the browser):
+
+```css
+font-family: 'Open Sans', Arial, sans-serif;
 ```
 
 ## Links
