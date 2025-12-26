@@ -250,4 +250,7 @@ For **first-year undergraduates**, I recommend:
 * [ ] Browser loads `localhost:8000`
 * [ ] `.php` files execute correctly
 
+
+- [Next: HTTP](http.md)
+
 ---

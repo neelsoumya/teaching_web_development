@@ -278,3 +278,4 @@ Here is a simple example of an HTML table:
 
 
 
+- [Next: CSS](css_fundamentals.md)

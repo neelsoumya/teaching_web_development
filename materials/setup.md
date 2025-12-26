@@ -228,18 +228,7 @@ Each lab should include a short spec, starter repo (or zip) and an automated tes
 
 ---
 
-# Want files / starter repos?
-
-I can:
-
-* produce a ready-to-use `docker-compose.yml`, `nginx/default.conf`, and starter `www/` folder (zippable), **or**
-* make a 1-page lab handout or slide deck for Week 1 (PDF or Markdown), or
-* create a set of 6 short assignment specs with rubrics.
-
-Tell me which of those you want and I’ll generate the files and code in this chat right now (no waiting).
-
-* a complete working `docker-compose.yml` + `nginx/default.conf` + zip-ready file tree, **or**
-* create a one-page student handout (compact step-by-step first lab).
+# Resources
 
 
 [1]: https://www.apachefriends.org/download.html?utm_source=chatgpt.com "Download XAMPP"
@@ -253,3 +242,6 @@ Tell me which of those you want and I’ll generate the files and code in this c
 [9]: https://www.php.net/manual/en/index.php?utm_source=chatgpt.com "PHP: PHP Manual - Manual"
 [10]: https://www.freecodecamp.org/news/html-crash-course/?utm_source=chatgpt.com "HTML for Beginners"
 [11]: https://laracasts.com/series/php-for-beginners-2023-edition?utm_source=chatgpt.com "PHP For Beginners"
+
+
+- [Next: Installation](installation.md)
