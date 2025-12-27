@@ -6,6 +6,11 @@
 
 - [Video by Dr. Chuck on CSS Basics Part 3](https://youtu.be/SLiS4oQahuk?si=MIid0eo2CLZld67Z): The third part of the CSS basics series, focusing on practical applications.
 
+# Installation/Playground
+
+- [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
+
+
 ### Introduction to CSS
 
 #### 1.1 What is CSS?

@@ -1,7 +1,13 @@
 
+# Installation
+
+# HTML
+
+- [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
+
 # Installing PHP on macOS
 
-### Best Option
+- Best Option
 
 - [MAMP](https://www.mamp.info/en/downloads/) is a popular choice for macOS, bundling Apache, MySQL, and PHP. However, for simplicity and ease of use, we recommend using **Homebrew** to install PHP directly.
 

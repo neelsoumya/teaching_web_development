@@ -4,6 +4,11 @@ This guide will help you set up a local development environment.Below is a **cle
 
 ---
 
+# Installation HTML
+
+- [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
+
+
 # Installing PHP (for Web Programming)
 
 This guide installs **PHP 8.x**, suitable for modern web development and coursework.
