@@ -332,6 +332,10 @@ font-size: 5vmin; /* 5% of smaller dimension */
 
 ## Motivating CSS: styles without CSS
 
+- What if we styled a page without CSS?
+
+- [Video by Dr. Chuck on Styling without CSS](https://youtu.be/SLiS4oQahuk?si=x_OPeTBGuCBb34OX): A video demonstrating the drawbacks of styling a webpage without CSS.
+
 ```html
 <!DOCTYPE html>
 <html>
