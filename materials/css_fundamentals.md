@@ -306,6 +306,29 @@ nav a:hover {
 ```
 
 
+## Units `em`, `rem`, `%`, `px`
+
+- `px`: Pixels, absolute unit.
+- `em`: Relative to the font-size of the parent element.
+- `rem`: Relative to the font-size of the root element (`<html>`).
+- `%`: Relative to the parent element's size.
+
+```css
+/* Pixels (most common) */
+font-size: 16px;    
+/* em - relative to parent font-size */
+font-size: 1.5em;  /* 1.5 times parent */
+/* rem - relative to root (html) font-size */
+font-size: 1.5rem;
+/* Percentage */
+width: 50%;
+font-size: 120%;
+/* Viewport units */
+width: 50vw;  /* 50% of viewport width */
+height: 100vh; /* 100% of viewport height */
+font-size: 5vmin; /* 5% of smaller dimension */
+```
+
 
 #### 2.2 Combinators
 
