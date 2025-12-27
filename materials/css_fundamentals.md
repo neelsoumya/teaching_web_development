@@ -330,6 +330,63 @@ font-size: 5vmin; /* 5% of smaller dimension */
 ```
 
 
+## Motivating CSS: styles without CSS
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Page without CSS</title>
+</head>
+<body>
+    <h1><font color="blue" size="7">Welcome to My Page</font></h1>
+    <p><font color="green" size="4">This is a paragraph with inline font styling.</font></p>
+    <a href="#" style="color: red; font-size: 20px;">This is a styled link</a>
+</body>
+</html>
+```
+
+- Why is this bad?
+    - Mixing content and presentation
+    - Difficult to maintain and update styles
+    - Limited styling options
+    - Deprecated tags and attributes
+
+- Better approach: Use CSS for styling
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Page with CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Welcome to My Page</h1>
+    <p class="paragraph">This is a paragraph with CSS styling.</p>
+    <a href="#" class="styled-link">This is a styled link</a>
+</body>
+</html>
+```
+
+```css
+/* styles.css */
+.title {
+    color: blue;
+    font-size: 3em;
+}
+.paragraph {
+    color: green;
+    font-size: 1.5em;
+}
+.styled-link {
+    color: red;
+    font-size: 1.25em;
+}
+```
+
+
+
 #### 2.2 Combinators
 
 **Descendant Selector (space):**
