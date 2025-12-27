@@ -8,6 +8,13 @@ This guide will help you set up a local development environment.Below is a **cle
 
 - [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
 
+- [jsfiddle.net](https://jsfiddle.net/): Online editor for HTML, CSS, and JavaScript with live preview.
+
+- [codepen.io](https://codepen.io/): Social development environment for front-end designers and developers.
+
+- [replit.com](https://replit.com/languages/html): Online IDE supporting multiple programming languages, including HTML/CSS/JS.
+
+
 
 # Installing PHP (for Web Programming)
 

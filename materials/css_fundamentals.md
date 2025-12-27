@@ -6,9 +6,16 @@
 
 - [Video by Dr. Chuck on CSS Basics Part 3](https://youtu.be/SLiS4oQahuk?si=MIid0eo2CLZld67Z): The third part of the CSS basics series, focusing on practical applications.
 
+
 # Installation/Playground
 
 - [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
+
+- [jsfiddle.net](https://jsfiddle.net/): Online editor for HTML, CSS, and JavaScript with live preview.
+
+- [codepen.io](https://codepen.io/): Social development environment for front-end designers and developers.
+
+- [replit.com](https://replit.com/languages/html): Online IDE supporting multiple programming languages, including HTML/CSS/JS.
 
 
 ### Introduction to CSS
