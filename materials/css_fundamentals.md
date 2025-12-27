@@ -401,6 +401,14 @@ font-size: 5vmin; /* 5% of smaller dimension */
 }
 ```
 
+## Practical
+
+- Use the following tools to practice CSS:
+
+- [CSS Diner](https://flukeout.github.io/): An interactive game to learn CSS selectors.
+
+- [CSS Battle](https://cssbattle.dev/): A platform to practice CSS by replicating target designs with minimal code.
+
 
 
 #### 2.2 Combinators
