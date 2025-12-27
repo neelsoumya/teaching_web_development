@@ -409,6 +409,7 @@ font-size: 5vmin; /* 5% of smaller dimension */
 
 - [CSS Battle](https://cssbattle.dev/): A platform to practice CSS by replicating target designs with minimal code.
 
+- Use the playgrounds mentioned earlier (JSFiddle, CodePen, Replit) to experiment with CSS code snippets (see above).
 
 
 #### 2.2 Combinators
