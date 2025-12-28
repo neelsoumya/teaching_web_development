@@ -411,6 +411,15 @@ font-size: 5vmin; /* 5% of smaller dimension */
 
 - Use the playgrounds mentioned earlier (JSFiddle, CodePen, Replit) to experiment with CSS code snippets (see above).
 
+- [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
+
+- [jsfiddle.net](https://jsfiddle.net/): Online editor for HTML, CSS, and JavaScript with live preview.
+
+- [codepen.io](https://codepen.io/): Social development environment for front-end designers and developers.
+
+- [replit.com](https://replit.com/languages/html): Online IDE supporting multiple programming languages, including HTML/CSS/JS.
+
+
 
 #### 2.2 Combinators
 
