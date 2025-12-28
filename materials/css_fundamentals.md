@@ -495,7 +495,7 @@ footer#main-footer {
 
 
 
-
+## Other advanced CSS Concepts
 
 #### 2.2 Combinators
 
