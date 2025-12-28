@@ -419,7 +419,7 @@ font-size: 5vmin; /* 5% of smaller dimension */
 
 - [replit.com](https://replit.com/languages/html): Online IDE supporting multiple programming languages, including HTML/CSS/JS.
 
-- Code to practice:
+- _Code to practice_:
 
 ```html
 <!DOCTYPE html>
