@@ -401,7 +401,7 @@ font-size: 5vmin; /* 5% of smaller dimension */
 }
 ```
 
-## Practical
+## Practical/Exercise 
 
 - Use the following tools to practice CSS:
 
@@ -418,6 +418,82 @@ font-size: 5vmin; /* 5% of smaller dimension */
 - [codepen.io](https://codepen.io/): Social development environment for front-end designers and developers.
 
 - [replit.com](https://replit.com/languages/html): Online IDE supporting multiple programming languages, including HTML/CSS/JS.
+
+- Code to practice:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="title">Welcome to CSS Practice</h1>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Section Title</h2>
+            <p>This is a paragraph to practice CSS styling.</p>
+            <a href="#" class="link">This is a link</a>
+        </section>
+    </main>
+    <footer id="main-footer">
+        <p>&copy; 2024 CSS Practice</p>
+    </footer>
+</body>
+</html>
+```
+
+```css
+/* styles.css */
+/* Basic Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}   
+/* ID Selector */
+header#main-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Class Selector */
+h1.title {
+    font-size: 2.5em;
+}
+/* Descendant Selector */
+section.content {
+    padding: 20px;
+}
+/* Link Styling */
+a.link {
+    color: blue;
+    text-decoration: none;
+}
+/* Link Hover Effect */
+a.link:hover {
+    text-decoration: underline;
+}
+/* Footer Styling */
+footer#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+```
+
+
 
 
 
