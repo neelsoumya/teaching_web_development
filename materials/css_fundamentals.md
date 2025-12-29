@@ -497,7 +497,7 @@ footer#main-footer {
     - The HTML structure includes a header, main content section, and footer.
     - The CSS styles the body, header, title, content section, links, and footer using various selectors.
 
-    Here's a detailed breakdown of this HTML practical:
+    Here is a detailed breakdown of this HTML practical:
 
 
 
