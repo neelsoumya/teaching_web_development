@@ -554,7 +554,9 @@ The semantic `<header>` element indicates introductory content. The `id="main-he
 <h1 class="title">Welcome to CSS Practice</h1>
 ```
 
-The `class="title"` allows CSS styling via `.title { ... }`. Unlike IDs, classes can be reused multiple times on a page, making them ideal for styling patterns that repeat.
+The `class="title"` allows CSS styling via `.title { ... }`. 
+
+_Concept:_ Unlike IDs, classes can be reused multiple times on a page, making them ideal for styling patterns that repeat.
 
 ### Main Content Area
 ```html
