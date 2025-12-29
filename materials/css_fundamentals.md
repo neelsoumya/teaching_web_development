@@ -493,6 +493,128 @@ footer#main-footer {
 }
 ```
 
+- _Explanation of the code above_:
+    - The HTML structure includes a header, main content section, and footer.
+    - The CSS styles the body, header, title, content section, links, and footer using various selectors.
+
+    Here's a detailed breakdown of this HTML practical for your undergraduate web development students:
+
+## Overall Structure
+
+This is a well-formed HTML5 document that demonstrates fundamental web page anatomy and CSS integration. It follows semantic HTML practices and sets up a foundation for CSS styling exercises.
+
+---
+
+## Document Type and Language
+
+```html
+<html lang="en">
+```
+
+The `lang="en"` attribute specifies English as the document's language. This helps screen readers pronounce content correctly and assists search engines with language-specific indexing.
+
+---
+
+## Head Section Elements
+
+### Character Encoding
+```html
+<meta charset="UTF-8">
+```
+
+UTF-8 encoding supports all international characters and symbols. Without this, special characters might display as garbled text. Always include this as the first element in `<head>`.
+
+### Viewport Meta Tag
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+This is crucial for responsive design. It tells mobile browsers to set the page width to match the device's screen width rather than defaulting to a desktop viewport (typically 980px). The `initial-scale=1.0` sets the initial zoom level to 100%.
+
+### External Stylesheet
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+This links an external CSS file. The `rel="stylesheet"` attribute defines the relationship between the HTML and the linked file. External stylesheets are preferred because they separate content from presentation and allow multiple pages to share styles.
+
+---
+
+## Body Content Structure
+
+### Header with ID
+```html
+<header id="main-header">
+```
+
+The semantic `<header>` element indicates introductory content. The `id="main-header"` provides a unique identifier, useful for:
+- CSS targeting (e.g., `#main-header { ... }`)
+- JavaScript manipulation
+- In-page navigation with anchor links
+- Remember: IDs must be unique per page
+
+### Class Attribute
+```html
+<h1 class="title">Welcome to CSS Practice</h1>
+```
+
+The `class="title"` allows CSS styling via `.title { ... }`. Unlike IDs, classes can be reused multiple times on a page, making them ideal for styling patterns that repeat.
+
+### Main Content Area
+```html
+<main>
+```
+
+The `<main>` element represents the dominant content of the page. There should be only one `<main>` per page, and it shouldn't be nested inside `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` elements.
+
+### Section Element
+```html
+<section class="content">
+```
+
+The `<section>` element groups related content thematically. It typically includes a heading. The `class="content"` allows for styling and could be reused if you have multiple content sections.
+
+### Anchor Tag
+```html
+<a href="#" class="link">This is a link</a>
+```
+
+The `href="#"` creates a placeholder link that goes nowhere (useful in prototypes). In production, this would contain an actual URL. The `class="link"` allows custom link styling beyond default browser styles.
+
+### Footer with Copyright
+```html
+<footer id="main-footer">
+    <p>&copy; 2024 CSS Practice</p>
+</footer>
+```
+
+The `<footer>` element contains concluding information. The `&copy;` is an HTML entity that renders as ©. Using entities ensures special characters display correctly across all browsers.
+
+---
+
+## Key Teaching Points
+
+**Semantic HTML**: This code uses meaningful tags (`<header>`, `<main>`, `<section>`, `<footer>`) instead of generic `<div>` elements. This improves accessibility, SEO, and code readability.
+
+**IDs vs Classes**: IDs (#) are unique identifiers for styling or JavaScript; classes (.) are reusable styling hooks. Use IDs sparingly and classes frequently.
+
+**Separation of Concerns**: HTML handles structure, CSS (in the external file) handles presentation. This makes maintenance easier and improves performance through caching.
+
+**Accessibility Foundation**: Proper semantic markup and language attributes create a foundation for screen readers and assistive technologies.
+
+---
+
+## Suggested CSS Practice Exercises
+
+For the corresponding `styles.css` file, practice:
+- Selecting by element, class, and ID
+- Box model properties (margin, padding, border)
+- Typography styling (font-family, size, weight, color)
+- Layout techniques (flexbox for header/footer, CSS Grid for main content)
+- Pseudo-classes (`:hover`, `:active` on the link)
+- Responsive design with media queries
+
+This practical provides a clean canvas for exploring CSS fundamentals without overwhelming complexity.
 
 
 ## Other advanced CSS Concepts
