@@ -499,11 +499,7 @@ footer#main-footer {
 
     Here's a detailed breakdown of this HTML practical for your undergraduate web development students:
 
-## Overall Structure
 
-This is a well-formed HTML5 document that demonstrates fundamental web page anatomy and CSS integration. It follows semantic HTML practices and sets up a foundation for CSS styling exercises.
-
----
 
 ## Document Type and Language
 
