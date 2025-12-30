@@ -421,6 +421,8 @@ font-size: 5vmin; /* 5% of smaller dimension */
 
 - _Code to practice_:
 
+- Let us try this without CSS first:
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
