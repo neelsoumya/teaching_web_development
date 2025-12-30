@@ -430,6 +430,7 @@ font-size: 5vmin; /* 5% of smaller dimension */
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Practice</title>
+    /* No CSS yet */
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -450,50 +451,6 @@ font-size: 5vmin; /* 5% of smaller dimension */
 </html>
 ```
 
-```css
-/* styles.css */
-/* Basic Element Selector */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}   
-/* ID Selector */
-header#main-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-/* Class Selector */
-h1.title {
-    font-size: 2.5em;
-}
-/* Descendant Selector */
-section.content {
-    padding: 20px;
-}
-/* Link Styling */
-a.link {
-    color: blue;
-    text-decoration: none;
-}
-/* Link Hover Effect */
-a.link:hover {
-    text-decoration: underline;
-}
-/* Footer Styling */
-footer#main-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-```
 
 - _Explanation of the code above_:
     - The HTML structure includes a header, main content section, and footer.
@@ -604,7 +561,55 @@ The `<footer>` element contains concluding information. The `&copy;` is an HTML 
 
 ---
 
-## Suggested CSS Practice Exercises
+## CSS Practice Exercises
+
+- Now let us add CSS to style the above HTML. Create a file named `styles.css` and add the following styles:
+
+```css
+/* styles.css */
+/* Basic Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}   
+/* ID Selector */
+header#main-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Class Selector */
+h1.title {
+    font-size: 2.5em;
+}
+/* Descendant Selector */
+section.content {
+    padding: 20px;
+}
+/* Link Styling */
+a.link {
+    color: blue;
+    text-decoration: none;
+}
+/* Link Hover Effect */
+a.link:hover {
+    text-decoration: underline;
+}
+/* Footer Styling */
+footer#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+```
+
 
 For the corresponding `styles.css` file, practice:
 - Selecting by element, class, and ID
@@ -614,7 +619,6 @@ For the corresponding `styles.css` file, practice:
 - Pseudo-classes (`:hover`, `:active` on the link)
 - Responsive design with media queries
 
-This practical provides a clean canvas for exploring CSS fundamentals without overwhelming complexity.
 
 
 ## Other advanced CSS Concepts
