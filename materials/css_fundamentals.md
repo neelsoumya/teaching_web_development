@@ -610,6 +610,220 @@ footer#main-footer {
 }
 ```
 
+- An explanation of the CSS code above:
+    - The `body` selector styles the entire page with a font, margin, padding, and background color.
+    - The `header#main-header` selector styles the header with a background color, text color, padding, and center alignment.
+    - The `h1.title` selector increases the font size of the main title.
+    - The `section.content` selector adds padding to the content section.
+    - The `a.link` selector styles links with color and removes underlines.
+    - The `a.link:hover` selector adds an underline on hover for better interactivity.
+    - The `footer#main-footer` selector styles the footer similarly to the header and fixes it to the bottom of the viewport.
+
+Here's a comprehensive breakdown of this CSS file for teaching your undergraduates:
+
+## CSS Fundamentals Overview
+
+This stylesheet demonstrates core CSS concepts: selectors, the box model, typography, pseudo-classes, and positioning. The comments organize it into clear learning sections.
+
+---
+
+## 1. Basic Element Selector
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+```
+
+**What it does**: Targets every `<body>` element (there's only one per page).
+
+**Key Properties Explained**:
+
+- **`font-family: Arial, sans-serif;`** — Sets the default font for the entire page. `Arial` is tried first; if unavailable, the browser uses its default `sans-serif` font. This is called a "font stack."
+
+- **`margin: 0; padding: 0;`** — Removes default browser spacing around the body. Browsers add their own margins/padding, so this "CSS reset" technique gives you a clean starting point.
+
+- **`background-color: #f4f4f4;`** — Sets a light gray background. The `#` indicates a hexadecimal color code (RGB values in hex format).
+
+**Teaching Point**: Element selectors have low specificity and apply broadly. Properties set here cascade down to child elements unless overridden.
+
+---
+
+## 2. ID Selector
+
+```css
+header#main-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+```
+
+**Selector Syntax**: `header#main-header` combines an element selector with an ID selector. This targets a `<header>` element that has `id="main-header"`. 
+
+**Note for Students**: You could write just `#main-header` since IDs are unique, but specifying `header#main-header` makes the code more readable and slightly increases specificity.
+
+**Properties Explained**:
+
+- **`background-color: #333;`** — Dark gray (almost black) background. `#333` is shorthand for `#333333`.
+
+- **`color: white;`** — Sets text color to white. You can use color names, hex codes, RGB, or HSL values.
+
+- **`padding: 10px 0;`** — Adds 10 pixels of space inside the element on top and bottom, 0 on left and right. Format is `top/bottom left/right`.
+
+- **`text-align: center;`** — Centers all inline content (text, inline elements) horizontally.
+
+**Teaching Point**: IDs have high specificity (0,1,0,0), making them powerful but potentially problematic if overused. Encourage students to prefer classes for styling.
+
+---
+
+## 3. Class Selector
+
+```css
+h1.title {
+    font-size: 2.5em;
+}
+```
+
+**Selector Syntax**: `h1.title` targets `<h1>` elements with `class="title"`. Like the ID example, this is more specific than just `.title`.
+
+**Property Explained**:
+
+- **`font-size: 2.5em;`** — Sets font size to 2.5 times the inherited font size. `em` units are relative to the parent element's font size. If the body font is 16px (browser default), this heading becomes 40px (16 × 2.5).
+
+**Teaching Point**: Relative units (`em`, `rem`, `%`) are better for responsive design than fixed units (`px`). `rem` units are relative to the root (`<html>`) element, while `em` units compound with nesting.
+
+---
+
+## 4. Class Selector (Another Example)
+
+```css
+section.content {
+    padding: 20px;
+}
+```
+
+**Property Explained**:
+
+- **`padding: 20px;`** — Adds 20 pixels of space inside the element on all four sides. This is shorthand for `padding: 20px 20px 20px 20px;` (top, right, bottom, left).
+
+**Box Model Connection**: Padding creates space between content and border. The order is: content → padding → border → margin (moving outward).
+
+---
+
+## 5. Link Styling (Default State)
+
+```css
+a.link {
+    color: blue;
+    text-decoration: none;
+}
+```
+
+**Properties Explained**:
+
+- **`color: blue;`** — Changes link text color from the browser default (usually blue, but varies).
+
+- **`text-decoration: none;`** — Removes the default underline from links. This is common in modern web design.
+
+**Teaching Point**: Links have several states (pseudo-classes) that can be styled independently: `:link`, `:visited`, `:hover`, `:active`, `:focus`.
+
+---
+
+## 6. Pseudo-class Selector
+
+```css
+a.link:hover {
+    text-decoration: underline;
+}
+```
+
+**Selector Syntax**: The `:hover` pseudo-class targets elements when the user's cursor is over them.
+
+**What Happens**: When users hover over links with `class="link"`, the underline reappears, providing visual feedback that the element is interactive.
+
+**Teaching Point**: Pseudo-classes select elements based on their state, not their position in the HTML. Common pseudo-classes include `:hover`, `:focus`, `:active`, `:first-child`, `:nth-child()`, and `:not()`.
+
+**Accessibility Note**: Hover effects don't work on touchscreens. For accessibility, ensure interactive elements are still usable without hover states.
+
+---
+
+## 7. Footer with Fixed Positioning
+
+```css
+footer#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+```
+
+**New Properties**:
+
+- **`position: fixed;`** — Removes the element from normal document flow and positions it relative to the viewport (browser window). It stays in place even when the page scrolls.
+
+- **`width: 100%;`** — Makes the footer span the full width of the viewport.
+
+- **`bottom: 0;`** — Anchors the footer to the bottom of the viewport. You could also use `top`, `left`, or `right` with fixed positioning.
+
+**Important Teaching Point**: Fixed positioning has consequences:
+
+1. The element no longer takes up space in the document flow
+2. Other content can scroll beneath it
+3. On short pages, the footer might overlap content
+4. You may need to add `padding-bottom` to the `<body>` or `<main>` equal to the footer's height to prevent content from being hidden
+
+**Common Student Mistake**: Forgetting that fixed elements need explicit dimensions or positioning values. Without `width: 100%`, this footer might not span the full width.
+
+---
+
+## CSS Specificity Summary
+
+Understanding which styles "win" when multiple rules target the same element:
+
+1. **Inline styles** (in HTML `style=""` attribute): 1,0,0,0
+2. **IDs**: 0,1,0,0
+3. **Classes, attributes, pseudo-classes**: 0,0,1,0
+4. **Elements, pseudo-elements**: 0,0,0,1
+
+**Example from this file**:
+- `header#main-header` has specificity 0,1,0,1 (1 ID + 1 element)
+- `.content` has specificity 0,0,1,0 (1 class)
+- `body` has specificity 0,0,0,1 (1 element)
+
+Higher specificity wins. If specificity is equal, the last rule in the CSS file wins (the "cascade").
+
+---
+
+## Suggested Practice Exercises
+
+Modify this CSS to:
+
+1. **Change the color scheme** — Pick a new palette and update all colors
+2. **Add a box shadow** to `.content` for depth
+3. **Change positioning** — Make the footer `static` or `relative` instead of `fixed`
+4. **Add responsive design** — Use `@media` queries to change font sizes on smaller screens
+5. **Experiment with specificity** — Add a rule like `section { padding: 50px; }` and observe why it doesn't override `section.content`
+6. **Style the paragraph** — Add a selector for `section.content p` to practice descendant selectors
+7. **Add transition effects** — Make the link hover effect smooth with `transition: text-decoration 0.3s;`
+
+---
+
+## Common Pitfalls to Highlight
+
+- **Fixed positioning overlaps**: Content can hide under the fixed footer
+- **Specificity wars**: Over-relying on IDs makes styles hard to override
+- **Browser defaults**: Different browsers have different default styles (always use a CSS reset or normalize.css in real projects)
+- **Color contrast**: Ensure sufficient contrast between text and background for accessibility (use tools like WebAIM's contrast checker)
+    
 
 For the corresponding `styles.css` file, practice:
 - Selecting by element, class, and ID
