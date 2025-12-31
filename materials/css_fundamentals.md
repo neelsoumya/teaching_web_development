@@ -897,30 +897,9 @@ h1.title {
 
 ---
 
-## One More Important Note
+## Concept Recap
 
-You're also missing a **semicolon** after `color: green`:
-
-```css
-h1.title{
-  font-size: 1em;
-  color: green   /* ← Missing semicolon! */
-}
-```
-
-**Should be:**
-```css
-h1.title{
-  font-size: 1em;
-  color: green;  /* ← Add semicolon */
-}
-```
-
-While CSS is forgiving with the last property in a block, it's good practice to always include semicolons!
-
----
-
-Does this clear up the confusion? The key is understanding that **inheritance** (getting styles from parents) is different from **specificity** (which rule wins when multiple rules target the same element directly)!
+- _Concept_: The key is understanding that **inheritance** (getting styles from parents) is different from **specificity** (which rule wins when multiple rules target the same element directly)!
 
 ---
 
