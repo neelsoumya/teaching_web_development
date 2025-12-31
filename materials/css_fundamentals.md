@@ -675,7 +675,7 @@ header#main-header {
 
 - **`text-align: center;`** — Centers all inline content (text, inline elements) horizontally.
 
-**Teaching Point**: IDs have high specificity (0,1,0,0), making them powerful but potentially problematic if overused. Encourage students to prefer classes for styling.
+**Teaching Point**: IDs have high specificity, making them powerful but potentially problematic if overused. Better to use classes for styling.
 
 ---
 
@@ -691,9 +691,12 @@ h1.title {
 
 **Property Explained**:
 
-- **`font-size: 2.5em;`** — Sets font size to 2.5 times the inherited font size. `em` units are relative to the parent element's font size. If the body font is 16px (browser default), this heading becomes 40px (16 × 2.5).
+- **`font-size: 2.5em;`** — Sets font size to 2.5 times the inherited font size. 
+- `em` units are relative to the parent element's font size. If the body font is 16px (browser default), this heading becomes 40px (16 × 2.5).
 
 **Teaching Point**: Relative units (`em`, `rem`, `%`) are better for responsive design than fixed units (`px`). `rem` units are relative to the root (`<html>`) element, while `em` units compound with nesting.
+
+- _Exercise_: Move the code block to above the ID selector and see how specificity affects the applied styles! What do you think will happen?
 
 ---
 
