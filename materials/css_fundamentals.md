@@ -698,6 +698,230 @@ h1.title {
 
 - _Exercise_: Move the code block to above the ID selector and see how specificity affects the applied styles! What do you think will happen?
 
+- _Question_: Does the class selector override the ID selector? Why or why not?
+
+- _Answer_:
+
+Great question! Now let me explain what's **actually** happening with this cleaner version of your CSS.
+
+---
+
+## The Key Insight: They're Targeting DIFFERENT Elements!
+
+**The class selector does NOT "win over" the ID selector.** They're not competing at all because they target different elements!
+
+### Your HTML Structure:
+```html
+<header id="main-header">
+  <h1 class="title">Welcome to HTML!</h1>
+</header>
+```
+
+### What Each Selector Targets:
+
+1. **`header#main-header`** → Targets the **`<header>` element**
+2. **`h1.title`** → Targets the **`<h1>` element** (which is INSIDE the header)
+
+---
+
+## What's Being Applied Where
+
+### The `<header>` element gets:
+```css
+header#main-header {
+  background-color: #333333;  /* ← Applied to header */
+  color: red;                 /* ← Applied to header */
+  padding: 10px 0;            /* ← Applied to header */
+  text-align: center;         /* ← Applied to header */
+}
+```
+
+### The `<h1>` element gets:
+```css
+h1.title {
+  font-size: 1em;    /* ← Applied to h1 */
+  color: green;      /* ← Applied to h1 */
+}
+```
+
+---
+
+## Why Is the `<h1>` Green and Not Red?
+
+This is about **inheritance vs. direct styling**:
+
+### Step-by-step what happens:
+
+1. The `<header>` gets `color: red` applied to it
+2. The `<h1>` **would inherit** the red color from its parent header
+3. **BUT** the `h1.title` rule **directly targets** the `<h1>` with `color: green`
+4. **Direct styling always beats inherited styling**
+
+```
+┌─────────────────────────────────┐
+│ header#main-header              │
+│ color: red (applied directly)   │
+│                                 │
+│   ┌─────────────────────────┐  │
+│   │ h1.title                │  │
+│   │ color: green            │  │ ← Direct style WINS
+│   │ (applied directly)      │  │   over inherited red
+│   └─────────────────────────┘  │
+└─────────────────────────────────┘
+```
+
+---
+
+## This Is NOT About Specificity!
+
+Let me be very clear:
+
+### ❌ **Wrong Understanding:**
+"The class selector (.title) beats the ID selector (#main-header)"
+
+### ✓ **Correct Understanding:**
+"The h1 has its own direct style that overrides what it would inherit from its parent"
+
+---
+
+## Specificity Only Matters When Selectors Target the SAME Element
+
+Specificity would matter in this scenario:
+
+```css
+/* Both target the SAME <h1> element */
+h1.title {
+  color: green;        /* Specificity: 0,0,1,1 */
+}
+
+header#main-header h1 {
+  color: blue;         /* Specificity: 0,1,0,2 - WINS! */
+}
+
+/* Result: h1 would be BLUE (higher specificity) */
+```
+
+In this case, the second rule wins because:
+- Both target the same `<h1>` element
+- `0,1,0,2` (1 ID + 1 element + 1 element) beats `0,0,1,1` (1 class + 1 element)
+
+---
+
+## The Cascade Priority Rules
+
+When multiple styles could apply, CSS uses this order:
+
+1. **Is there a direct style on the element?** → Use it
+2. **Is there an inherited style from a parent?** → Use it if no direct style
+3. **Is there a browser default?** → Use it if nothing else applies
+
+In your case:
+- `h1.title { color: green }` is a **direct style** on the `<h1>`
+- `header#main-header { color: red }` would be **inherited** by the `<h1>`
+- **Direct wins over inherited**, always!
+
+---
+
+## A Visual Example
+
+What you're seeing in the browser:
+
+```
+┌──────────────────────────────────────┐
+│  HEADER (dark background, red text)  │ ← header#main-header styles
+│                                      │
+│  Welcome to HTML! (green, small)     │ ← h1.title styles (direct)
+│                                      │
+└──────────────────────────────────────┘
+```
+
+If you removed the `h1.title` rule, THEN the h1 would inherit red:
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header#main-header{
+  background-color: #333333;
+  color: red;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* No h1.title rule anymore */
+```
+
+**Now** the h1 would be red because it would inherit from the header.
+
+---
+
+## To Summarize
+
+| What You Might Think | What's Actually Happening |
+|---------------------|---------------------------|
+| "Class beats ID" | No! They target different elements |
+| "Lower specificity wins" | No! Direct styling beats inheritance |
+| "There's a conflict" | No! Each element gets its own styles |
+
+**The real rule:** When an element has a direct style AND would inherit a style for the same property, **the direct style always wins**, regardless of the specificity of the parent's rule.
+
+---
+
+## Try This Experiment
+
+Remove the `color: green` from `h1.title`:
+
+```css
+h1.title {
+  font-size: 1em;
+  /* color: green  ← Comment this out */
+}
+```
+
+**What happens?** The h1 will now be **red** because it inherits from `header#main-header`.
+
+Then add it back:
+
+```css
+h1.title {
+  font-size: 1em;
+  color: green;  /* ← Uncomment */
+}
+```
+
+**What happens?** The h1 is **green** again because the direct style overrides the inherited red.
+
+---
+
+## One More Important Note
+
+You're also missing a **semicolon** after `color: green`:
+
+```css
+h1.title{
+  font-size: 1em;
+  color: green   /* ← Missing semicolon! */
+}
+```
+
+**Should be:**
+```css
+h1.title{
+  font-size: 1em;
+  color: green;  /* ← Add semicolon */
+}
+```
+
+While CSS is forgiving with the last property in a block, it's good practice to always include semicolons!
+
+---
+
+Does this clear up the confusion? The key is understanding that **inheritance** (getting styles from parents) is different from **specificity** (which rule wins when multiple rules target the same element directly)!
+
 ---
 
 ## 4. Class Selector (Another Example)
