@@ -903,7 +903,7 @@ h1.title {
 
 ---
 
-## 4. Class Selector (Another Example)
+## 4. Class Selector
 
 ```css
 section.content {
