@@ -118,7 +118,7 @@ By the end of this course, students will be able to:
 
 - [Dr. Chuck's PHP Course on YouTube](https://www.youtube.com/watch?v=tuXySrvw8TE&list=PLlRFEj9H3Oj7FHbnXWviqQt0sKEK_hdKX): A playlist of free video lectures covering web programming concepts.
 
-- W3Schools (https://www.w3schools.com): A comprehensive resource for learning web technologies including HTML, CSS, and PHP.
+- [W3Schools](https://www.w3schools.com): A comprehensive resource for learning web technologies including HTML, CSS, and PHP.
 
 <!--
 ### Course Files
