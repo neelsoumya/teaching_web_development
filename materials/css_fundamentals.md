@@ -698,7 +698,7 @@ h1.title {
 
 - _Exercise_: Move the code block to above the ID selector and see how specificity affects the applied styles! What do you think will happen?
 
-- _Question_: Does the class selector override the ID selector? Why or why not?
+- _Question_: Why does the class selector *win* over the ID selector?
 
 - _Answer_:
 
