@@ -903,6 +903,357 @@ h1.title {
 
 ---
 
+## Specificity Concept Summary
+
+
+**Specificity** is CSS's way of deciding which rule wins when **multiple rules target the exact same element and set the same property**.
+
+Think of it as a scoring system where each type of selector gets points, and the rule with the highest score wins.
+
+---
+
+## The Specificity Scoring System
+
+Specificity is calculated as a four-part number: **a,b,c,d**
+
+| Position | What It Counts | Points | Example |
+|----------|----------------|--------|---------|
+| **a** | Inline styles | 1,0,0,0 | `<h1 style="color: red;">` |
+| **b** | IDs | 0,1,0,0 | `#main-header` |
+| **c** | Classes, attributes, pseudo-classes | 0,0,1,0 | `.title`, `[type="text"]`, `:hover` |
+| **d** | Elements, pseudo-elements | 0,0,0,1 | `h1`, `div`, `::before` |
+
+**Higher numbers in earlier positions always win**, like reading a number from left to right.
+
+---
+
+## Breaking Down the Example
+
+Let's analyze both selectors step-by-step:
+
+### Selector 1: `h1.title`
+
+```css
+h1.title {
+  color: green;
+}
+```
+
+**What's in this selector?**
+- `h1` → **1 element** 
+- `.title` → **1 class**
+
+**Specificity calculation:**
+- Inline styles: **0** (none)
+- IDs: **0** (none)
+- Classes: **1** (`.title`)
+- Elements: **1** (`h1`)
+
+**Total: 0,0,1,1**
+
+---
+
+### Selector 2: `header#main-header h1`
+
+```css
+header#main-header h1 {
+  color: blue;
+}
+```
+
+**What's in this selector?**
+- `header` → **1 element**
+- `#main-header` → **1 ID**
+- `h1` → **1 element**
+
+**Specificity calculation:**
+- Inline styles: **0** (none)
+- IDs: **1** (`#main-header`)
+- Classes: **0** (none)
+- Elements: **2** (`header` + `h1`)
+
+**Total: 0,1,0,2**
+
+---
+
+## Why Does `0,1,0,2` Beat `0,0,1,1`?
+
+Compare the numbers **position by position, from left to right**:
+
+```
+    a  b  c  d
+    ↓  ↓  ↓  ↓
+1:  0, 0, 1, 1   (h1.title)
+2:  0, 1, 0, 2   (header#main-header h1)
+    ↑  ↑
+    │  │
+    │  └─ Position b: 1 > 0 — Selector 2 WINS!
+    │
+    └─ Position a: 0 = 0 (tie, move to next position)
+```
+
+**The comparison stops at position b** because we found a difference:
+- Selector 2 has **1 ID** (position b = 1)
+- Selector 1 has **0 IDs** (position b = 0)
+- Since 1 > 0, selector 2 wins!
+
+**The remaining positions (c and d) don't even matter** once we find a difference in an earlier position.
+
+---
+
+## Why Position Matters So Much
+
+Think of specificity like money in different currencies:
+
+```
+Position a (Inline) = $1,000,000
+Position b (IDs)    = $1,000
+Position c (Classes) = $1
+Position d (Elements) = $0.01
+```
+
+**One ID ($1,000) is worth more than 1,000 classes ($1 each)!**
+
+### Example:
+```css
+/* 11 classes = 0,0,11,0 */
+.a.b.c.d.e.f.g.h.i.j.k {
+  color: red;
+}
+
+/* 1 ID beats all those classes! = 0,1,0,0 */
+#main-header {
+  color: blue;  /* ← WINS! */
+}
+```
+
+Even though the first rule has 11 classes, the second rule wins because **1 ID beats any number of classes**.
+
+---
+
+## Visual Representation of Your Example
+
+### The HTML:
+```html
+<header id="main-header">
+  <h1 class="title">Welcome to HTML!</h1>
+</header>
+```
+
+### The CSS:
+```css
+/* Selector 1: Specificity 0,0,1,1 */
+h1.title {
+  color: green;
+}
+
+/* Selector 2: Specificity 0,1,0,2 */
+header#main-header h1 {
+  color: blue;
+}
+```
+
+### What CSS Does:
+
+1. **Finds the target:** Both selectors match the `<h1>` element
+2. **Both set the same property:** `color`
+3. **Compares specificity:**
+   - `h1.title` = 0,0,1,1
+   - `header#main-header h1` = 0,1,0,2
+   - **0,1,0,2 > 0,0,1,1** (because of the ID)
+4. **Applies the winner:** `color: blue`
+
+**Result:** The `<h1>` text is **blue**, not green!
+
+---
+
+## More Examples to Solidify Understanding
+
+### Example 1: Elements vs. Classes
+```css
+/* Specificity: 0,0,0,3 (3 elements) */
+header main h1 {
+  color: red;
+}
+
+/* Specificity: 0,0,1,0 (1 class) - WINS! */
+.title {
+  color: blue;
+}
+```
+**Winner:** `.title` (blue) — 1 class beats any number of elements
+
+---
+
+### Example 2: Classes vs. IDs
+```css
+/* Specificity: 0,0,5,0 (5 classes) */
+.a.b.c.d.e {
+  color: red;
+}
+
+/* Specificity: 0,1,0,0 (1 ID) - WINS! */
+#main-header {
+  color: blue;
+}
+```
+**Winner:** `#main-header` (blue) — 1 ID beats any number of classes
+
+---
+
+### Example 3: Complex Combination
+```css
+/* Specificity: 0,0,1,1 (1 class + 1 element) */
+h1.title {
+  color: green;
+}
+
+/* Specificity: 0,0,2,1 (2 classes + 1 element) - WINS! */
+h1.title.main {
+  color: blue;
+}
+
+/* Specificity: 0,1,0,0 (1 ID) - WINS OVER ALL! */
+#heading {
+  color: red;
+}
+```
+**Winner:** `#heading` (red) — The ID beats everything else
+
+---
+
+## What If Specificity Is Equal?
+
+When two rules have **exactly the same specificity**, the **last one in the CSS file wins** (this is the "cascade" part of CSS):
+
+```css
+/* Both have specificity: 0,0,1,0 */
+
+.title {
+  color: green;  /* Defined first */
+}
+
+.title {
+  color: blue;   /* Defined last - WINS! */
+}
+```
+
+**Result:** Blue text (last rule wins when specificity is tied)
+
+---
+
+## Important Edge Cases
+
+### Descendant Selectors Count Each Part
+```css
+/* This is NOT specificity 0,0,1,1 */
+/* It's 0,1,0,2 because you count EVERY part */
+header#main-header h1 {
+  color: blue;
+}
+```
+- `header` = 1 element
+- `#main-header` = 1 ID
+- `h1` = 1 element
+- **Total: 0,1,0,2**
+
+---
+
+### The Universal Selector `*` Has Zero Specificity
+```css
+/* Specificity: 0,0,0,0 */
+* {
+  color: red;
+}
+
+/* Specificity: 0,0,0,1 - WINS! */
+p {
+  color: blue;
+}
+```
+
+---
+
+### Combinators Don't Add Specificity
+```css
+/* The >, +, ~, and space combinators add ZERO specificity */
+
+/* Specificity: 0,0,0,2 (just 2 elements) */
+header > h1 {
+  color: blue;
+}
+```
+
+---
+
+## The `!important` Exception
+
+There's one thing that overrides specificity: `!important`
+
+```css
+/* Specificity: 0,0,1,1 */
+h1.title {
+  color: green !important;  /* ← WINS despite lower specificity! */
+}
+
+/* Specificity: 0,1,0,2 (higher!) */
+header#main-header h1 {
+  color: blue;
+}
+```
+
+**Result:** Green text (because of `!important`)
+
+**⚠️ Warning:** Avoid using `!important` unless absolutely necessary. It makes CSS very hard to maintain because it breaks the normal specificity rules.
+
+---
+
+## Practical Tips for Students
+
+### 1. **Keep specificity low when possible**
+```css
+/* Good: Low specificity, easy to override */
+.title {
+  color: blue;
+}
+
+/* Bad: High specificity, hard to override */
+body header#main-header div.container h1.title {
+  color: blue;
+}
+```
+
+### 2. **Use classes more than IDs for styling**
+- IDs have very high specificity
+- Classes are more flexible and reusable
+
+### 3. **Avoid inline styles**
+```html
+<!-- Bad: Highest specificity, hard to override -->
+<h1 style="color: red;">Title</h1>
+
+<!-- Good: Use classes instead -->
+<h1 class="title">Title</h1>
+```
+
+### 4. **Use browser DevTools to see specificity**
+Open Chrome/Firefox DevTools (F12) → Inspect element → See which rules are being applied and which are crossed out due to lower specificity
+
+---
+
+## Summary
+
+**Specificity is calculated as: (inline, IDs, classes, elements)**
+
+Your example:
+- `h1.title` = **0,0,1,1** (1 class, 1 element)
+- `header#main-header h1` = **0,1,0,2** (1 ID, 2 elements)
+
+**Winner:** `header#main-header h1` because the **ID in position b** makes it more specific than any combination of classes and elements.
+
+**The golden rule:** Compare specificity left to right. The first position with a higher number wins, and all other positions become irrelevant.
+
+
 ## 4. Class Selector
 
 ```css
