@@ -541,7 +541,7 @@ The `href="#"` creates a placeholder link that goes nowhere (useful in prototype
 ### Footer with Copyright
 ```html
 <footer id="main-footer">
-    <p>&copy; 2024 CSS Practice</p>
+    <p>&copy; 2026 CSS Practice</p>
 </footer>
 ```
 
@@ -549,7 +549,7 @@ The `<footer>` element contains concluding information. The `&copy;` is an HTML 
 
 ---
 
-## Key Teaching Points
+## Key Points
 
 **Semantic HTML**: This code uses meaningful tags (`<header>`, `<main>`, `<section>`, `<footer>`) instead of generic `<div>` elements. This improves accessibility, SEO, and code readability.
 
@@ -619,12 +619,10 @@ footer#main-footer {
     - The `a.link:hover` selector adds an underline on hover for better interactivity.
     - The `footer#main-footer` selector styles the footer similarly to the header and fixes it to the bottom of the viewport.
 
-Here's a comprehensive breakdown of this CSS file for teaching your undergraduates:
 
 ## CSS Fundamentals Overview
 
-This stylesheet demonstrates core CSS concepts: selectors, the box model, typography, pseudo-classes, and positioning. The comments organize it into clear learning sections.
-
+This stylesheet demonstrates core CSS concepts: selectors, the box model, typography, pseudo-classes, and positioning. 
 ---
 
 ## 1. Basic Element Selector
@@ -638,7 +636,7 @@ body {
 }
 ```
 
-**What it does**: Targets every `<body>` element (there's only one per page).
+**What it does**: Targets every `<body>` element (there is only one per page).
 
 **Key Properties Explained**:
 
