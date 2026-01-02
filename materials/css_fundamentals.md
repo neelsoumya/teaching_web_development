@@ -574,6 +574,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }   
+
 /* ID Selector */
 header#main-header {
     background-color: #333;
@@ -581,10 +582,12 @@ header#main-header {
     padding: 10px 0;
     text-align: center;
 }
+
 /* Class Selector */
 h1.title {
     font-size: 2.5em;
 }
+
 /* Descendant Selector */
 section.content {
     padding: 20px;
