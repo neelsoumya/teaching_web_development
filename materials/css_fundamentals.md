@@ -600,6 +600,7 @@ a.link {
 /* Link Hover Effect */
 a.link:hover {
     text-decoration: underline;
+    background-color: gray;
 }
 /* Footer Styling */
 footer#main-footer {
