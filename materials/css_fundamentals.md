@@ -588,10 +588,10 @@ h1.title {
     font-size: 2.5em;
 }
 
-/* Descendant Selector */
 section.content {
     padding: 20px;
 }
+
 /* Link Styling */
 a.link {
     color: blue;
