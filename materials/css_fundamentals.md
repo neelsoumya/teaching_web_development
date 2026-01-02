@@ -1432,13 +1432,7 @@ h2 ~ p {
 
 - Explanations and examples of how each combinator works.
 
-Excellent! Let me give you a comprehensive explanation of **descendant selectors** with detailed examples.
-
----
-
-## What Is a Descendant Selector?
-
-A **descendant selector** uses a **space** between two selectors to target elements that are **inside** (nested within) other elements, at **any level of depth**.
+- A **descendant selector** uses a **space** between two selectors to target elements that are **inside** (nested within) other elements, at **any level of depth**.
 
 ```css
 /* General pattern */
@@ -1451,7 +1445,7 @@ The space means: "Find all `descendant` elements that are somewhere inside an `a
 
 ---
 
-## Your Example Explained
+### Example Explained
 
 ```css
 /* All p elements inside div */
@@ -1468,7 +1462,7 @@ div p {
 
 ---
 
-## HTML Examples That Match
+### HTML Examples That Match
 
 ### Example 1: Direct Child
 ```html
@@ -1512,7 +1506,7 @@ div p {
 
 ---
 
-## HTML Examples That DON'T Match
+### HTML Examples That DON'T Match
 
 ### Example 1: Outside the div
 ```html
@@ -1538,7 +1532,7 @@ div p {
 
 ---
 
-## Complete Working Example
+### Complete Working Example
 
 Here's a full HTML/CSS demonstration:
 
@@ -1591,7 +1585,7 @@ Here's a full HTML/CSS demonstration:
 
 ---
 
-## More Complex Descendant Selector Examples
+### More Complex Descendant Selector Examples
 
 ### Example 1: Three-Level Descendant Selector
 ```css
@@ -1701,7 +1695,7 @@ div a {
 
 ---
 
-## Descendant vs. Child Selector
+### Descendant vs. Child Selector
 
 ### **Descendant Selector** (space) - Any level
 ```css
@@ -1826,7 +1820,7 @@ form label {
 
 ---
 
-## Specificity of Descendant Selectors
+- Specificity of Descendant Selectors
 
 Remember: **Add up the specificity of all parts**
 
@@ -1871,7 +1865,6 @@ div p {
 
 ---
 
-## Common Mistakes to Avoid
 
 ### Mistake 1: Forgetting the Space
 ```css
@@ -1920,9 +1913,9 @@ div p {
 
 ---
 
-## Practice Exercise for Your Students
+## Practice Exercise for Students
 
-Give them this HTML and ask them which paragraphs will be blue:
+For this HTML which paragraphs will be blue?
 
 ```html
 <!DOCTYPE html>
@@ -1961,14 +1954,6 @@ Give them this HTML and ask them which paragraphs will be blue:
 
 ---
 
-## Summary
-
-**Descendant Selector Pattern:**
-```css
-ancestor descendant {
-    property: value;
-}
-```
 
 **Key Points:**
 - The **space** is crucial - it defines the descendant relationship
