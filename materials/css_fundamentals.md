@@ -1965,7 +1965,7 @@ For this HTML which paragraphs will be blue?
 - Keep selectors as short as practical for maintainability
 
 
-#### 2.3 Attribute Selectors
+### 2.3 Attribute Selectors
 
 ```css
 /* Has attribute */
