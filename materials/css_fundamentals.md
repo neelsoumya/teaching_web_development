@@ -1534,7 +1534,7 @@ div p {
 
 ### Complete Working Example
 
-Here's a full HTML/CSS demonstration:
+Here is a full HTML/CSS demonstration:
 
 ```html
 <!DOCTYPE html>
