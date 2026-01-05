@@ -6,6 +6,8 @@
 
 - [Video by Dr. Chuck on CSS Basics Part 3](https://youtu.be/SLiS4oQahuk?si=MIid0eo2CLZld67Z): The third part of the CSS basics series, focusing on practical applications.
 
+- [Video by Dr. Chuck on CSS Specificity Explained](https://www.youtube.com/watch?v=pzw7JnPCGdo): A detailed explanation of CSS specificity and how it affects style application.
+
 
 # Installation/Playground
 
