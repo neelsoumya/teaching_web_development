@@ -2441,6 +2441,14 @@ span {
 
 - code example here:
 
+```html
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+```
+
 ```css
 nav {
     position: fixed;
