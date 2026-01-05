@@ -4,6 +4,11 @@ PHP (Hypertext Preprocessor) is a popular server-side scripting language designe
 
 It is especially suited for creating dynamic web pages and applications.
 
+## Resources
+
+- [Video Tutorial on PHP by Dr. Chuck Severance](https://youtu.be/srw_5veGPyg?si=HKIJlFpNOWJyDfgb)
+
+
 ## Key Features of PHP
 
 - **Server-Side Scripting:** PHP code is executed on the server, generating HTML that is sent to the client's browser.
