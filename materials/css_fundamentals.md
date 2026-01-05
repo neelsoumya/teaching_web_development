@@ -933,7 +933,7 @@ Specificity is calculated as a four-part number: **a,b,c,d**
 
 ## Breaking Down the Example
 
-Let's analyze both selectors step-by-step:
+Let us analyze both selectors step-by-step:
 
 ### Selector 1: `h1.title`
 
