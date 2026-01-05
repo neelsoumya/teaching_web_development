@@ -2435,6 +2435,28 @@ span {
 }
 ```
 
+### nav bar
+
+- nav bar with fixed position at top
+
+- code example here:
+
+```css
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+```
+
+
+
+
 ## Activity
 
 🛠️ Teaching Tools & Platforms
