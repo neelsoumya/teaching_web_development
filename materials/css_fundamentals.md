@@ -1554,7 +1554,7 @@ Here is a full HTML/CSS demonstration:
     <h1>Descendant Selector Example</h1>
     
     <!-- This paragraph is NOT inside a div -->
-    <p>I am BLACK text (default color)</p>
+    <p>I am BLACK text (default colour)</p>
     
     <!-- These paragraphs ARE inside a div -->
     <div>
