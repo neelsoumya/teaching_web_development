@@ -61,6 +61,7 @@ This is more HTML content.
 
 - _Concept_: Output from PHP is substituted into the HTML at the location of the PHP code.
 
+- _Concept_: It runs on the server, and the client only sees the resulting HTML.
 
 
 
@@ -219,4 +220,19 @@ foreach ($fruits as $fruit) {
 }
 ?>
 ```
+
+## Implicit type conversions
+
+- PHP performs implicit type conversions when necessary.
+- For example, when a string is used in a numeric context, PHP will attempt to convert it to a number.
+
+```php
+<?php
+$number = "10"; // string
+$sum = $number + 5; // PHP converts $number to an integer
+echo $sum; // Outputs: 15
+?>
+```
+
+- Be cautious with implicit conversions, as they can lead to unexpected results.
 
