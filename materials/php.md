@@ -59,9 +59,9 @@ Hello, World!
 This is more HTML content.
 ```
 
-- _Concept_: Output from PHP is substituted into the HTML at the location of the PHP code.
+- 🚀 _Concept_: Output from PHP is substituted into the HTML at the location of the PHP code.
 
-- _Concept_: It runs on the server, and the client only sees the resulting HTML.
+- 🚀 _Concept_: It runs on the server, and the client only sees the resulting HTML.
 
 
 
@@ -224,7 +224,7 @@ foreach ($fruits as $fruit) {
 
 ## Implicit type conversions
 
-- PHP performs implicit type conversions when necessary.
+- ⚠️ PHP performs implicit type conversions when necessary.
 - For example, when a string is used in a numeric context, PHP will attempt to convert it to a number.
 
 ```php
@@ -235,7 +235,7 @@ echo $sum; // Outputs: 15
 ?>
 ```
 
-- Be cautious with implicit conversions, as they can lead to unexpected results.
+- ⚠️ Be cautious with implicit conversions, as they can lead to unexpected results.
 
 
 ## Operators
@@ -259,7 +259,7 @@ $orCondition = ($a < 5 || $b < 10); // Logical OR
 ```
 - == will perform type conversion if the types of the operands are different.
 - === will not perform type conversion and will check both value and type.
-- _NOTE_: = is the assignment operator.
+- 🚀 _NOTE_: = is the assignment operator.
 
 
 ## Increment and Decrement Operators
