@@ -163,7 +163,8 @@ $price = 19.99; // $price is a float
 
 - [PHP Operators](https://www.w3schools.com/php/php_operators.asp)
 
-## Examples
+
+## 📝 Examples
 
 - [PHP Examples](https://www.w3schools.com/php/php_examples.asp)
 
@@ -259,4 +260,51 @@ $orCondition = ($a < 5 || $b < 10); // Logical OR
 - == will perform type conversion if the types of the operands are different.
 - === will not perform type conversion and will check both value and type.
 - _NOTE_: = is the assignment operator.
+
+
+## Increment and Decrement Operators
+- PHP provides increment (`++`) and decrement (`--`) operators to increase or decrease the value of a variable by one.
+```php
+<?php
+$x = 5;
+$x++; // Increment: $x is now 6
+$y = 10;
+$y--; // Decrement: $y is now 9
+?>
+```
+- These operators can be used in both prefix and postfix forms.
+```php
+<?php
+$a = 3;
+$b = ++$a; // Prefix: $a is incremented to 4, then assigned to $b
+$c = $a++; // Postfix: $c is assigned the value 4, then $a is incremented to 5
+?>
+```
+- The prefix form increments or decrements the variable before its value is used in an expression, while the postfix form uses the variable's current value before incrementing or decrementing it.
+
+
+<!--🧩 Fun Activity      -->
+<!--🚀 Fun Activity      -->
+
+## 🎮 Fun Activity        <!-- interactive / playful -->
+
+
+
+- What values will be printed by the following code?
+
+```php
+<?php
+$x = 12;
+$y = 15 + $x++;
+echo "x is $x and y is $y";
+$z = 20 + ++$x;
+echo "x is $x and y is $y and z is $z";
+?>
+```
+
+<!--
+- The output will be:
+```x is 13 and y is 27x is 14 and y is 27 and z is 34
+```
+-->
 
