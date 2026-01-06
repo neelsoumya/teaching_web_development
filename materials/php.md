@@ -35,6 +35,35 @@ It is especially suited for creating dynamic web pages and applications.
 - **Open Source:** PHP is free to use and has a large community that contributes to its development and provides support.
 
 
+## Example PHP Code
+
+- Interleaved HTML and PHP code:
+
+```php
+<h1> Hello from HTML </h1>
+
+<?php
+// This is a simple PHP script that outputs "Hello, World!"
+echo "Hello, World!";
+?>
+
+<p> This is more HTML content. </p>
+
+```
+
+- The output of the above code will be:
+
+```
+Hello from HTML
+Hello, World!
+This is more HTML content.
+```
+
+- _Concept_: Output from PHP is substituted into the HTML at the location of the PHP code.
+
+
+
+
 ## Getting Started with PHP
 
 - [Installation Instructions](installation.md)
