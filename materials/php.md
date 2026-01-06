@@ -11,6 +11,20 @@ It is especially suited for creating dynamic web pages and applications.
 - [Video Tutorial on PHP by Dr. Chuck Severance](https://youtu.be/CwwF801i5_4?si=xg2zXI4IzsRBIrqG)
 
 
+## Features
+
+- Inspired by C and Perl
+- Loosely typed language
+- Supports Object-Oriented Programming (OOP)
+- Extends HTML capabilities
+
+## Philosophy of PHP
+- PHP is designed to be easy to learn and use
+- It emphasizes simplicity and speed
+- Not an exercise in building the most elegant or consistent language possible
+- Errors fail silently by default to avoid disrupting the user experience
+- If you make mistakes, you are responsible for finding and fixing them
+
 
 ## Key Features of PHP
 
@@ -20,11 +34,6 @@ It is especially suited for creating dynamic web pages and applications.
 - **Cross-Platform:** PHP runs on various platforms, including Windows, Linux, and macOS, making it versatile for different server environments.
 - **Open Source:** PHP is free to use and has a large community that contributes to its development and provides support.
 
-## Other features
-
-- Inspired by C and Perl
-- Loosely typed language
-- Supports Object-Oriented Programming (OOP)
 
 ## Getting Started with PHP
 
