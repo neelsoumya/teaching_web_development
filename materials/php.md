@@ -236,3 +236,27 @@ echo $sum; // Outputs: 15
 
 - Be cautious with implicit conversions, as they can lead to unexpected results.
 
+
+## Operators
+
+- PHP supports various operators for arithmetic, comparison, logical operations, and more.
+- Examples of operators:
+
+```php
+<?php
+$a = 10;
+$b = 5; 
+$sum = $a + $b; // Addition
+$difference = $a - $b; // Subtraction
+$product = $a * $b; // Multiplication
+$quotient = $a / $b; // Division
+$isEqual = ($a == $b); // Comparison
+$isGreater = ($a > $b); // Comparison
+$andCondition = ($a > 5 && $b < 10); // Logical AND
+$orCondition = ($a < 5 || $b < 10); // Logical OR
+?>
+```
+- == will perform type conversion if the types of the operands are different.
+- === will not perform type conversion and will check both value and type.
+- _NOTE_: = is the assignment operator.
+
