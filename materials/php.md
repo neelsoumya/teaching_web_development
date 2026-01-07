@@ -428,3 +428,6 @@ echo "Soumya" + 25;
 
 ?>
 ```
+
+- _Concept_ 🚀 ⚠️ There are no errors! Only silent type conversion. Beware!
+
