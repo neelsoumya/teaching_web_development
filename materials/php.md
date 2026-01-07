@@ -433,3 +433,10 @@ echo "Soumya" + 25;
 
 - _Concept_ 🚀 ⚠️ FALSE becomes 0 and TRUE becomes 1
 
+  - Use ===
+
+- _Concept_ 🚀 ⚠️ `echo ` does not show FALSE (since it becomes 0)
+
+
+
+
