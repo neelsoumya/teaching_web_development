@@ -308,3 +308,21 @@ echo "x is $x and y is $y and z is $z";
 ```
 -->
 
+## String concatenation
+
+- The . (dot) operator is used for string concatenation
+
+- 🤔 _Remember_: The + (plus) operator will try to aggeressively type convert and add
+
+- Example code below:
+
+```php
+<?php
+
+$a = "Hello " . "World";
+echo $a . "\n";
+
+?>
+```
+
+
