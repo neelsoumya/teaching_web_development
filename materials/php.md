@@ -361,3 +361,39 @@ echo $x / $y;
 
 ?>
 ```
+
+### Activities: 🎮
+
+- What will be the output of the following code?
+
+```php
+<?php
+
+$z = "100" + 36.25 + TRUE;
+echo $z;
+
+?>
+```
+
+- Explicit type casting
+
+- 🛠️ What will be the output of this code?
+
+```php
+
+<?php
+
+echo "100" + (string) 10;
+
+?>
+```
+
+- 💡 What will be the output of this code?
+
+```php
+<?php
+
+echo "100" . string(10)
+
+?>
+```
