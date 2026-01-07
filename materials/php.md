@@ -397,3 +397,14 @@ echo "100" . string(10)
 
 ?>
 ```
+
+- And this?
+
+
+```php
+<?php
+
+echo (int) 9.9 - 1.9;
+
+?>
+```
