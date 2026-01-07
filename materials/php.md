@@ -325,4 +325,19 @@ echo $a . "\n";
 ?>
 ```
 
+## Side effect assignment
+
+- ⚠️ _NOTE_ This is not a good practice
+
+- Use them sparingly but I show them for the sake of completeness
+
+```php
+<?php
+
+$x = 10;
+$x += 2;
+echo $x;
+
+?>
+```
 
