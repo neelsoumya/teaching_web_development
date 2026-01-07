@@ -431,3 +431,5 @@ echo "Soumya" + 25;
 
 - _Concept_ 🚀 ⚠️ There are no errors! Only silent type conversion. Beware!
 
+- _Concept_ 🚀 ⚠️ FALSE becomes 0 and TRUE becomes 1
+
