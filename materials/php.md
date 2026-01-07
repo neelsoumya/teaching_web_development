@@ -408,3 +408,23 @@ echo (int) 9.9 - 1.9;
 
 ?>
 ```
+
+- What about this?
+
+```php
+<?php
+
+echo "Soumya" . 25;
+
+?>
+```
+
+- And this one?
+
+```php
+<?php
+
+echo "Soumya" + 25;
+
+?>
+```
