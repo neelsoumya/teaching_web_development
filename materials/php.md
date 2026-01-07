@@ -10,6 +10,8 @@ It is especially suited for creating dynamic web pages and applications.
 
 - [Video Tutorial on PHP by Dr. Chuck Severance](https://youtu.be/CwwF801i5_4?si=xg2zXI4IzsRBIrqG)
 
+- [Online PHP compiler](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler)
+
 
 ## Features
 
@@ -341,3 +343,18 @@ echo $x;
 ?>
 ```
 
+## Type casting
+
+- PHP does aggressive type casting
+
+- Floating point
+
+```php
+<?php
+
+$x = 56;
+$y = 12;
+echo $x / $y;
+
+?>
+```
