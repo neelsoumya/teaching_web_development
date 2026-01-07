@@ -333,6 +333,9 @@ echo $a . "\n";
 
 - Use them sparingly but I show them for the sake of completeness
 
+- Try the following code in the [online PHP compiler](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler)
+
+
 ```php
 <?php
 
