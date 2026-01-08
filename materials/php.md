@@ -438,5 +438,18 @@ echo "Soumya" + 25;
 - _Concept_ 🚀 ⚠️ `echo ` does not show FALSE (since it becomes 0)
 
 
+## Equality vs. Identity
+
+- Difference between == and ===
+
+```php
+<?php
+if (123 == "123") print ("Equal \n");
+
+if (123 === "123") print ("Equal \n");
+?>
+```
+
+- More fun examples in the [video by Dr. Chuck Severance on equality](https://youtu.be/r6UdI22AOUM?si=fEldw-vg2T_zVE10&t=858)
 
 
