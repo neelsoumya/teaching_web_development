@@ -501,3 +501,21 @@ echo $str_array[1];
 
 - 💡 `$_GET` (all constituents of end of URL)
 
+
+## Functions
+
+- call by value (default)
+
+- call by reference (use `&`)
+
+- [Video by Dr. Severance on functions](https://youtu.be/qgVaMIXF5EQ?si=i1LTA1-zdPbhB_u1)
+
+- `global` variables
+
+- `include`
+
+```php
+<?php
+include "header.php";
+?>
+```
