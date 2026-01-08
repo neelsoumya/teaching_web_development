@@ -463,3 +463,13 @@ if (123 === "123") print ("Equal \n");
 
 - 🚀 ⚠️ _Concept_ Hence use `===` to check if `strpos()` found the value or not
 
+
+## Comments
+
+- two kinds
+```php
+<?php
+/* comment .... */
+# comment
+?>
+```
