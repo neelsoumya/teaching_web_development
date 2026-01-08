@@ -473,3 +473,8 @@ if (123 === "123") print ("Equal \n");
 # comment
 ?>
 ```
+
+
+## 🛠️ Interview with PHP creator
+
+- [Interview with PHP creator Rasmus Lerdorf](https://youtu.be/YIGRXEzjE6c?si=ZR6Zko5HrMAfx84R)
