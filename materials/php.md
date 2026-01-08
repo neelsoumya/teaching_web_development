@@ -519,3 +519,12 @@ echo $str_array[1];
 include "header.php";
 ?>
 ```
+
+
+# Form processing in PHP
+
+- PHP can be used to submit data from forms
+
+- [Video by Dr. Severance on PHP forms](https://youtu.be/zVd5CS40lrU?si=mNnt5rKL-3Bnm4Ph)
+
+
