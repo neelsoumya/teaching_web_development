@@ -492,3 +492,12 @@ $str_array = array("Hello", "World");
 echo $str_array[1];
 ?>
 ```
+
+## Array functions
+
+- array functions `??` (exists), `count`, `sort` (sort by values in place), `ksort` (sort by keys), `asort` (sort by values)
+
+- `print_r` (print array), `explode` (split array by delimiter)
+
+- 💡 `$_GET` (all constituents of end of URL)
+
