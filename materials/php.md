@@ -440,7 +440,7 @@ echo "Soumya" + 25;
 
 ## Equality vs. Identity
 
-- Difference between == and ===
+- Difference between `==` and `===`
 
 ```php
 <?php
@@ -452,4 +452,14 @@ if (123 === "123") print ("Equal \n");
 
 - More fun examples in the [video by Dr. Chuck Severance on equality](https://youtu.be/r6UdI22AOUM?si=fEldw-vg2T_zVE10&t=858)
 
+- `==` Aggressively convert/cast its operands
+
+
+## Function return values
+
+- If a function fails, it can return `FALSE`!
+
+- e.g. `strpos()` return `FALSE` if it did not find anything. `FALSE` can get converted to 0!
+
+- 🚀 ⚠️ _Concept_ Hence use `===` to check if `strpos()` found the value or not
 
