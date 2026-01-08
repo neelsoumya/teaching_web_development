@@ -431,11 +431,11 @@ echo "Soumya" + 25;
 
 - _Concept_ 🚀 ⚠️ There are no errors! Only silent type conversion. Beware!
 
-- _Concept_ 🚀 ⚠️ FALSE becomes 0 and TRUE becomes 1
+- _Concept_ 🚀 ⚠️ `FALSE` and `NULL` become 0 and `TRUE` becomes 1. 
 
   - Use ===
 
-- _Concept_ 🚀 ⚠️ `echo ` does not show FALSE (since it becomes 0)
+- _Concept_ 🚀 ⚠️ `echo ` does not show `FALSE` (since it becomes 0)
 
 
 ## Equality vs. Identity
