@@ -525,7 +525,11 @@ include "header.php";
 
 - PHP can be used to submit data from forms
 
-- [Video by Dr. Severance on PHP forms](https://youtu.be/zVd5CS40lrU?si=mNnt5rKL-3Bnm4Ph)
+- [Video by Dr. Charles Severance on PHP forms](https://youtu.be/zVd5CS40lrU?si=mNnt5rKL-3Bnm4Ph)
+
+- If using _GET_, variables saved in `$_GET`
+
+- If using _POST_, variables saved in `$_POST`
 
 - Forms
 
