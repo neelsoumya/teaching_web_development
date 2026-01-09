@@ -531,6 +531,14 @@ include "header.php";
 
 - If using _POST_, variables saved in `$_POST`
 
-- Forms
+- [Video comparing GET vs POST and how variables transferred from client to server](https://youtu.be/V1nC77E2QHQ?si=z-3h13gsSU9irEWm&t=146)
+
+- _GET_ is used when you are reading or searching
+
+- _POST_ is used when data is being created or modified
+
+- 🧩 🚀 _Concept_: _GET_ URLs should be `idempotent`. If you hit refresh, you should get same result. For example,  you are searching for a part number `URL?partid=890`
+
+- Code
 
 
