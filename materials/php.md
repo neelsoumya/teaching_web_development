@@ -546,12 +546,16 @@ include "header.php";
 - Code example:
 
 ```php
+<?php
+
 <p> Forms in PHP</p>
 <form method="post">
-  <input type="text" name="guess" id="guess"/>
-  <input type="submit">
+  <label>Input guess</label>
+    <input type="text" name="guess" id="guess"/>
+    <input type="submit">
 </form>
 
+?>
 ```
 
 
