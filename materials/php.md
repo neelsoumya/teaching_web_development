@@ -561,6 +561,14 @@ include "header.php";
 ?>
 ```
 
-- All this gets saved
+- All this gets saved in `$_POST`
 
+- 
 
+```php
+
+<?php
+print($_POST)
+?>
+
+```
