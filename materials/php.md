@@ -543,6 +543,9 @@ include "header.php";
 
 - [Video outlining different PHP form elements (radio boxes, etc)](https://youtu.be/yEh5IrpEesc?si=N6oHoJ-b1s_1kWIm)
 
+
+## 🎮 Practical for PHP forms
+
 - Code example:
 
 ```php
@@ -557,5 +560,7 @@ include "header.php";
 
 ?>
 ```
+
+- All this gets saved
 
 
