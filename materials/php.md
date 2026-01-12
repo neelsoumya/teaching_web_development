@@ -545,6 +545,13 @@ include "header.php";
 
 - Code example:
 
+```php
+<p> Forms in PHP</p>
+<form method="post">
+  <input type="text" name="guess" id="guess"/>
+  <input type="submit">
+</form>
 
+```
 
 
