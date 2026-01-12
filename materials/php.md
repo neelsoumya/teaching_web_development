@@ -548,8 +548,7 @@ include "header.php";
 
 - Code example:
 
-```php
-<?php
+```html
 
 <p> Forms in PHP</p>
 <form method="post">
@@ -558,8 +557,8 @@ include "header.php";
     <input type="submit">
 </form>
 
-?>
 ```
+
 
 - All this gets saved in `$_POST`
 
