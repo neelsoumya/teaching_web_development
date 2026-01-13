@@ -617,3 +617,6 @@ print_r($_POST)
 
 - Start `MAMP` and go to the following [http://localhost:8888/my_php_site/form1.php](http://localhost:8888/my_php_site/form1.php)
 
+
+
+[Next: SQL](MySQL_integration.md)
