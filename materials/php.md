@@ -79,6 +79,7 @@ _ Click on "Start" to start the Apache server.
 
 - Navigate to `http://localhost:8888` or `http://localhost:8888/MAMP/?language=English` in your web browser to verify that the server is running.
 
+
 ## Configuring PHP 
 
 - Edit the file `php.ini` to configure PHP settings.
@@ -565,7 +566,7 @@ include "header.php";
 ```php
 
 <?php
-print($_POST)
+print_r($_POST)
 ?>
 
 ```
