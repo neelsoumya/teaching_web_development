@@ -576,3 +576,44 @@ print_r($_POST)
 - 🚀 _Concept_: If you use `POST` the information will not show up in the URL.
 
 
+## 🎮 Full code. 
+
+- Save the following in `form1.php`. 
+
+- On My Mac OS X, this is saved in the folder `  /Applications/MAMP/htdocs/my_php_site`
+
+
+```php
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$txt = "PHP";
+echo "I love $txt!";
+?>
+
+
+<p> Forms in PHP</p>
+
+<form method="post">
+  <label>Input guess</label>
+    <input type="text" name="guess" id="guess"/>
+    <input type="submit">
+</form>
+
+
+<pre>
+<?php
+print_r($_POST)
+?>
+</pre>
+
+</body>
+</html>
+
+```
+
+- Start `MAMP` and go to the following [http://localhost:8888/my_php_site/form1.php](http://localhost:8888/my_php_site/form1.php)
+
