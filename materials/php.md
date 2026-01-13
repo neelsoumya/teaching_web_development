@@ -570,5 +570,8 @@ print($_POST)
 
 ```
 
-- 🚀 _Concept_: `$_POST` has all the information in an array. `guess` (from the name tag in input field) will have the value.
+- 🚀 _Concept_: `$_POST` has all the information in an array. `guess` (from the _name_ tag in _input_ field) will have the value.
+
+- 🚀 _Concept_: If you use `POST` the information will not show up in the URL.
+
 
