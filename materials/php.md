@@ -621,4 +621,13 @@ print_r($_POST)
 
 
 
+## Other input types in forms
+
+- Radio buttons
+
+- Check boxes
+
+- See [video by Dr. Severance on input types in forms](https://youtu.be/yEh5IrpEesc?si=b28wI3Ammw7bhDiR)
+
+
 [Next: SQL](MySQL_integration.md)
