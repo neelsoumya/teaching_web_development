@@ -578,7 +578,7 @@ print_r($_POST)
 - 🚀 _Concept_: If you use `POST` the information will not show up in the URL.
 
 
-## 🎮 Full code. 
+## 🎮 Full code
 
 - Save the following in `form1.php`. 
 
