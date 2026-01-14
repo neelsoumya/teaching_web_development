@@ -637,4 +637,4 @@ print_r($_POST)
 ## Sessions
 
 
-[Next: SQL](MySQL_integration.md)
+[Next: Javascript](javascript.md)
