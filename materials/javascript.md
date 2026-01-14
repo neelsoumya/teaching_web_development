@@ -46,5 +46,14 @@ JavaScript is a versatile, high-level programming language primarily used for we
 
 </html>
 
-
 ```
+
+## Dialog box
+
+- `alert`
+
+```html
+alert("This is a dialog box")
+```
+
+
