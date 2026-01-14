@@ -540,6 +540,8 @@ include "header.php";
 
 - 🧩 🚀 _Concept_: _GET_ URLs should be `idempotent`. If you hit refresh, you should get same result. For example,  you are searching for a part number `URL?partid=890`
 
+- Search engines also follow URLs (so if your URL has a GET request and it is modifying data, then ..... :-)
+
 - _GET_ has an upper limit on the number of bytes you can send
 
 - [Video outlining different PHP form elements (radio boxes, etc)](https://youtu.be/yEh5IrpEesc?si=N6oHoJ-b1s_1kWIm)
