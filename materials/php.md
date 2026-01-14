@@ -627,7 +627,14 @@ print_r($_POST)
 
 - Check boxes
 
+- Dropdown
+
 - See [video by Dr. Severance on input types in forms](https://youtu.be/yEh5IrpEesc?si=b28wI3Ammw7bhDiR)
+
+
+## Cookies
+
+## Sessions
 
 
 [Next: SQL](MySQL_integration.md)
