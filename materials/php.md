@@ -13,6 +13,11 @@ It is especially suited for creating dynamic web pages and applications.
 - [Online PHP compiler](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler)
 
 
+## Slides
+
+- [Slides for PHP](https://github.com/neelsoumya/teaching_web_development/blob/main/materials/PHP_A_Pragmatists_Field_Guide.pdf)
+
+
 ## Features
 
 - Inspired by C and Perl
