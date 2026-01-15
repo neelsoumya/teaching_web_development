@@ -98,3 +98,5 @@ alert("This is a dialog box")
 ```html
 window.console & console.log("Hello from console")
 ```
+
+- 💡 can have breakpoints in developer console in browser
