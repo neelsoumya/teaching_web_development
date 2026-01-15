@@ -8,6 +8,30 @@ JavaScript is a versatile, high-level programming language primarily used for we
 
 ## 🛠️ Example code (practical)
 
+- Here is some javascript code
+
+```html
+<script type="text/javascript">
+        document.write("<p> Hello from the world of Javascript</p>")
+</script>  
+
+<noscript> This browser does not support Javascript. Yikes!
+</noscript>  
+```
+
+- You can also write this in a separate javascript file
+
+```html
+<script type="text/javascript" src="call.js">
+</script>  
+
+<noscript> This browser does not support Javascript. Yikes!
+</noscript>  
+```
+
+
+- The full code is here:
+
 ```html
 <html lang="en">
 <head>
