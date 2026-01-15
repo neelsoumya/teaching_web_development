@@ -81,3 +81,16 @@ alert("This is a dialog box")
 ```
 
 
+## Javascript fails silently
+
+- Fail silently
+
+- Move on to the next tags
+
+## Useful commands
+
+- `console.log("Hello from console")`
+
+  - will only show in developer console
+
+- 
