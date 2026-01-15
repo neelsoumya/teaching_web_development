@@ -6,6 +6,9 @@ JavaScript is a versatile, high-level programming language primarily used for we
 
 - [video on javascript by Dr. Severance part 1](https://youtu.be/AyIllqHSGoI?si=_loaUr0YDf5J0w0p)
 
+- [video on javascript by Dr. Severance part 2](https://youtu.be/E5jTKLXz9OE?si=E7Zkq6LXHmgBv-4g)
+
+
 ## 🛠️ Example code (practical)
 
 - Here is some javascript code
@@ -100,3 +103,6 @@ window.console & console.log("Hello from console")
 ```
 
 - 💡 can have breakpoints in developer console in browser
+
+- comments `//`
+
