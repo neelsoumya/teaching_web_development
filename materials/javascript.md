@@ -91,6 +91,10 @@ alert("This is a dialog box")
 
 - `console.log("Hello from console")`
 
-  - will only show in developer console
+  - 💡 will only show in developer console
 
-- 
+- can also do 
+
+```html
+window.console & console.log("Hello from console")
+```
