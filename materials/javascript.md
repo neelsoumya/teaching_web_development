@@ -106,3 +106,27 @@ window.console & console.log("Hello from console")
 
 - comments `//`
 
+- string concatenation
+
+```html
+x = 12 + "hello";
+```
+
+- functions
+
+- use `var` for scoping local
+
+```html
+<script>
+  gl = 123;
+
+  function check(){
+    var gl = 456;
+  }
+
+  check(); // call function
+
+  console.log("Value of gl is:", gl);
+
+</script>
+```
