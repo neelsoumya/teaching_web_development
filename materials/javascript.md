@@ -130,3 +130,13 @@ x = 12 + "hello";
 
 </script>
 ```
+
+
+- arrays
+
+```html
+<script>
+  toys = ['bat', 'ball', 'lego'];
+  console.log(toys[1]);
+</script>  
+```
