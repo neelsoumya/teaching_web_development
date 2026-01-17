@@ -141,6 +141,15 @@ x = 12 + "hello";
 </script>  
 ```
 
+- associative arrays
+
+```html
+<script>
+  b = {"name":"chuck", "age":76};
+  console.log(b);
+</script>  
+```
+
 - `NaN` . It is also _sticky_.
 
-- ⚠️ _NOTE_ Scope is global by default!
+- ⚠️ _NOTE_ Scope is global by default! See this [video](https://youtu.be/E5jTKLXz9OE?si=RC_5cJyNFLVxVO7_)
