@@ -153,3 +153,26 @@ x = 12 + "hello";
 - `NaN` . It is also _sticky_.
 
 - ⚠️ _NOTE_ Scope is global by default! See this [video](https://youtu.be/E5jTKLXz9OE?si=RC_5cJyNFLVxVO7_)
+
+
+## 🎮 Exercise (try this in your browser)
+
+- Use [jsfiddle.net](https://jsfiddle.net/) to try the following code
+
+```html
+<head>
+  <script type="text/javascript">
+    function calc(radius){
+      var circum = 2 * Math.PI * radius;
+      return circum;
+    }
+  </script>
+</head>
+
+<body>
+  <form name="myForm">
+    <input type="text" name="answer"/>
+    
+  </form>  
+</body>
+```
