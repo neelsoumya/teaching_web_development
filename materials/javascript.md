@@ -140,3 +140,7 @@ x = 12 + "hello";
   console.log(toys[1]);
 </script>  
 ```
+
+- `NaN` . It is also _sticky_.
+
+- ⚠️ _NOTE_ Scope is global by default!
