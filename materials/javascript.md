@@ -172,7 +172,13 @@ x = 12 + "hello";
 <body>
   <form name="myForm">
     <input type="text" name="answer"/>
-    
+    <br/>
+    <input type="button" value="calculate circumference" onclick="document.myForm.answer.value=calc(70);">
   </form>  
 </body>
 ```
+
+
+## 🧩🚀 Javscript is used to modify the DOM
+
+- DOM = Document Object Model

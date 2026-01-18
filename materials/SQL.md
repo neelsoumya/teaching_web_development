@@ -2,6 +2,13 @@
 
 SQL (Structured Query Language) is a standardized programming language used for managing and manipulating relational databases. It is widely used for querying, updating, and managing data stored in database management systems (DBMS).
 
+# Use of phpMyAdmin
+
+- [phpMyAdmin Tutorial for Beginners](https://www.youtube.com/watch?v=vmSTJI3gFSg&list=PLk-EmIiBIYGF8WCitdIVq7dvvacqY0rdl)
+
+- [Video on phpMyAdmin by Dr. Severance](https://youtu.be/yD6q94ibv3Q?si=bJSeG_8EImc75d6B)
+
+
 ## Key Features of SQL
 
 - **Data Querying:** SQL allows users to retrieve specific data from databases using the `SELECT` statement.
