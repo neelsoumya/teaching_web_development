@@ -182,3 +182,35 @@ x = 12 + "hello";
 ## 🧩🚀 Javscript is used to modify the DOM
 
 - DOM = Document Object Model
+
+- _Concept_: 🧩🚀 Javscript is used to modify the DOM
+
+- [Video by Dr. Severance on DOM and JavaScript](https://youtu.be/jQQ88xzuBTU?si=fseCk7FcMNRWLTRB)
+
+```html
+<span id="person">Jio</span>
+
+<script type="text/javascript">
+  document.getElementById("person").innerHTML = "Hello World!";
+</script>
+```
+
+## 🎮 Practical: Form validation
+
+- Form validation using JavaScript
+
+
+
+
+
+## jQuery
+
+- jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers.
+
+
+
+## JSON
+
+
+
+- [Next: SQL](MySQL_integration.md)
