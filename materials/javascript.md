@@ -241,8 +241,8 @@ x = 12 + "hello";
   }
 
   console.log(m.name);  // Accessing name
-  console.log(m.courses[1]);  // Accessing second course
   console.log(m["name"]);  // Another way to access name
+  console.log(m.courses[1]);  // Accessing second course
 
 </script>
 
