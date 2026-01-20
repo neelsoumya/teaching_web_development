@@ -211,6 +211,8 @@ x = 12 + "hello";
 
 ## JSON
 
+💡 [Video on JSON by Dr. Severance](https://youtu.be/Cjrf7S-rsVk?si=2aYopted24AznOy2)
+
 - JSON = JavaScript Object Notation
 - JSON is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
 - It is often used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
@@ -219,7 +221,7 @@ x = 12 + "hello";
 
 - [JSON standard webpage](https://www.json.org/json-en.html)
 
-- It is also executable JavaScript code!
+- _Concept_: 🧩🚀 JSON is also executable JavaScript code!
 
 - Example of JSON:
 ```html
