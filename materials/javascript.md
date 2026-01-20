@@ -253,7 +253,7 @@ x = 12 + "hello";
 ```
 
 
-
+- 🤔 ❓ Did you know that Javascript is the foundation of typescript, which is now used in large-language models?
 
 
 - [Next: SQL](MySQL_integration.md)
