@@ -215,23 +215,39 @@ x = 12 + "hello";
 - JSON is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
 - It is often used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
 
-- 🥳[Interview of inventor of JSON Douglas Crockford](https://www.youtube.com/watch?v=i-O2LGGmEww)
+- 🥳[Interview of discoverer of JSON Douglas Crockford](https://www.youtube.com/watch?v=i-O2LGGmEww)
 
 - [JSON standard webpage](https://www.json.org/json-en.html)
 
+- It is also executable JavaScript code!
+
 - Example of JSON:
-```json
-{
-  "name": "John Doe",
-  "age": 30,
-  "isStudent": false,
-  "courses": ["Math", "Science", "History"],
-  "address": {
-    "street": "123 Main St",
-    "city": "Anytown",
-    "zip": "12345"
+```html
+<html>
+  <head/>
+  <body>
+
+<script type="text/javascript">
+  m = {
+    "name": "John Doe",
+    "age": 30,
+    "isStudent": false,
+    "courses": ["Math", "Science", "History"],
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "zip": "12345"
+    }
   }
-}
+
+  console.log(m.name);  // Accessing name
+  console.log(m.courses[1]);  // Accessing second course
+  console.log(m["name"]);  // Another way to access name
+
+</script>
+
+</body>
+</html>
 ```
 
 
