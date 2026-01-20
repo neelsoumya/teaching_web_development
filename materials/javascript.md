@@ -211,6 +211,31 @@ x = 12 + "hello";
 
 ## JSON
 
+- JSON = JavaScript Object Notation
+- JSON is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+- It is often used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
+
+- 🥳[Interview of inventor of JSON Douglas Crockford](https://www.youtube.com/watch?v=i-O2LGGmEww)
+
+- [JSON standard webpage](https://www.json.org/json-en.html)
+
+- Example of JSON:
+```json
+{
+  "name": "John Doe",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["Math", "Science", "History"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "zip": "12345"
+  }
+}
+```
+
+
+
 
 
 - [Next: SQL](MySQL_integration.md)
