@@ -75,9 +75,10 @@ $conn->close();
 - Use error handling to manage database connection issues and query failures.
 - Handle database errors gracefully and log them for debugging.
 
-## References
+## Reading Materials
 
 - [PHP MySQL w3schools](https://www.w3schools.com/php/php_mysql_intro.asp): A comprehensive guide on using MySQL with PHP.
+
 
 
 - [Next: HCI fundamentals](HCI.md)
