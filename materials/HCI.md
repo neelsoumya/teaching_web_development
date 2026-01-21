@@ -48,9 +48,41 @@ Universal accessibility refers to the design of products, devices, services, or 
 - Good UX design considers the entire user journey, from initial contact to final interaction.
 
 
+## Interaction Design
+
+- Interaction design is a subset of UX design that focuses specifically on the design of interactive digital products and services. It involves creating engaging interfaces with well-thought-out behaviors.
+
+
+## Wireframing and Prototyping
+- Wireframing is the process of creating a visual guide that represents the skeletal framework of a digital product. It helps in planning the layout and functionality before detailed design and development.
+- Prototyping involves creating an early model of a product to test and validate design concepts and user interactions.
+- 💡 Use _Miro_ or _Figma_ for wireframing and prototyping.
+
+
+## Information Architecture
+
+- Information architecture (IA) is the practice of organizing and structuring content in a way that makes it easy for users to find and navigate information.
+- Good IA enhances usability and helps users understand where they are within a digital product.
+
+## Sitemaps and Navigation Design
+
+- Sitemaps are visual representations of the structure of a website or application, showing the relationships between different pages and sections.
+- Navigation design focuses on creating intuitive and efficient ways for users to move through a digital product.
+- [Draw.io](https://app.diagrams.net/) can be used to create sitemaps and navigation flows.
+- [digestwebdesign.com article on IA](https://digestwebdesign.com/information-architecture/)
+
+
+## Storyboarding
+
+- Storyboarding is a technique used to visualize the user journey and interactions with a product through a series of illustrations or images.
+- It helps designers understand user needs and behaviors, and plan the overall experience.
+- Sample tool: [Canva Storyboard Maker](https://www.canva.com/create/storyboards/)
+
 
 ## Reading Materials
 
 - [Introduction to Human-Computer Interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction): A comprehensive overview of HCI principles and practices.
 - [Web Content Accessibility Guidelines (WCAG) Overview](https://www.w3.org/WAI/standards-guidelines/wcag/): Guidelines for making web content more accessible to people with disabilities.
 
+
+- [Next: UX design fundamentals](UX_design.md)
