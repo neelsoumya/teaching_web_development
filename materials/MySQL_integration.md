@@ -78,3 +78,6 @@ $conn->close();
 ## References
 
 - [PHP MySQL w3schools](https://www.w3schools.com/php/php_mysql_intro.asp): A comprehensive guide on using MySQL with PHP.
+
+
+- [Next: HCI fundamentals](HCI.md)
