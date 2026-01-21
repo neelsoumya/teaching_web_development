@@ -41,6 +41,14 @@ Universal accessibility refers to the design of products, devices, services, or 
 - Design for keyboard navigation and avoid relying solely on mouse interactions.
 - Test interfaces with assistive technologies such as screen readers.
 
+## UX design
+
+- User Experience (UX) design focuses on enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction between the user and the product. 
+
+- Good UX design considers the entire user journey, from initial contact to final interaction.
+
+
+
 ## Reading Materials
 
 - [Introduction to Human-Computer Interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction): A comprehensive overview of HCI principles and practices.
