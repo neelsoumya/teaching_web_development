@@ -79,10 +79,45 @@ Universal accessibility refers to the design of products, devices, services, or 
 - Sample tool: [Canva Storyboard Maker](https://www.canva.com/create/storyboards/)
 
 
+## Design Patterns
+
+- Design patterns are reusable solutions to common design problems. They provide a standard way of solving specific design challenges and can improve consistency across a product.
+- Examples include navigation menus, search bars, and form layouts. 
+- [UI Patterns](https://ui-patterns.com/): A collection of design patterns for user interfaces.
+
+
+
+## Accessibility
+
+- Resources
+    - [W3C Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/): Comprehensive resources and guidelines for web accessibility.
+    - [A11y Project](https://www.a11yproject.com/): A community-driven effort to make web accessibility easier.
+    
+## The elements of user experience
+
+- 🚀 The elements of user experience framework, developed by Jesse James Garrett, outlines five key planes of user experience design: Strategy, Scope, Structure, Skeleton, and Surface.
+- [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
+): A detailed look at the components of user experience design.
+- This framework helps designers understand the different aspects of user experience and how they interrelate.
+
+- Each plane builds upon the previous one, starting with the overall strategy and moving down to the visual design of the interface.
+- Plan your project so that work on each plane is completed before moving to the next.
+
+- 🤔 When the Web started, there were two groups of people: one saw Web pages as documents (and applied principles from traditional media such as publishing), the other saw them as applications (and applied principles from desktop applications). 
+
+- Today, most Web sites are a mixture of both.
+
+
+
+
+
 ## Reading Materials
 
+- [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
+): A detailed look at the components of user experience design.
+<!--
 - [Introduction to Human-Computer Interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction): A comprehensive overview of HCI principles and practices.
 - [Web Content Accessibility Guidelines (WCAG) Overview](https://www.w3.org/WAI/standards-guidelines/wcag/): Guidelines for making web content more accessible to people with disabilities.
-
+-->
 
 - [Next: UX design fundamentals](UX_design.md)
