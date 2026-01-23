@@ -108,6 +108,12 @@ Universal accessibility refers to the design of products, devices, services, or 
 - Today, most Web sites are a mixture of both.
 
 
+## Duality of Web as document and application
+- Web as Document: Focuses on delivering _content_, such as articles, images, and videos. The primary goal is to inform or entertain the user.
+- Web as Application: Emphasizes _tasks_: interactivity and functionality, allowing users to perform tasks such as filling out forms, making purchases, or using web-based software.
+- Designers must balance these two aspects to create effective and engaging web experiences.
+
+
 
 
 
