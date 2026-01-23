@@ -480,6 +480,10 @@ if (123 === "123") print ("Equal \n");
 ?>
 ```
 
+## Diagrammatic summary of PHP basics
+
+![Summary of PHP basics](../images/PHP.png)
+
 
 ## 🛠️ Interview with PHP creator
 
