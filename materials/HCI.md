@@ -116,7 +116,6 @@ Universal accessibility refers to the design of products, devices, services, or 
 
 
 
-
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf

@@ -4,6 +4,16 @@
 
 Integrating SQL databases with PHP is essential for building dynamic web applications that can store, retrieve, and manipulate data. This section covers the basics of connecting to a MySQL database using PHP, executing SQL queries, and handling the results.
 
+- 💡 [Video by Dr. Severance on PHP and MySQL](https://youtu.be/cmKxlLCL2-s?si=AWhzgHhb7lDc9LGz)
+
+## Setting Up the Environment (phpMyAdmin)
+
+To work with MySQL databases in PHP, you can use tools like phpMyAdmin, which provides a web interface for managing MySQL databases.
+1. **Install XAMPP**: XAMPP is a free and open-source cross-platform web server solution stack package that includes Apache, MySQL, PHP, and Perl. Download and install it from [here](https://www.apachefriends.org/index.html).
+2. **Start Apache and MySQL**: Open the XAMPP Control Panel and start the Apache and MySQL services.
+3. **Access phpMyAdmin**: Open your web browser and go to `http://localhost/phpmyadmin/`. This will take you to the phpMyAdmin interface where you can create and manage databases.
+
+
 ## Connecting to a MySQL Database
 
 To connect to a MySQL database using PHP, you can use the `mysqli` extension or PDO (PHP Data Objects). Here’s an example using `mysqli`:
