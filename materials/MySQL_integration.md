@@ -67,7 +67,7 @@ $conn->close();
 ```
 
 ## Best Practices
-- Always sanitize user inputs to prevent SQL injection attacks. Use prepared statements with parameterized queries.
+- Always sanitize user inputs to prevent _SQL injection attacks_. Use prepared statements with parameterized queries.
 - Example of a SQL injection attack is here:
   ```php
   $stmt = $conn->prepare("SELECT id, name, email FROM Users WHERE email = ?");
