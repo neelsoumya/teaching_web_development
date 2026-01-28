@@ -157,6 +157,11 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 - A diagram summarizing these is shown [here](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
 
+## Prototyping (A powerful tool for HCI)
+
+- 🧩 🚀[Video on HCI prototyping STanford](https://www.youtube.com/watch?v=IyMT91wUO54&list=PLLssT5z_DsK_nusHL_Mjt87THSTlgrsyJ&index=2)
+
+
 ## Software
 
 - [Figma](https://www.figma.com/): A collaborative interface design tool for creating wireframes, prototypes, and design systems.
