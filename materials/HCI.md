@@ -95,7 +95,7 @@ Universal accessibility refers to the design of products, devices, services, or 
     
 ## The elements of user experience
 
-- 🚀 The elements of user experience framework, developed by Jesse James Garrett, outlines five key planes of user experience design: Strategy, Scope, Structure, Skeleton, and Surface.
+- 🚀 _CONCEPT_ The elements of user experience framework, developed by Jesse James Garrett, outlines five key planes of user experience design: Strategy, Scope, Structure, Skeleton, and Surface.
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
 ): A detailed look at the components of user experience design.
 - This framework helps designers understand the different aspects of user experience and how they interrelate.
@@ -113,6 +113,55 @@ Universal accessibility refers to the design of products, devices, services, or 
 - Web as Application: Emphasizes _tasks_: interactivity and functionality, allowing users to perform tasks such as filling out forms, making purchases, or using web-based software.
 - Designers must balance these two aspects to create effective and engaging web experiences.
 
+## Human centered design
+
+- Human-Centered Design (HCD) is an approach to problem-solving that prioritizes the needs, preferences, and limitations of end-users throughout the design process.
+- HCD involves understanding users through research, involving them in the design process, and iteratively testing and refining solutions based on user feedback.
+- The goal of HCD is to create products and services that are not only functional but also enjoyable and accessible for the people who use them.
+
+## Design thinking
+
+- Design Thinking is a problem-solving approach that emphasizes empathy, creativity, and iterative testing. It involves five key stages: Empathize, Define, Ideate, Prototype, and Test.
+- Design Thinking encourages designers to deeply understand user needs, generate a wide range of ideas, and create prototypes to test and refine solutions.
+- This approach fosters innovation and helps create user-centered products and services.
+
+## User experience design process
+
+1. **Research**: Understand the users, their needs, and the context of use through methods such as interviews, surveys, and observations.
+2. **Define**: Synthesize research findings to define user personas, scenarios, and requirements.
+3. **Ideate**: Generate a wide range of ideas and potential solutions through brainstorming and other creative techniques.
+4. **Prototype**: Create low-fidelity and high-fidelity prototypes to visualize and test design concepts.
+5. **Test**: Conduct usability testing with real users to gather feedback and identify areas for improvement.
+6. **Implement**: Work with developers to bring the design to life, ensuring that the final product meets user needs and design specifications.
+7. **Evaluate**: Continuously assess the user experience post-launch and make iterative improvements based on user feedback and analytics.
+
+A diagram of the process can be found [here](https://www.interaction-design.org/literature/article/the-7-steps-of-the-user-experience-design-process).
+
+
+## Usability 101 by Jakob Nielsen
+
+📝 [See PDF here, page 15](https://hci-lecture.de/HCI/topics/intro/02-TermiBasics/termiBasics20200413.pdf)
+
+- Jakob Nielsen, a renowned usability expert, has outlined ten key principles for designing usable interfaces:
+1. **Visibility of system status**: Keep users informed about what is going on through appropriate feedback within a reasonable time.
+2. **Match between system and the real world**: Use language and concepts familiar to users, following real-world conventions.
+3. **User control and freedom**: Provide users with the ability to undo and redo actions easily.
+4. **Consistency and standards**: Follow platform conventions and maintain consistency throughout the interface.
+5. **Error prevention**: Design systems to prevent errors from occurring in the first place.
+6. **Recognition rather than recall**: Minimize the user's memory load by making objects, actions, and options visible.
+7. **Flexibility and efficiency of use**: Allow users to tailor frequent actions and provide shortcuts for experienced users.
+8. **Aesthetic and minimalist design**: Avoid unnecessary information and focus on essential elements.
+9. **Help users recognize, diagnose, and recover from errors**: Use clear error messages and provide constructive solutions.
+10. **Help and documentation**: Provide easily accessible help and documentation when needed.
+
+- A diagram summarizing these is shown [here](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+
+## Software
+
+- [Figma](https://www.figma.com/): A collaborative interface design tool for creating wireframes, prototypes, and design systems.
+- [Miro](https://miro.com/): An online collaborative whiteboard platform for brainstorming, wireframing, and planning.
+- [Canva Storyboard Maker](https://www.canva.com/create/storyboards/): A tool for creating storyboards to visualize user journeys and interactions.
 
 
 
@@ -120,6 +169,10 @@ Universal accessibility refers to the design of products, devices, services, or 
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
 ): A detailed look at the components of user experience design.
+- [Introduction to HCI University of Washington course](https://courses.cs.washington.edu/courses/cse440/26wi/): Course materials and lectures on Human-Computer Interaction.
+- [HCI slides](https://hci-lecture.org/introduction/)
+- [Coursera HCI Course](https://www.coursera.org/learn/human-computer-interaction): An online course covering the fundamentals of HCI.
+- [Coursera course on Design Principles](https://www.coursera.org/learn/design-principles): A course that explores key design principles in HCI.
 <!--
 - [Introduction to Human-Computer Interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction): A comprehensive overview of HCI principles and practices.
 - [Web Content Accessibility Guidelines (WCAG) Overview](https://www.w3.org/WAI/standards-guidelines/wcag/): Guidelines for making web content more accessible to people with disabilities.
