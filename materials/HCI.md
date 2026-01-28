@@ -173,6 +173,10 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - _Buxton_ Sketching User Experiences book.
 
+- The number of possibilities narrows as time goes on. This is shown in the figure below:
+
+![Prototyping process](images/Buxton.png)
+
 
 
 
