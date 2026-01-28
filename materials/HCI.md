@@ -161,6 +161,21 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - 🧩 🚀[Video on HCI prototyping STanford](https://www.youtube.com/watch?v=IyMT91wUO54&list=PLLssT5z_DsK_nusHL_Mjt87THSTlgrsyJ&index=2)
 
+- Protyotyping grounds communication.
+
+- Communicating to stakeholders.
+
+- 🧩🚀 _Concept_ Serves as a _common ground_.
+
+- 🤔❓ Example: Kodak built a quick prototype to show what a digital camera can do.
+
+- It is incomplete. It is like a sketch.
+
+- _Buxton_ Sketching User Experiences book.
+
+
+
+
 
 ## Software
 
