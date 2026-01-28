@@ -171,6 +171,7 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 ): A detailed look at the components of user experience design.
 - [Introduction to HCI University of Washington course](https://courses.cs.washington.edu/courses/cse440/26wi/): Course materials and lectures on Human-Computer Interaction.
 - [HCI slides](https://hci-lecture.org/introduction/)
+- [Stanford full course playlist on YouTube for HCI](https://www.youtube.com/playlist?list=PLLssT5z_DsK_nusHL_Mjt87THSTlgrsyJ)
 - [Coursera HCI Course](https://www.coursera.org/learn/human-computer-interaction): An online course covering the fundamentals of HCI.
 - [Coursera course on Design Principles](https://www.coursera.org/learn/design-principles): A course that explores key design principles in HCI.
 <!--
