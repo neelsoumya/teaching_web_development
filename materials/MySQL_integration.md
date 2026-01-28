@@ -4,7 +4,10 @@
 
 Integrating SQL databases with PHP is essential for building dynamic web applications that can store, retrieve, and manipulate data. This section covers the basics of connecting to a MySQL database using PHP, executing SQL queries, and handling the results.
 
-- 💡 [Video by Dr. Severance on PHP and MySQL](https://youtu.be/cmKxlLCL2-s?si=AWhzgHhb7lDc9LGz)
+- 💡 [Video by Dr. Severance on PHP and MySQL part 1](https://youtu.be/cmKxlLCL2-s?si=AWhzgHhb7lDc9LGz)
+
+- [Video by Dr. Severance on PHP and MySQL part 2](https://youtu.be/M_Ai2gzBmWY?si=1bOZ70Clgh9ZCeUs)
+
 
 ## Setting Up the Environment (phpMyAdmin)
 
