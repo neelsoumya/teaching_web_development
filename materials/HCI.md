@@ -95,6 +95,9 @@ Universal accessibility refers to the design of products, devices, services, or 
     
 ## The elements of user experience
 
+- 📚 📝 [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
+): A detailed look at the components of user experience design.
+
 - 🚀 _Concept_ The elements of user experience framework, developed by Jesse James Garrett, outlines five key planes of user experience design: Strategy, Scope, Structure, Skeleton, and Surface.
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
 ): A detailed look at the components of user experience design.
