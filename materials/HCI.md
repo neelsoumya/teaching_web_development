@@ -179,6 +179,8 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - In the 1990s Jeff Hawkins was prototyping the _Palm Pilot_. He built a wooden prototype to test the size and shape of the device (form factor).
 
+![Wooden mockup](images/palmpilot.png)
+
 
 ## Software
 
