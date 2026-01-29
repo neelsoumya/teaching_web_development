@@ -218,9 +218,12 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 - [Stanford full course playlist on YouTube for HCI](https://www.youtube.com/playlist?list=PLLssT5z_DsK_nusHL_Mjt87THSTlgrsyJ)
 - [Coursera HCI Course](https://www.coursera.org/learn/human-computer-interaction): An online course covering the fundamentals of HCI.
 - [Coursera course on Design Principles](https://www.coursera.org/learn/design-principles): A course that explores key design principles in HCI.
+
 <!--
+
 - [Introduction to Human-Computer Interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction): A comprehensive overview of HCI principles and practices.
 - [Web Content Accessibility Guidelines (WCAG) Overview](https://www.w3.org/WAI/standards-guidelines/wcag/): Guidelines for making web content more accessible to people with disabilities.
+
 -->
 
 - [Next: UX design fundamentals](UX_design.md)
