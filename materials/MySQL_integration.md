@@ -104,4 +104,3 @@ $conn->close();
 
 - [Next: Cookies and Sessions](cookies_sessions.md)
 
-- [Next: HCI fundamentals](HCI.md)
