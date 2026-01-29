@@ -181,6 +181,22 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 ![Wooden mockup](images/palmpilot.png)
 
+- Try lots of different ideas quickly.
+
+- Cost of change increases as time goes on.
+
+- Biggest changes should be made early.
+
+
+## Experience economy
+
+- Pine, B. Joseph, and James H. Gilmore. "Welcome to the experienceeconomy." Harvard business review 76 (1998): 97-105.https://hbr.org/1998/07/welcome-to-the-experience-economy
+
+- [pg 14 PDF here](https://hci-lecture.de/HCI/topics/intro/03-TermiUX/TermiUX20200413.pdf)
+
+- The experience economy is a concept that suggests businesses should focus on creating memorable experiences for customers rather than just providing goods or services.
+- In the context of HCI and UX design, this means designing digital products and services that engage users on an emotional level, creating positive and lasting impressions.
+- By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
 
 ## Software
 
