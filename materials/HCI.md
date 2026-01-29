@@ -208,6 +208,8 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 ## Usability studies
 
+- [Video lecture from Stanford](https://youtu.be/ar9Jzl3r0gc?si=DVYYTC2US2TKFxSc)
+
 - How are users going to use the system?
 
 - Usability studies involve observing and analyzing how real users interact with a product or system to identify usability issues and areas for improvement.
