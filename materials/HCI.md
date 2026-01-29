@@ -95,7 +95,7 @@ Universal accessibility refers to the design of products, devices, services, or 
     
 ## The elements of user experience
 
-- 🚀 _CONCEPT_ The elements of user experience framework, developed by Jesse James Garrett, outlines five key planes of user experience design: Strategy, Scope, Structure, Skeleton, and Surface.
+- 🚀 _Concept_ The elements of user experience framework, developed by Jesse James Garrett, outlines five key planes of user experience design: Strategy, Scope, Structure, Skeleton, and Surface.
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
 ): A detailed look at the components of user experience design.
 - This framework helps designers understand the different aspects of user experience and how they interrelate.
@@ -159,7 +159,7 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 ## Prototyping (A powerful tool for HCI)
 
-- 🧩 🚀[Video on HCI prototyping STanford](https://www.youtube.com/watch?v=IyMT91wUO54&list=PLLssT5z_DsK_nusHL_Mjt87THSTlgrsyJ&index=2)
+- 🧩 🚀[Video on HCI prototyping Stanford](https://www.youtube.com/watch?v=IyMT91wUO54&list=PLLssT5z_DsK_nusHL_Mjt87THSTlgrsyJ&index=2)
 
 - Protyotyping grounds communication.
 
@@ -175,11 +175,11 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - The number of possibilities narrows as time goes on. This is shown in the figure below:
 
-![Prototyping process](images/Buxton.png)
+![Prototyping process](../images/Buxton.png)
 
 - In the 1990s Jeff Hawkins was prototyping the _Palm Pilot_. He built a wooden prototype to test the size and shape of the device (form factor).
 
-![Wooden mockup](images/palmpilot.png)
+![Wooden mockup](../images/palmpilot.png)
 
 - Try lots of different ideas quickly.
 
@@ -194,7 +194,7 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - [pg 14 PDF here](https://hci-lecture.de/HCI/topics/intro/03-TermiUX/TermiUX20200413.pdf)
 
-- The experience economy is a concept that suggests businesses should focus on creating memorable experiences for customers rather than just providing goods or services.
+- The _experience economy_ is a concept that suggests businesses should focus on creating memorable experiences for customers rather than just providing goods or services.
 - In the context of HCI and UX design, this means designing digital products and services that engage users on an emotional level, creating positive and lasting impressions.
 - By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
 
