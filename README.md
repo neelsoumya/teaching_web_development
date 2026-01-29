@@ -35,6 +35,7 @@ Course content and materials can be found in the following files:
 - [JavaScript](materials/javascript.md)
 - [SQL basics](materials/SQL.md)
 - [Database MySQL integration](materials/MySQL_integration.md)
+- [Cookies and Sessions](materials/cookies_sessions.md)
 - [ASP.NET introduction](materials/ASP.NET.md)
 - [Security](materials/security.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
