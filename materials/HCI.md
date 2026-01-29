@@ -184,7 +184,7 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 ![Wooden mockup](../images/palmpilot.png)
 
-- Try lots of different ideas quickly.
+- 🧩🚀 _Concept_ Try lots of different ideas quickly.
 
 - Cost of change increases as time goes on.
 
@@ -193,13 +193,29 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 ## Experience economy
 
-- Pine, B. Joseph, and James H. Gilmore. "Welcome to the experienceeconomy." Harvard business review 76 (1998): 97-105.https://hbr.org/1998/07/welcome-to-the-experience-economy
-
 - [pg 14 PDF here](https://hci-lecture.de/HCI/topics/intro/03-TermiUX/TermiUX20200413.pdf)
 
+- Pine, B. Joseph, and James H. Gilmore. "Welcome to the experienceeconomy." Harvard business review 76 (1998): 97-105.https://hbr.org/1998/07/welcome-to-the-experience-economy
+
 - The _experience economy_ is a concept that suggests businesses should focus on creating memorable experiences for customers rather than just providing goods or services.
+
+- Previously , economies evolved from agrarian to industrial to service-based. The next stage is the experience economy, where the focus is on engaging customers through unique and personalized experiences.
+
 - In the context of HCI and UX design, this means designing digital products and services that engage users on an emotional level, creating positive and lasting impressions.
+
 - By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
+
+
+## Usability studies
+
+- How are users going to use the system?
+
+- Usability studies involve observing and analyzing how real users interact with a product or system to identify usability issues and areas for improvement.
+
+- Alan Kay prototyped the [_Dynabook_](https://en.wikipedia.org/wiki/Dynabook#/media/File:Dynabook.png) concept in the 1970s. He built a physical model to demonstrate the idea of a portable computer for learning.
+
+![Dynabook prototype](../images/dynabook.png)
+
 
 ## 📚📝 Software
 
