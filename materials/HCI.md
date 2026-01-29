@@ -198,7 +198,7 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 - In the context of HCI and UX design, this means designing digital products and services that engage users on an emotional level, creating positive and lasting impressions.
 - By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
 
-## Software
+## 📚📝 Software
 
 - [Figma](https://www.figma.com/): A collaborative interface design tool for creating wireframes, prototypes, and design systems.
 - [Miro](https://miro.com/): An online collaborative whiteboard platform for brainstorming, wireframing, and planning.

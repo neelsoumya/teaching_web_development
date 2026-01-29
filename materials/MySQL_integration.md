@@ -88,10 +88,20 @@ $conn->close();
 - Use error handling to manage database connection issues and query failures.
 - Handle database errors gracefully and log them for debugging.
 
+
+## SQL injection
+
+- [xkcd cartoon on SQL injection](https://xkcd.com/327/): A humorous take on the importance of securing SQL queries against injection attacks.
+- [Video by Dr. Severance on SQL injection](https://youtu.be/L4atUHiyPzA?si=o3kZOfr6Sn-zJQ70): An educational video explaining SQL injection and how to prevent it.
+- Use `execute` and `prepare` statements to prevent SQL injection attacks.
+- This will _escape_ any malicious characters in user input.
+
+
 ## Reading Materials
 
 - [PHP MySQL w3schools](https://www.w3schools.com/php/php_mysql_intro.asp): A comprehensive guide on using MySQL with PHP.
 
 
+- [Next: Cookies and Sessions](cookies_sessions.md)
 
 - [Next: HCI fundamentals](HCI.md)
