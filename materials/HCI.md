@@ -235,6 +235,8 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - 🤔❓[`Memex`](https://en.wikipedia.org/wiki/Memex) concept: a personal device to store and retrieve information using associative links. All the world's knowledge stored and accessed easily. Remind you of something? 
 
+- 🧩🚀 _Concept_ You could use `machines` to extend the power of the human mind.
+
 - Analog device designed to serve as a mechanized extension of human memory.
 
 - Desk-like workstation equipped with translucent screens and microfilm storage. The device was intended to house a user's entire personal library of books, records, and communications, providing a solution to the "information explosion" of the post-war era by making vast amounts of data instantly retrievable.
@@ -243,8 +245,13 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 ![Memex device](../images/memex.png)
 
-- Followed by Douglas Engelbart's 1962 report "Augmenting Human Intellect: A Conceptual Framework".
+- This motivated the birth of the World Wide Web.
 
+- _Graphical User Interface_ (GUI) invented at Xerox PARC in the 1970s.
+
+- The mouse and hypertext were also invented at Xerox PARC.
+
+- Followed by Douglas Engelbart's 1962 report "Augmenting Human Intellect: A Conceptual Framework".
 
 
 ## Reading Materials
