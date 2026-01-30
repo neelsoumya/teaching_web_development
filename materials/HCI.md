@@ -197,6 +197,8 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - _Never go to a meeting without a prototype_ 
 
+- 🧩🚀 Prototypes are like _postcards from the future_
+
 
 
 ## Usability studies
