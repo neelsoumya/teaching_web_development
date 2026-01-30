@@ -249,9 +249,18 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - _Graphical User Interface_ (GUI) invented at Xerox PARC in the 1970s.
 
-- The mouse and hypertext were also invented at Xerox PARC.
+- Ivan Sutherland's 1963 _Sketchpad_ system was an early pioneering computer program that introduced the concept of graphical user interfaces (GUIs) and interactive computer graphics. It allowed users to create and manipulate graphical objects directly on a computer screen using a light pen, laying the groundwork for interactive computing.
 
-- Followed by Douglas Engelbart's 1962 report "Augmenting Human Intellect: A Conceptual Framework".
+- Followed by Douglas Engelbart's 1962 report "Augmenting Human Intellect: A Conceptual Framework". He demonstrated the _oN-Line System_ (NLS) in 1968, which featured hypertext linking, video conferencing, and a mouse-driven cursor.
+
+- Alan Kay at Xerox PARC envisioned the _Dynabook_ in the 1970s, a portable, personal computer for learning and creativity, which laid the conceptual foundation for modern laptops and tablets.
+
+- It is the 1980s. It is now 40 years since Vannavar Bush's article. 
+
+- `The Long Nose of Innovation` by Buxton.
+
+- The power of prototypes.
+
 
 
 ## Reading Materials
