@@ -191,19 +191,12 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 - Biggest changes should be made early.
 
 
-## Experience economy
+## 🎮🛠️ Activity (power of prototypes)
 
-- [pg 14 PDF here](https://hci-lecture.de/HCI/topics/intro/03-TermiUX/TermiUX20200413.pdf)
+- 🎮🛠️ Listen to this great [TEDx talk by Scott Klemmer](https://youtu.be/KY_W1JgX6YA?si=TjndKSC9skJAa4kJ)
 
-- Pine, B. Joseph, and James H. Gilmore. "Welcome to the experienceeconomy." Harvard business review 76 (1998): 97-105.https://hbr.org/1998/07/welcome-to-the-experience-economy
+- _Never go to a meeting without a prototype_ 
 
-- The _experience economy_ is a concept that suggests businesses should focus on creating memorable experiences for customers rather than just providing goods or services.
-
-- Previously , economies evolved from agrarian to industrial to service-based. The next stage is the experience economy, where the focus is on engaging customers through unique and personalized experiences.
-
-- In the context of HCI and UX design, this means designing digital products and services that engage users on an emotional level, creating positive and lasting impressions.
-
-- By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
 
 
 ## Usability studies
@@ -263,6 +256,22 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - The power of prototypes.
 
+
+
+
+## Experience economy
+
+- [pg 14 PDF here](https://hci-lecture.de/HCI/topics/intro/03-TermiUX/TermiUX20200413.pdf)
+
+- Pine, B. Joseph, and James H. Gilmore. "Welcome to the experience economy." Harvard business review 76 (1998): 97-105.https://hbr.org/1998/07/welcome-to-the-experience-economy
+
+- The _experience economy_ is a concept that suggests businesses should focus on creating memorable experiences for customers rather than just providing goods or services.
+
+- Previously , economies evolved from agrarian to industrial to service-based. The next stage is the experience economy, where the focus is on engaging customers through unique and personalized experiences.
+
+- In the context of HCI and UX design, this means designing digital products and services that engage users on an emotional level, creating positive and lasting impressions.
+
+- By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
 
 
 ## Reading Materials
