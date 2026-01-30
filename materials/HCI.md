@@ -227,6 +227,26 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 
 
+## Birth of HCI
+
+- [Video by Scott Klemmer on the history of HCI](https://youtu.be/ar9Jzl3r0gc?si=MQeX1s4pSZzA132X)
+
+- Field started with Vannevar Bush's 1945 article ["As We May Think"](https://en.wikipedia.org/wiki/As_We_May_Think) in _The Atlantic Monthly_.
+
+- 🤔❓[`Memex`](https://en.wikipedia.org/wiki/Memex) concept: a personal device to store and retrieve information using associative links. All the world's knowledge stored and accessed easily. Remind you of something? 
+
+- Analog device designed to serve as a mechanized extension of human memory.
+
+- Desk-like workstation equipped with translucent screens and microfilm storage. The device was intended to house a user's entire personal library of books, records, and communications, providing a solution to the "information explosion" of the post-war era by making vast amounts of data instantly retrievable.
+
+- The true breakthrough of the Memex was the concept of associative indexing, which served as the conceptual blueprint for the modern hyperlink. Bush realized that the human mind operates by association rather than by rigid, alphabetical, or numerical filing. The Memex would allow a user to create "trails" of related information, permanently linking two items together so that pulling up one would automatically lead to the other. By mirroring the nonlinear nature of human thought, the Memex aimed to transform a static archive into a dynamic, personalized web of knowledge.
+
+![Memex device](../images/memex.png)
+
+- Followed by Douglas Engelbart's 1962 report "Augmenting Human Intellect: A Conceptual Framework".
+
+
+
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
