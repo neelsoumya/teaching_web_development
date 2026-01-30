@@ -231,6 +231,8 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - [Video by Scott Klemmer on the history of HCI](https://youtu.be/ar9Jzl3r0gc?si=MQeX1s4pSZzA132X)
 
+- [TEDx talk by Scott Klemmer](https://youtu.be/KY_W1JgX6YA?si=TjndKSC9skJAa4kJ)
+
 - Field started with Vannevar Bush's 1945 article ["As We May Think"](https://en.wikipedia.org/wiki/As_We_May_Think) in _The Atlantic Monthly_.
 
 - 🤔❓[`Memex`](https://en.wikipedia.org/wiki/Memex) concept: a personal device to store and retrieve information using associative links. All the world's knowledge stored and accessed easily. Remind you of something? 
