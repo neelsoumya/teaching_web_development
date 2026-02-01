@@ -4,7 +4,13 @@
 
 - [Video by Dr. Severance on cookies and sessions](https://youtu.be/WvGPeF-qHHQ?si=D6B-yKENhi8u39j7)
 
+- Cookies are temporary storage on client browser
 
+- Server uses it store information
+
+- Request/response is stateless. So you need a mechanism to save state.
+
+- Little breadcrumnbs/cookies to save state
 
 
 - [Next: HCI fundamentals](HCI.md)
