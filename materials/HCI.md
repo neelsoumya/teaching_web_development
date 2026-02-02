@@ -259,6 +259,23 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 - The power of prototypes.
 
 
+## Participant observation
+
+[Video lecture on participant observation](https://youtu.be/8SnFEINtf4U?si=SUBO3sTVmvc71-Vj)
+
+- "You can observe a lot by watching" - Yogi Berra
+
+- App for truck drivers needs to have big icons and buttons, and stylus since they will be wearing gloves.
+
+- Deep hanging out
+
+- Be a good apprentice
+
+- Look around for workarounds. For example, post-it notes on printers reminding people how to use it. That could be an opportunity for improving the device.
+
+- Anthropologists/ethnographers studying how people used fax machine at Xerox PARC. We assume that if people cannot use a technology, they are "dumb". However maybe the technology has been designed well enough.
+
+- Walmart asked users in a survey if they would like the aisle to be less cluttered? Please note that they did not ask how the users _used_ the facilities and asked them a leading question. This actually let them to declutter the aisles and eventually led to decline in sales!
 
 
 ## Experience economy
