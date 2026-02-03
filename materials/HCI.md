@@ -293,6 +293,26 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 - By prioritizing user experience and emotional engagement, businesses can differentiate themselves in a competitive market and build stronger relationships with their customers.
 
 
+## Interviewing participants
+
+- What makes something interesting? Anything can be interesting. Even a washing machine.
+
+- Talk with the right people. Not the top echelons. But the people in the middle. (`Malcom Gladwell`)
+
+- Do not ask leading questions : _Would you like a daily update?_
+
+- Sometimes users do not know what they want. Heny Ford had said: `If you asked users in 1800s what they wanted, they would have said a faster horse`.
+
+- Concept: 🧩🚀 _The designer knows the possibilities, but the user does not_
+
+- Instead ask users about their daily lives
+
+- Ask good questions (open ended questions)
+
+_  _Silence is golden_
+
+
+
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
