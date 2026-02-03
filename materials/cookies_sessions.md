@@ -51,7 +51,31 @@ print_r($_COOKIE);
 
 ## Session code
 
+```php
+<?php
+// Note - no output before this
+session_start();
 
+if ( !isset($_SESSION['value']) ){
+    $_SESSION['value'] = 0;
+} else {
+    session_destroy();
+    session_start();
+}
+?>
+
+<p>
+    < a href = "sessfun.php"> Click me 
+    </a>
+</p>
+
+<pre>
+    <?php
+        print_r($_SESSION['value']);
+    ?>
+</pre>
+
+```
 
 
 
