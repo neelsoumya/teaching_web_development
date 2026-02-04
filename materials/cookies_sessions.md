@@ -78,5 +78,13 @@ if ( !isset($_SESSION['value']) ){
 ```
 
 
+## Sessions without cookies
+
+[Video by Dr. Severance](https://youtu.be/syGzIkBLBGs?si=IfNCta_KPlujdD5l)
+
+- Using `hidden` to send session ID.
+
+
+
 
 - [Next: HCI fundamentals](HCI.md)
