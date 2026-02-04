@@ -309,7 +309,23 @@ A diagram of the process can be found [here](https://www.interaction-design.org/
 
 - Ask good questions (open ended questions)
 
-_  _Silence is golden_
+_  _Silence is golden_. Listen to the users and give them time to reflect and respond.
+
+
+
+## Interview techniques
+
+- Diaries. Keep interviewees diaries which they write.
+
+- Followup. Remind people.
+
+- Meet people regularly.
+
+- Lead users. Designers help lead users come up with good solutions. Doctors come up with innovative solutions.
+
+- [Democratizing Innovation and Lead users by Eric von Hippel](https://web.mit.edu/evhippel/www/books/DI/DemocInn.pdf)
+
+- Create _personas_ of users. Models of different kinds of users.
 
 
 
