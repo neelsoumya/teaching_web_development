@@ -328,6 +328,22 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 - Create _personas_ of users. Models of different kinds of users.
 
 
+## Creating design goals
+
+[Lecture by Scott Klemmer](https://youtu.be/m92DLyQNoS8?si=Gim1LN2dTgyVHcim)
+
+- Design transforms existing solutions to preferable ones.
+
+- Example of ants (Herb Simon). Much of the complex behaviour of ants comes from the environment.
+
+- _All design is redesign_.
+
+- Gives you a conceptual _model_
+
+- Activity analysis: what are the pain points? What are the goals? 
+
+- ⚠️ For example, Goal - get bread, subgoals - get in car, turn ignition. Questions for redesign - do need a physical key? Can we get remote/drone powered delivery to home?
+
 
 ## Reading Materials
 
