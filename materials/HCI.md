@@ -344,6 +344,11 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 - ⚠️ For example, Goal - get bread, subgoals - get in car, turn ignition. Questions for redesign - do need a physical key? Can we get remote/drone powered delivery to home?
 
+- Activity design - will users actually use this? will it accomplish something that people need doing? doing taxes etc.
+
+- 💡 We design _artefacts_ (apps, phones) not activities
+
+
 
 ## Reading Materials
 
