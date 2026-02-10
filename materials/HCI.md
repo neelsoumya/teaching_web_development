@@ -361,6 +361,9 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 - Helps get stakeholders on the same page.
 
+- Here is an example of a storyboard
+
+![story](images/storyboard.png)
 
 
 ## Reading Materials
