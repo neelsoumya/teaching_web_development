@@ -353,7 +353,7 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 [Video by Scott Klemmer on storyboards](https://youtu.be/z4glsttyxw8?si=-oaFUFP8wTZRiz--)
 
-- comic strip: show flow, how does user figure in this?
+- 🤔 comic strip: show flow, how does user figure in this?
 
 - _star people_: how to draw people
 
@@ -364,6 +364,8 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 - Here is an example of a storyboard
 
 ![story](images/storyboard.png)
+
+- 🎮 [paper prototypes video and activity](https://youtu.be/z4glsttyxw8?si=yQvl2Hze_-pwovlN&t=417)
 
 
 ## Reading Materials
