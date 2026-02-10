@@ -349,6 +349,19 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 - 💡 We design _artefacts_ (apps, phones) not activities
 
 
+## Storyboarding
+
+[Video by Scott Klemmer on storyboards](https://youtu.be/z4glsttyxw8?si=-oaFUFP8wTZRiz--)
+
+- comic strip: show flow, how does user figure in this?
+
+- _star people_: how to draw people
+
+- Sequence: what steps are involved?
+
+- Helps get stakeholders on the same page.
+
+
 
 ## Reading Materials
 
