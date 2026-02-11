@@ -367,6 +367,13 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 - 🎮 [paper prototypes video and activity](https://youtu.be/z4glsttyxw8?si=yQvl2Hze_-pwovlN&t=417)
 
+- Paper prototypes, transparencies and sticky notes
+
+- Digital mockups
+
+- High fidelity mockups (controlled experiments)
+
+
 
 ## Reading Materials
 
