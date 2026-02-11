@@ -492,6 +492,21 @@ How do you think your students would react to critiquing "broken" stories like t
 - 🥳 2 experts might figure it out, but the rest of the 8 billion people? 
 
 
+
+## AI prototyping tools
+
+- Lovable
+
+- Replit
+
+- Cursor
+
+- Google AI studio
+
+- Base44
+
+
+
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
