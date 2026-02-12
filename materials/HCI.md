@@ -383,7 +383,7 @@ In Python, we can simulate this "sketching" phase by having students create a **
 Here are three ways we could structure a Python-based storyboarding exercise:
 
 1. **The Metadata Map 🗺️**: Students write a Python script that defines a `StoryFrame` class. They must "instantiate" 4-5 frames of their story, specifying the **Sequence**, the **Persona** (the "Star Person" 👤 viewing the data), and the **Key Takeaway**.
-2. **The Skeleton Plotter 🦴**: Students use Matplotlib to create "Blank" plots. Instead of data, they use `plt.text()` to describe what the chart *will* show and where the annotations will go. This mimics the **Paper Prototype** 📝 approach.
+2. **The Skeleton Plotter 🦴**: Students use _Matplotlib_ to create "Blank" plots. Instead of data, they use `plt.text()` to describe what the chart *will* show and where the annotations will go. This mimics the **Paper Prototype** 📝 approach.
 3. **The Narrative Audit 📋**: Students take an existing set of charts and write a Python "wrapper" or function that prints out the transition logic between them (e.g., "Because we see [X] in Frame 1, we must investigate [Y] in Frame 2").
 
 
