@@ -16,6 +16,11 @@ The history of web development dates back to the early 1990s when Tim Berners-Le
 - Mike Sendall commented `vague but exciting ...`
 - [scan of paper](https://info.cern.ch/Proposal.html)
 
+- Mike Sendall was Tim Berners‑Lee’s boss at CERN and played a quiet but crucial enabling role in the birth of the World Wide Web
+
+- With Sendall’s backing, prototype software for a basic web system was working by the end of 1989 and then refined by Berners‑Lee and Robert Cailliau in 1990
+
+- In the late 1980s Robert Cailliau proposed an internal hypertext system at CERN for managing documentation, anticipating many of the ideas that would soon become central to the Web. When Tim Berners‑Lee proposed the World Wide Web in 1989–1990, Cailliau collaborated closely with him, co‑authoring funding proposals and strongly advocating for the project within CERN
 
 ## Evolution of Technologies
 
