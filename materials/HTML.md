@@ -144,16 +144,22 @@ The Wayback Machine is a digital archive of the World Wide Web, allowing users t
 For example, here is what the Yahoo homepage looked like in 1996: [Yahoo 1996](https://web.archive.org/web/19961220154510/https://www.yahoo.com/)
 
 
-## HTML is interpreted, not compiled
+## HTML is neither interpreted, nor compiled
 
-_Concept_: HTML is a markup language that is interpreted by web browsers. Unlike programming languages that require compilation, HTML code is read and rendered directly by the browser to display web pages.
+_Concept_: HTML is a markup language that is not interpreted or compiled by web browsers. Unlike programming languages that require compilation, HTML code is read and rendered directly by the browser to display web pages.
 
+<!--
 Early web browsers, such as the WorldWideWeb developed by Tim Berners-Lee, interpreted HTML code to present content to users. This interpretation process allows for immediate rendering of web pages without the need for a separate compilation step.
+-->
 
 When a user requests a web page, the browser retrieves the HTML file from the server and interprets the markup to construct the Document Object Model (DOM). The DOM represents the structure of the web page, which the browser then uses to render the visual layout and content.
 
-- _Concept_: Interpretation vs. Compilation. 
+- _Concept_: 
+    
+    <!--
     - Interpretation: HTML is read and rendered directly by the browser.
+    -->
+
     - Compilation: Programming languages like C or Java require a separate compilation step to convert code into machine-readable format.
 
 - Syntax leniency in early HTML
@@ -161,6 +167,38 @@ When a user requests a web page, the browser retrieves the HTML file from the se
 Early HTML could also tolerate minor syntax errors, allowing browsers to display content even if the HTML code was not perfectly formatted. This leniency helped in the rapid adoption of HTML as a standard for web content.
 
 This motivated the creation of the W3C Consortium to establish formal standards for HTML and other web technologies, ensuring consistency and compatibility across different browsers and platforms.
+
+HTML is **neither compiled nor interpreted** in the traditional programming-language sense — it’s **parsed and rendered** by the browser.
+
+### 🧩 What actually happens
+
+* HTML is a **markup language**, not a programming language.
+* The browser **parses** the HTML file — meaning it reads the tags and structure.
+* It builds a **DOM (Document Object Model)** tree from that structure.
+* Then the browser **renders** the page visually.
+
+### ⚖️ Why people get confused
+
+* It feels *interpreted* because the browser reads it line-by-line and shows results immediately.
+* But it’s not interpreted like Python or JavaScript because:
+
+  * there’s no execution logic
+  * no runtime semantics or instructions
+* It’s definitely not compiled either — no machine code is produced.
+
+### 🧠 Quick comparison
+
+| Language Type | Example            | What Happens                     |
+| ------------- | ------------------ | -------------------------------- |
+| Compiled      | C, Rust            | Source → machine code → run      |
+| Interpreted   | Python, JavaScript | Source → executed by interpreter |
+| Markup (HTML) | HTML               | Parsed → DOM → rendered          |
+
+### 👍 TL;DR mental model
+
+Think of HTML like **a blueprint for structure**, not a program.
+The browser reads the blueprint and builds the house (the webpage).
+
 
 ## W3C Consortium
 
