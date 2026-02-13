@@ -154,13 +154,6 @@ Early web browsers, such as the WorldWideWeb developed by Tim Berners-Lee, inter
 
 When a user requests a web page, the browser retrieves the HTML file from the server and interprets the markup to construct the Document Object Model (DOM). The DOM represents the structure of the web page, which the browser then uses to render the visual layout and content.
 
-- _Concept_: 
-    
-    <!--
-    - Interpretation: HTML is read and rendered directly by the browser.
-    -->
-
-    - Compilation: Programming languages like C or Java require a separate compilation step to convert code into machine-readable format.
 
 - Syntax leniency in early HTML
 
