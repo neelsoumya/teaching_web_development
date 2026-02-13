@@ -8,6 +8,10 @@
 
 The history of web development dates back to the early 1990s when Tim Berners-Lee invented the World Wide Web. The first website went live in 1991, and it was a simple page with text and hyperlinks. Early web development primarily involved creating static HTML pages.
 
+### Data problem
+
+## Early pioneers
+
 - 🛠️ [Diagram by Tim Bernes Lee at CERN](https://www.w3.org/History/1989/proposal.html)
 - Original WWW architecture diagram!
 
