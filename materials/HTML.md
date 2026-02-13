@@ -194,7 +194,7 @@ HTML is **neither compiled nor interpreted** in the traditional programming-lang
 | Interpreted   | Python, JavaScript | Source → executed by interpreter |
 | Markup (HTML) | HTML               | Parsed → DOM → rendered          |
 
-### 👍 TL;DR mental model
+### 👍🤔 TL;DR mental model
 
 Think of HTML like **a blueprint for structure**, not a program.
 The browser reads the blueprint and builds the house (the webpage).
