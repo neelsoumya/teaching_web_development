@@ -131,6 +131,10 @@ By the end of this course, students will be able to:
 - `/assessments` - Quizzes and exam materials
 -->
 
+### Acknowledgements
+
+Generative AI was used to generate content for this course. All content was vetted and verified by the author.
+
 ### Support
 - Office Hours: [TBD]
 - Discussion Forum: [TBD]
