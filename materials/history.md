@@ -53,3 +53,6 @@ For example, here is what the Yahoo homepage looked like in 1996: [Yahoo 1996](h
 ## References
 
 - [The Apache Software Foundation](https://www.apache.org/): A history of the Apache HTTP Server and its impact on web development.
+
+
+- [Next: HTTP basics](http.md)

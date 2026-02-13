@@ -26,6 +26,7 @@ Course content and materials can be found in the following files:
 - [Resources](materials/resources.md)
 - [Setup instructions](materials/setup.md)
 - [Installation guide](materials/installation.md)
+- [History of the Web](materials/history.md)
 - [HTTP basics](materials/http.md)
 - [GET and POST methods](materials/get.md)
 - [HTML](materials/HTML.md)
