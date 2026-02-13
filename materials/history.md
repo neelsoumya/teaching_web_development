@@ -8,6 +8,8 @@
 
 The history of web development dates back to the early 1990s when Tim Berners-Lee invented the World Wide Web. The first website went live in 1991, and it was a simple page with text and hyperlinks. Early web development primarily involved creating static HTML pages.
 
+- 🛠️ [Diagram by Tim Bernes Lee at CERN](https://www.w3.org/History/1989/proposal.html)
+
 ## Evolution of Technologies
 
 As the web grew in popularity, new technologies emerged to enhance web development. In the mid-1990s, JavaScript was introduced, allowing developers to create interactive elements on web pages. The late 1990s saw the rise of server-side scripting languages like PHP and ASP, enabling dynamic content generation.
