@@ -169,6 +169,47 @@ The Wayback Machine is a digital archive of the World Wide Web, allowing users t
 For example, here is what the Yahoo homepage looked like in 1996: [Yahoo 1996](https://web.archive.org/web/19961220154510/https://www.yahoo.com/)
 
 
+## 🤔❓Why the history lesson?
+
+**History is repeating itself**, just at a higher level of the "tech stack."
+
+In the late 80s, the crisis was **fragmentation** (information was hidden in separate silos). Today, the crisis is **saturation** (information is everywhere, but there’s too much noise to find the signal).
+
+"The Second Great Information Crisis":
+
+---
+
+## The "Information Babel" vs. The "Infinite Haystack"
+
+| Feature | The CERN Crisis (1989) | The LLM/AI Crisis (Today) |
+| --- | --- | --- |
+| **The Core Problem** | **"I can't find it."** Data was stuck on different computers that couldn't talk to each other. | **"I can't process it."** There are billions of pages, SEO-spam, and "tab overload" making research exhausting. |
+| **The Solution** | **The Web (Hypertext).** A way to link documents so you could jump from one to another. | **AI Agents (Synthesis).** A way to "read" the whole web at once and give you the answer, not just links. |
+| **The Tool** | **The Browser 1.0 (Mosaic/Netscape).** A "window" to look at static pages. | **The AI Browser (Comet, Arc).** An "agent" that thinks, summarizes, and acts for you. |
+
+---
+
+### How "Comet" and AI Browsers Solve the New Problem
+
+Just as Tim Berners-Lee realized we needed a "web" to navigate CERN’s data, companies like Perplexity (with their **Comet** browser) realized we need "agents" to navigate the modern web.
+
+1. **From Links to Answers:** In a 1990s browser, you searched and got a list of links (the "blue link" era). In an AI browser like Comet, you ask a question and it reads the top 20 links for you, then writes a cited report.
+2. **The "Agentic" Shift:** Comet isn't just a viewer; it's a **doer**. While a 1980s scientist had to manually click through hypertext, a modern student can tell Comet: *"Compare the price of these three laptops across these 10 tabs and tell me which has the best battery life."*
+3. **Contextual Memory:** CERN’s problem was "institutional memory" leaving when a scientist left. Modern AI browsers solve "context loss" by remembering what you’re working on across different websites, so you don't have to start from scratch every time you open a new tab.
+
+---
+
+### Summary
+
+* **The Internet (1970s)** is the **building** (the physical infrastructure).
+* **The World Wide Web (1990s)** is the **shelving system** and the books (how we organize and find info).
+* **AI Browsers (2020s)** are the **expert librarians** who have read every book in the building and can just give you the answer so you don't have to wander the aisles.
+
+_Summary_: This course will teach you software engineering for the full tech stack.
+
+---
+
+
 
 ## References
 
