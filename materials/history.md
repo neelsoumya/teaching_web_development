@@ -73,6 +73,10 @@ By creating a system where a document on one computer could link to a document o
 
 If CERN’s invention of the Web was about creating a "library" of information, **ARPANET** was the project that built the "roads" and "pipes" that allow that information to travel.
 
+## Activity
+
+Will we need a new "internet" now with so much data? Read this [article](https://www.researchgate.net/publication/400861150_The_Second_Great_Information_Crisis_From_the_Linked_Web_to_the_Synthetic_Web)
+
 
 ## ARPANET
 
