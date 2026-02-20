@@ -286,6 +286,8 @@ p{
 }
 ```
 
+* Now validate your input using [W3 CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
 
 ## Colours
 
