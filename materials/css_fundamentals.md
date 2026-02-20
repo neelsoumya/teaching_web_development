@@ -225,6 +225,68 @@ p {
 }
 ```
 
+## 🎮🛠️ Exercise: Minimal basic code for CSS practical
+
+* Try the following in [jsfiddle online editor](https://jsfiddle.net/)
+
+* HTML code
+
+```html
+<html lang="en">
+<head>
+  <title> CSS and HTML practice </title>
+
+  <link rel="stylesheet"   href="css/style.css">
+
+  </head>
+
+  <body>
+    <header id ="main-header-page">
+      <h1 class="title">
+        Welcome to HTML!
+      </h1>  
+    </header>
+
+    <main>
+        <section class="content">
+            <h2> This is a header </h2>
+            <p> This is a paragraph </p>
+            <a href="https://neelsoumya.github.io/" class="link">My webpage link</a>
+        </section>        
+    </main>    
+
+
+  </body>  
+
+</html>
+
+```
+
+* CSS code
+
+```html
+
+p {
+  color:green;
+  font-size: 16px;   
+}
+
+p{
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#main-header-page {
+  background-color: navy;
+}
+
+.content {
+   background-color: greenyellow;
+}
+```
+
+
 ## Colours
 
 - [W3schools CSS Colors](https://www.w3schools.com/cssref/css_colors.asp): A reference for CSS color names and values.
