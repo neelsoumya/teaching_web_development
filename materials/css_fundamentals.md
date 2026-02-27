@@ -467,13 +467,13 @@ font-size: 5vmin; /* 5% of smaller dimension */
 }
 ```
 
-## Practical/Exercise 
+## 🎮💡🛠️ Practicals
 
 - Use the following tools to practice CSS:
 
-- [CSS Diner](https://flukeout.github.io/): An interactive game to learn CSS selectors.
+- 🎮🛠️ [CSS Diner](https://flukeout.github.io/): An interactive game to learn CSS selectors.
 
-- [CSS Battle](https://cssbattle.dev/): A platform to practice CSS by replicating target designs with minimal code.
+- 🎮💡 [CSS Battle](https://cssbattle.dev/): A platform to practice CSS by replicating target designs with minimal code.
 
 - Use the playgrounds mentioned earlier (JSFiddle, CodePen, Replit) to experiment with CSS code snippets (see above).
 
