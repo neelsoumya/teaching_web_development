@@ -508,7 +508,9 @@ How do you think your students would react to critiquing "broken" stories like t
 
 ## Wizard of Oz prototyping
 
+## Video prototyping
 
+- [Video by Scott Klemmer](https://youtu.be/9IKb1yttz4s?si=t9iwznkI0aKS2f7R)
 
 
 ## Reading Materials
