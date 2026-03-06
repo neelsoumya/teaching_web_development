@@ -377,6 +377,8 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 - High fidelity mockups (controlled experiments)
 
+- use [draw.io](https://draw.io/) for creating UML/ER diagrams
+
 
 ## 🎮 Exercise
 
