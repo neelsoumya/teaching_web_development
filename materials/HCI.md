@@ -355,7 +355,11 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 - 🤔 comic strip: show flow, how does user figure in this?
 
+![comic](../images/comic.png)
+
 - _star people_: how to draw people
+
+![star](../images/starpeople.png)
 
 - Sequence: what steps are involved?
 
@@ -363,7 +367,7 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 - Here is an example of a storyboard
 
-![story](images/storyboard.png)
+![story](../images/storyboard.png)
 
 - 🎮 [paper prototypes video and activity](https://youtu.be/z4glsttyxw8?si=yQvl2Hze_-pwovlN&t=417)
 
@@ -376,7 +380,9 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 ## 🎮 Exercise
 
-Storyboarding for data visualization is like writing a script 📽️ before filming a movie. It helps us map out the **Sequence**—the logical flow of insights—so stakeholders don't get lost between charts. It moves the focus from "how do I code this?" to "what am I trying to say?"
+- Storyboarding for data visualization is like writing a script 📽️ before filming a movie. It helps us map out the **Sequence**—the logical flow of insights—so stakeholders don't get lost between charts. It moves the focus from "how do I code this?" to "what am I trying to say?"
+
+- For this class on web development, create a storyboard on a piece of paper or use _Google Gemini_ to create a storyboard.
 
 In Python, we can simulate this "sketching" phase by having students create a **Story Skeleton**. Instead of rendering complex charts immediately, they define the "Panels" of their story using a data structure. This ensures the narrative holds up before they spend hours on formatting.
 
