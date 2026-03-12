@@ -382,7 +382,7 @@ _  _Silence is golden_. Listen to the users and give them time to reflect and re
 
 ## 🎮 Exercise
 
-- Storyboarding for data visualization is like writing a script 📽️ before filming a movie. It helps us map out the **Sequence**—the logical flow of insights—so stakeholders don't get lost between charts. It moves the focus from "how do I code this?" to "what am I trying to say?"
+- Storyboarding for data visualization is like writing a script 📽️ before filming a movie. It helps us map out the **Sequence**—the logical flow of insights—so stakeholders do not get lost between charts. It moves the focus from "how do I code this?" to "what am I trying to say?"
 
 - For this class on web development, create a storyboard on a piece of paper or use _Google Gemini_ to create a storyboard.
 
@@ -520,6 +520,13 @@ How do you think your students would react to critiquing "broken" stories like t
 
 - [Video by Scott Klemmer](https://youtu.be/9IKb1yttz4s?si=t9iwznkI0aKS2f7R)
 
+## Creating alternatives
+
+- [Video by Scott Klemmer](https://youtu.be/tWHdYjZz_tM?si=lGGWZQc73xbnLsAH)
+
+- Quality vs. Quantity
+
+- Value in rapidly generating ideas
 
 ## Reading Materials
 
