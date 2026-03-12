@@ -528,6 +528,15 @@ How do you think your students would react to critiquing "broken" stories like t
 
 - Value in rapidly generating ideas
 
+- Functional fixation: Do not get stuck on one idea early on
+
+- 🎮🛠️ Activity: _Egg dropping device_ experiment. Design a device that can help survive an egg dropped from this building.
+
+- 🎮🛠️ Activity: A candle is kept on a table (not lit). A flat box full of objects is also kept on the table. Attach the candle to the wall but ensure that the was does not drip on the table. Problem by Duncker 1945.
+
+![image](../images/candle.png)
+
+
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
