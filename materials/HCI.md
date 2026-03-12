@@ -532,6 +532,8 @@ How do you think your students would react to critiquing "broken" stories like t
 
 - 🎮🛠️ Activity: _Egg dropping device_ experiment. Design a device that can help survive an egg dropped from this building.
 
+Discuss in a group. Draw your device on a piece of paper (hand out paper) or use [Gemini](https://gemini.google.com/app)
+
 - 🎮🛠️ Activity: A candle is kept on a table (not lit). A flat box full of objects is also kept on the table. Attach the candle to the wall but ensure that the was does not drip on the table. Problem by Duncker 1945.
 
 ![image](../images/candle.png)
@@ -539,6 +541,9 @@ How do you think your students would react to critiquing "broken" stories like t
 - 🧩🚀 _Concept_ If you have lots of ideas and other people give you feedback on them, you are likely to think it is critique of idea not _you_
 
 - 🎮🛠️ Activity: Help Rob design a webpage for football fans. What features should it have? Use [draw.io](https://app.diagrams.net/) or a piece of paper to draw an outline of the webpage.
+
+
+## Heuristic evaluations
 
 
 ## Reading Materials
