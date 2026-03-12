@@ -536,6 +536,8 @@ How do you think your students would react to critiquing "broken" stories like t
 
 ![image](../images/candle.png)
 
+- 🎮🛠️ Activity: Help Rob design a webpage for football fans. What features should it have? Use [draw.io](https://app.diagrams.net/) or a piece of paper to draw an outline of the webpage.
+
 
 ## Reading Materials
 
