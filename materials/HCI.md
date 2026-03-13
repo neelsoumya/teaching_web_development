@@ -544,6 +544,9 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 - 🎮🛠️ Activity: Help Rob design a webpage for football fans. What features should it have? What kind of other issues (like privacy, content moderation, etc.) should you consider? Use [draw.io](https://app.diagrams.net/) or a piece of paper to draw an outline of the webpage.
 
+- Start with some idea that you like and iterate. Example [xkcd](https://xkcd.com) started with a simple [comic](https://xkcd.com/1/) and now has written books. He also has a very minimalist webcomic.
+
+- [Mark Rober Youtube videos on egg dropping with straws](https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg)
 
 
 ## Heuristic evaluations
