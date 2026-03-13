@@ -520,6 +520,7 @@ How do you think your students would react to critiquing "broken" stories like t
 
 - [Video by Scott Klemmer](https://youtu.be/9IKb1yttz4s?si=t9iwznkI0aKS2f7R)
 
+
 ## Creating alternatives
 
 - [Video by Scott Klemmer](https://youtu.be/tWHdYjZz_tM?si=lGGWZQc73xbnLsAH)
