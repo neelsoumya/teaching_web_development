@@ -534,6 +534,8 @@ How do you think your students would react to critiquing "broken" stories like t
 
 Discuss in a group. Draw your device on a piece of paper (hand out paper) or use [Gemini](https://gemini.google.com/app)
 
+🤔❓ Is there a part of the world where just dropping an egg from a third floor window would not break it?
+
 - 🎮🛠️ Activity: A candle is kept on a table (not lit). A flat box full of objects is also kept on the table. Attach the candle to the wall but ensure that the was does not drip on the table. Problem by Duncker 1945.
 
 ![image](../images/candle.png)
