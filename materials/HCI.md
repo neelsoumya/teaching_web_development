@@ -540,7 +540,7 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 - 🧩🚀 _Concept_ If you have lots of ideas and other people give you feedback on them, you are likely to think it is critique of idea not _you_
 
-- 🎮🛠️ Activity: Help Rob design a webpage for football fans. What features should it have? What kind of other issues (like privacy, content moderation, etc.) shoukd you consider? Use [draw.io](https://app.diagrams.net/) or a piece of paper to draw an outline of the webpage.
+- 🎮🛠️ Activity: Help Rob design a webpage for football fans. What features should it have? What kind of other issues (like privacy, content moderation, etc.) should you consider? Use [draw.io](https://app.diagrams.net/) or a piece of paper to draw an outline of the webpage.
 
 
 
