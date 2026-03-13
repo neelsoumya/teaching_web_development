@@ -536,7 +536,7 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 🤔❓ Is there a part of the world where just dropping an egg from a third floor window would not break it?
 
-- 🎮🛠️ Activity: A candle is kept on a table (not lit). A flat box full of objects is also kept on the table. Attach the candle to the wall but ensure that the was does not drip on the table. Problem by Duncker 1945.
+- 🎮🛠️ Activity: A candle is kept on a table (not lit). A flat box full of objects is also kept on the table. Attach the candle to the wall but ensure that the wax does not drip on the table. Problem by Duncker 1945.
 
 ![image](../images/candle.png)
 
