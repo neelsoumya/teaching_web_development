@@ -641,6 +641,21 @@ print_r($_POST)
 - See [video by Dr. Severance on input types in forms](https://youtu.be/yEh5IrpEesc?si=b28wI3Ammw7bhDiR)
 
 
+## 🎮 Exercise
+
+Try the following in PHP
+
+- Age check server side
+  
+  Then print _No further access_
+
+- Password form
+
+- Username form
+  
+  Check alphanumeric no special symbols
+
+
 ## Cookies
 
 ## Sessions
