@@ -655,6 +655,51 @@ Try the following in PHP
   
   Check alphanumeric no special symbols
 
+### Solution Example
+
+```php
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Login Form</h2>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $age = $_POST['age'] ?? '';
+    $username = $_POST['username'] ?? '';
+    $password = $_POST['password'] ?? '';
+
+    // Age check server side
+    if (!is_numeric($age) || (int)$age < 18) {
+        echo "<p><em>No further access</em></p>";
+    } else {
+        // Check alphanumeric no special symbols for username
+        if (!preg_match("/^[a-zA-Z0-9]+$/", $username)) {
+            echo "<p>Username must be alphanumeric with no special symbols.</p>";
+        } else {
+            echo "<p>Welcome, " . htmlspecialchars($username) . "!</p>";
+        }
+    }
+}
+?>
+
+<form method="post">
+  <label for="age">Age:</label><br>
+  <input type="text" name="age" id="age" required><br><br>
+
+  <label for="username">Username (alphanumeric only):</label><br>
+  <input type="text" name="username" id="username" required><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" name="password" id="password" required><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+```
 
 ## Cookies
 
