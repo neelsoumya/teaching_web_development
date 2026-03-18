@@ -701,6 +701,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </html>
 ```
 
+### Client-Side Age Check (JavaScript)
+
+You can also use JavaScript to perform the age validation directly in the browser before the form is even submitted:
+
+```html
+<script>
+document.querySelector("form").addEventListener("submit", function(event) {
+    const ageInput = document.getElementById("age").value;
+    
+    // Check if the age is numeric and 18 or older
+    if (isNaN(ageInput) || Number(ageInput) < 18) {
+        event.preventDefault(); // Stop form from submitting
+        alert("No further access: You must be 18 or older.");
+    }
+});
+</script>
+```
+
 ## Cookies
 
 ## Sessions
