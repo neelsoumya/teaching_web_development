@@ -550,8 +550,20 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 - [Mark Rober Youtube videos on egg dropping with straws](https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg)
 
 
-## Heuristic evaluations
+## 🎮 Exercise
 
+- Example from book _Alchemy_ by Rory Sutherland
+- Say you need your internet fixed by an engineer and you do not know when the engineer is going to come in. You can take a day off from work and wait for the engineer to come. Or you can ask the engineer to come in a specific time window. 
+- The last option is more expensive for the company. But it is more valuable for you. 
+- You will still need to take time off work.
+- What is better?
+- The engineer can call you an hour before he arrives. That way you can do other work!
+
+- _Concept_ 🧩🚀 _Uncertainty is the enemy of the user_
+
+- Guide the user through your webpage (sitemaps, navigation bars)
+
+- If download is taking a long time, give them a bar that shows progress of download.
 
 ## Reading Materials
 

@@ -719,6 +719,12 @@ document.querySelector("form").addEventListener("submit", function(event) {
 </script>
 ```
 
+## Client side vs. Server side validation
+
+- _Things to ponder_: 🤔❓ What is the difference between client side and server side validation?
+- 💡 Note that the JavaScript solution is for client-side validation only. It is important to also perform server-side validation to ensure the security of your application.
+
+
 ## Cookies
 
 ## Sessions
