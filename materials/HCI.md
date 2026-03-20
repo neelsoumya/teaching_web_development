@@ -568,7 +568,7 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 - If download is taking a long time, give them a bar that shows progress of download.
 
-![Progress bar from the 90s](../images/progressbar.png)
+![Progress bar from the 90s](../images/progress_bar.png)
 
 - If they are runnng out of hard disk space, give them a prominent popup message or message in ⚠️ _red_
 
