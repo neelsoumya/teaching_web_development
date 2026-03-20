@@ -657,6 +657,10 @@ Try the following in PHP
 
 ### Solution Example
 
+- Create a `welcome.php` and `form.html`
+
+- `welcome.php` should have the following
+
 ```php
 <!DOCTYPE html>
 <html>
@@ -683,8 +687,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+```php
 
-<form method="post">
+- `input.html` should have the following
+
+```html
+<form method="post" action="welcome.php">
   <label for="age">Age:</label><br>
   <input type="text" name="age" id="age" required><br><br>
 
