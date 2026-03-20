@@ -580,7 +580,13 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 - works for users who may not be able to tell _green_ from _red_
 
-- Show next steps (_order was placed. Email was sent and you can check the status of your order here...._ )
+- Show next steps: _order was placed. Email was sent and you can check the status of your order here...._ 
+
+- Simple clear to understand error messages
+
+- Consistent names and buttons (styling using _CSS_)
+
+- Prevent errors (file overwrite)
 
 
 
