@@ -6,6 +6,11 @@
 
 ![inforgraphic](../images/get_vs_post.png)
 
+- _GET_ Method: Used primarily for retrieving data, where information is sent visible to everyone in the URL. This is ideal for things like searches or filtering, which can be easily bookmarked or cached by browsers.
+
+- _POST_ Method: Used for submitting or uploading data (such as login credentials). The data is sent within the "request body," making it less visible. This method has no data size limits and is generally considered more secure for sensitive operations.
+
+
 ## Client-Server Architecture
 
 - [Coursera Video: Client-Server Model](https://www.coursera.org/learn/web-applications-php/lecture/6fbNG/request-response-cycle)
