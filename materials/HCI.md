@@ -610,4 +610,4 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 -->
 
-- [Next: UX design fundamentals](UX_design.md)
+- [Next: Exams and quizzes](exams_and_quizzes.md)
