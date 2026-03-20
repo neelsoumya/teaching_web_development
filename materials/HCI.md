@@ -568,6 +568,15 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 - If download is taking a long time, give them a bar that shows progress of download.
 
+- If they are runnng out of hard disk space, give them a prominent popup message or message in ⚠️ _red_
+
+- If there is any big change, have users confirm this (dialog box)
+
+- Similar to a traffic stop light (red on top, green below): _clear communication_ dual coding (green is for go, red is stop)
+
+- 
+
+
 
 ## Reading Materials
 
