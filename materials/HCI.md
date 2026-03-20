@@ -588,7 +588,9 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 - Prevent errors (file overwrite)
 
+- Do not have confusing error messages
 
+![error](../images/error_cryptic.png)
 
 
 ## Reading Materials
