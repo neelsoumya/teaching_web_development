@@ -707,6 +707,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </body>
 </html>
+
 ```
 
 ### Client-Side Age Check (JavaScript)
