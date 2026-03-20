@@ -2,6 +2,10 @@
 
 # HTTP GET Requests and Client-Server Architecture
 
+- _GET_ vs. _POST_
+
+![inforgraphic](../images/get_vs_post.png)
+
 ## Client-Server Architecture
 
 - [Coursera Video: Client-Server Model](https://www.coursera.org/learn/web-applications-php/lecture/6fbNG/request-response-cycle)
