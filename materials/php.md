@@ -734,6 +734,112 @@ document.querySelector("form").addEventListener("submit", function(event) {
 - 💡 Note that the JavaScript solution is for client-side validation only. It is important to also perform server-side validation to ensure the security of your application.
 
 
+## HTML Forms and inserting data to SQL database using PHP
+
+- `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Students</title>
+</head>
+<body>
+  <h1>Search Students</h1>
+
+  <form action="search.php" method="post">
+    <label for="name">Student name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <button type="submit">Search</button>
+  </form>
+</body>
+</html>
+```
+
+- `search.php`
+
+```php
+<?php
+require_once "db.php";
+
+$name = $_POST["name"] ?? "";
+
+if ($name === "") {
+    die("Please enter a name.");
+}
+
+$sql = "SELECT id, name, email FROM students WHERE name LIKE :name";
+$stmt = $pdo->prepare($sql);
+$stmt->execute([
+    ":name" => "%" . $name . "%"
+]);
+
+$results = $stmt->fetchAll();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Results</title>
+</head>
+<body>
+  <h1>Search Results</h1>
+
+  <?php if (count($results) > 0): ?>
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+      <?php foreach ($results as $row): ?>
+        <tr>
+          <td><?= htmlspecialchars($row["id"]) ?></td>
+          <td><?= htmlspecialchars($row["name"]) ?></td>
+          <td><?= htmlspecialchars($row["email"]) ?></td>
+        </tr>
+      <?php endforeach; ?>
+    </table>
+  <?php else: ?>
+    <p>No matching students found.</p>
+  <?php endif; ?>
+
+  <p><a href="index.html">Back</a></p>
+</body>
+</html>
+
+
+
+- `db.php`
+
+```php
+<?php
+$host = "localhost";
+$dbname = "school";
+$username = "root";
+$password = "";
+
+try {
+    $pdo = new PDO(
+        "mysql:host=$host;dbname=$dbname;charset=utf8mb4",
+        $username,
+        $password,
+        [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+        ]
+    );
+} catch (PDOException $e) {
+    die("Database connection failed: " . $e->getMessage());
+}
+```
+
+
 ## Cookies
 
 ## Sessions
