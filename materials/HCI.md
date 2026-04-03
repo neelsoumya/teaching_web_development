@@ -593,6 +593,63 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 ![error](../images/error_cryptic.png)
 
 
+
+## Affordances
+
+**Don Norman**, the author of the seminal book *The Design of Everyday Things*. He is the one who took the term "affordance" from psychology and applied it to design.
+
+![image](../images/affordance.png)
+
+
+---
+
+### 1. What is an Affordance?
+
+In the context of HCI, an **affordance** is a relationship between an object and a person. It is not a "property" of the object itself, but rather a description of the actions that are possible.
+
+* **The Classic Example:** A physical door handle *affords* pulling. A flat metal plate on a door *affords* pushing.
+* **The Digital Example:** A 3D-looking button on a screen *affords* clicking. 
+
+### Perceived vs. Real Affordances
+Don Norman eventually clarified that in screen-based interfaces, we are mostly dealing with **perceived affordances**. A button on a smartphone screen doesn't actually "push" down physically; it’s a flat piece of glass. We use **signifiers** (like shadows or borders) to tell the user that the affordance of "clicking" exists.
+
+
+
+---
+
+### 2. The Sony Walkman: Affordance through Constraint
+
+The story of the original Sony Walkman (TPS-L2, released in 1979) is a masterclass in **intentional constraint**. 
+
+At the time, tape recorders were common, but they were bulky and used primarily for business dictation or journalism. When Sony co-founder Akio Morita requested a portable stereo player, the engineers initially wanted to include a recording feature because "that’s what tape machines did."
+
+Morita famously insisted on **removing the recording head and the record button.** ### Why this worked for Affordances:
+1.  **Clarity of Purpose:** By removing the ability to record, Sony narrowed the device's "actionable possibilities." The device now only *afforded* listening. 
+2.  **Removing Cognitive Load:** A "Record" button creates anxiety. "Am I recording over my favorite tape?" By removing the button, the user’s mental model was simplified: *This is a device for consumption, not production.*
+3.  **Social Affordance:** The original Walkman even had two headphone jacks. This "afforded" shared listening, signaling that music was a social experience even when it was portable.
+
+> "Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating." — **Don Norman**
+
+---
+
+### 3. Key Concepts 
+
+To help your class grasp how to use affordances in their own designs, you might want to highlight these three pillars:
+
+| Term | Definition | Example |
+| :--- | :--- | :--- |
+| **Affordance** | What an object *can* do. | A chair affords sitting; a link affords clicking. |
+| **Signifier** | The signal that tells you *where* to act. | A blue underlined text (signifier) tells you the link is clickable (affordance). |
+| **Constraint** | Limiting actions to prevent error. | Greying out a "Submit" button until the form is filled correctly. |
+
+---
+
+### 4. Why it Matters Today
+In an era of gesture-based interfaces (swiping, pinching) and Voice UIs, affordances are becoming "invisible." Without physical buttons, designers have to work harder to provide signifiers—like a small bar at the bottom of an iPhone screen—to let users know that a "swipe up" affordance exists.
+
+The Walkman lesson remains relevant: sometimes, the best way to improve a user's experience isn't by adding features, but by **restricting actions** to make the primary affordance crystal clear.
+
+
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
