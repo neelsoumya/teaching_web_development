@@ -630,6 +630,9 @@ Morita famously insisted on **removing the recording head and the record button.
 
 > "Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating." — **Don Norman**
 
+
+- This also shows up and may be used to explain why Google (with a simpler interface) beat out Yahoo.
+
 ---
 
 ### 3. Key Concepts 
