@@ -653,6 +653,19 @@ In an era of gesture-based interfaces (swiping, pinching) and Voice UIs, afforda
 The Walkman lesson remains relevant: sometimes, the best way to improve a user's experience isn't by adding features, but by **restricting actions** to make the primary affordance crystal clear.
 
 
+## Flexible Design in Interfaces
+
+- [Video lecture](https://youtu.be/eWVw5HLZhuk?si=X2MLyOmu7VYBW3eE)
+
+- offer recommendations for products, offer alternative flows. But do not break the flow (_flexible_).
+
+- minimalist design. Example of remote hacked to have `fewer` options.
+
+- recover from errors
+
+- better help and documentation
+
+
 ## Reading Materials
 
 - [The User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf
