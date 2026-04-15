@@ -661,6 +661,14 @@ The Walkman lesson remains relevant: sometimes, the best way to improve a user's
 
 - minimalist design. Example of remote hacked to have `fewer` options.
 
+![image of remote](../images/remote.png)
+
+- _Less is more_ 
+
+- Yahoo (cluttered) vs. Google (simple)
+
+![Yahoo vs. Google](../images/lessismore.png)
+
 - recover from errors
 
 - better help and documentation
