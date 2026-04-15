@@ -628,7 +628,7 @@ Morita famously insisted on **removing the recording head and the record button.
 2.  **Removing Cognitive Load:** A "Record" button creates anxiety. "Am I recording over my favorite tape?" By removing the button, the user’s mental model was simplified: *This is a device for consumption, not production.*
 3.  **Social Affordance:** The original Walkman even had two headphone jacks. This "afforded" shared listening, signaling that music was a social experience even when it was portable.
 
-![image of walkman](../images/walkman.jpg)
+![image of walkman](../images/walkman.png)
 
 > "Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating." — **Don Norman**
 
