@@ -613,7 +613,7 @@ In the context of HCI, an **affordance** is a relationship between an object and
 ### Perceived vs. Real Affordances
 Don Norman eventually clarified that in screen-based interfaces, we are mostly dealing with **perceived affordances**. A button on a smartphone screen doesn't actually "push" down physically; it’s a flat piece of glass. We use **signifiers** (like shadows or borders) to tell the user that the affordance of "clicking" exists.
 
-
+![image](../images/handle.png)
 
 ---
 
