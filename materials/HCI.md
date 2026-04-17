@@ -598,7 +598,8 @@ Discuss in a group. Draw your device on a piece of paper (hand out paper) or use
 
 **Don Norman**, the author of the seminal book *The Design of Everyday Things*. He is the one who took the term "affordance" from psychology and applied it to design.
 
-![image](../images/affordance.png)
+
+![image](../images/handle.png)
 
 
 ---
@@ -613,7 +614,6 @@ In the context of HCI, an **affordance** is a relationship between an object and
 ### Perceived vs. Real Affordances
 Don Norman eventually clarified that in screen-based interfaces, we are mostly dealing with **perceived affordances**. A button on a smartphone screen doesn't actually "push" down physically; it’s a flat piece of glass. We use **signifiers** (like shadows or borders) to tell the user that the affordance of "clicking" exists.
 
-![image](../images/handle.png)
 
 ---
 
