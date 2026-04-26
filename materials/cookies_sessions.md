@@ -147,6 +147,17 @@ if (!isset($_SESSION['login']) || $_SESSION['login'] !== true) {
 </html>
 ```
 
+- `logout.php`
+
+```php
+<?php
+session_start();
+session_destroy();
+header('Location: login.php');
+exit();
+?>
+```
+
 ## (Optional) Session code
 
 ```php
