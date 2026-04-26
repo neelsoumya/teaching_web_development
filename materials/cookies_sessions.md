@@ -51,6 +51,10 @@ print_r($_COOKIE);
 
 ## Session code
 
+- We will recreate a login system with sessions. The structure is shown in the image below:
+
+![image](../images/session2.png)
+
 - `login.html`
 
 ```html
