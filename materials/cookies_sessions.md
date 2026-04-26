@@ -121,6 +121,32 @@ if (isset($_POST['username'], $_POST['password'])) {
 </html>
 ```
 
+- `welcome.php`
+
+```php
+<?php
+session_start();
+
+if (!isset($_SESSION['login']) || $_SESSION['login'] !== true) {
+    header('Location: login.php');
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome, admin!</h1>
+    <p>You are logged in. The session variable <code>$_SESSION['login']</code> is set to <strong>true</strong>.</p>
+    <a href="logout.php">Logout</a>
+</body>
+</html>
+```
+
 ## (Optional) Session code
 
 ```php
