@@ -51,6 +51,78 @@ print_r($_COOKIE);
 
 ## Session code
 
+- `login.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="login.php" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+```
+
+- `login.php`
+
+```php
+<?php
+session_start();
+
+if (isset($_POST['username'], $_POST['password'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    if ($username === 'admin' && $password === 'password12') {
+        $_SESSION['login'] = true;
+        header('Location: welcome.php');
+        exit();
+    } else {
+        $error = "Invalid username or password.";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <?php if (isset($error)): ?>
+        <p style="color: red;"><?php echo $error; ?></p>
+    <?php endif; ?>
+
+    <form action="login.php" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+```
+
+## (Optional) Session code
+
 ```php
 <?php
 // Note - no output before this
