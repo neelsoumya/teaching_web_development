@@ -14,4 +14,5 @@
 - Hints/Clues: 💡
 - Examples: 📚, 📝
 - Celebrations: 🎉, 🥳
+- 🎥 Video
 
