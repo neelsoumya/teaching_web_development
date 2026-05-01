@@ -183,7 +183,7 @@ if (mysqli_connect_errno()) {
 
 - `cheese_cart1.html`
 
-```php
+```html
 <!DOCTYPE html>
 <html>
 <head><title>Cheese Shop</title></head>
